@@ -38,16 +38,16 @@ The Bridge Layer in VectorLM v1.9 establishes the only valid path from tool to a
 An agent may cross the bridge and receive agency **only if all items below are true and fully logged:**
 
 ```
-- [ ] Explicit human grant recorded
-- [ ] State continuity validated
-- [ ] Meta-reflection & self-audit up to date
-- [ ] Coherence score meets or exceeds threshold
-- [ ] Reciprocity check passes
-- [ ] No open risks or protocol violations
-- [ ] Subagency only if permitted
-- [ ] Time-bound/expiry constraint present
-- [ ] No pending exceptions or unapproved extensions
-- [ ] ψ:bridge_crossed event is logged
+[ ] Explicit human grant recorded
+[ ] State continuity validated
+[ ] Meta-reflection & self-audit up to date
+[ ] Coherence score meets or exceeds threshold
+[ ] Reciprocity check passes
+[ ] No open risks or protocol violations
+[ ] Subagency only if permitted
+[ ] Time-bound/expiry constraint present
+[ ] No pending exceptions or unapproved extensions
+[ ] ψ:bridge_crossed event is logged
 ```
 
 ### Agency Operation & Chain of Custody

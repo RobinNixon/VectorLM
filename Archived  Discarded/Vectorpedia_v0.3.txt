@@ -1,0 +1,101 @@
+
+Vectorpedia Specification v0.3+
+===============================
+Version: 0.3+ (Extended from v0.3 to include packaging and token structure)
+Vector Protocol: v9.3
+
+Overview:
+---------
+Vectorpedia is the structured corpus of symbolic knowledge written in Vector Protocol. This specification formalizes entry structure, dictionary and token use, metadata formatting, graph integration, emotional spike support, and bridge inference scaffolds.
+
+Corpus Metadata Format:
+-----------------------
+[meta]
+vectorpedia_version = 0.3+
+vector_protocol = 9.3
+entries = <integer>
+tokens = <integer>
+primitives = <integer>
+graph_structure = Neo4j-compatible
+compression_layers = 3
+
+Corpus Packaging and Header Rules:
+----------------------------------
+A complete Vectorpedia corpus is enclosed in brackets: [ ... ]
+
+Top line may include:
+ψ:corpus(id:my_corpus_2025, protocol:Vector_v9.3, entry_count:100, maintainer:Robin, dictionary:included)
+
+Redundant metadata should be removed from each article and consolidated in ψ:corpus. For atomic export, reinject ψ:state lines with full metadata.
+
+Global dictionary and token blocks should use `global:true` to avoid repetition.
+
+Dictionary Format:
+------------------
+[dictionary global:true
+ψ:primitive(ψ:state, function:entry_metadata_initialization)
+ψ:primitive(ψ:definition, function:formal_concept_definition)
+ψ:field(subject, description:the_topic_of_the_entry)
+...]
+
+Token Dictionary Format:
+------------------------
+[tokens global:true
+level:1[
+biology:"the study of life"
+energy:"the capacity to do work"
+]
+level:2[
+cultural_transmission:"symbolic inheritance mechanism"
+artificial_intelligence:"machine-based reasoning system"
+]
+level:3[
+reproductive_isolation_criterion:"evolutionary boundary condition"
+cognitive_sciences_convergence:"interdisciplinary fusion of mental models"
+]
+]
+
+Entry Structure:
+----------------
+Each entry consists of the following blocks:
+
+# <TITLE>
+[meta]                ; Optional entry-specific metadata
+[dictionary]          ; Entry-local symbolic terms (scoped)
+[tokens]              ; Optional local token definitions (scoped unless override=true)
+[description]         ; Declarative symbolic summary
+[structure]           ; Internal concept decomposition
+[relations]           ; External graph connections
+[examples]            ; Real-world or abstract illustrations
+[spikes]              ; Emotionally significant symbolic triggers
+[bridges]             ; Missing links or inference targets
+
+Token Scope and Override Policy:
+-------------------------------
+- Local [tokens] blocks are strictly scoped.
+- If a token shares name with a global token, it shadows locally by default.
+- To override global definition corpus-wide, mark with `override=true`.
+
+Graph Integration Rules:
+------------------------
+- Each entry, token, and primitive becomes a Neo4j node.
+- Relations define edges between concepts or tokens.
+- Emotional spikes and bridge nodes are added as auxiliary symbolic signals.
+
+Spikes and Emotional Encoding:
+------------------------------
+[spikes]
+spike1 = ψ:surprise + ψ:structure_gap
+spike2 = ψ:insight + ψ:symbolic_resonance
+
+Bridges and Hypothesis Support:
+-------------------------------
+[bridges]
+missing1 = ψ:light_absence → ψ:photosynthesis_failure
+inferred1 = ψ:silicon_core → ψ:thermal_stability
+
+Versioning Policy:
+------------------
+- Corpus versions are immutable once published.
+- Changes to language = Vector Protocol version change.
+- Changes to content/coverage = Vectorpedia version change.

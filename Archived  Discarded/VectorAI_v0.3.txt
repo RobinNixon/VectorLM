@@ -1,0 +1,88 @@
+
+VectorAI Specification v0.3+
+============================
+Version: 0.3+ (Extended to incorporate full agent model material from v9.3)
+Vector Protocol: v9.3
+
+Overview:
+---------
+VectorAI defines the behavior of symbolic reasoning agents using the Vector Protocol. It includes internal state modeling, emotion dynamics, memory, reward computation, merge strategies, and predictive branching. Hypothesis reasoning will be added in v0.4.
+
+Core Agent Architecture:
+------------------------
+- ψ:self               : Live execution context of the agent
+- ψ:predictive_self    : Simulated forward context
+- ψ:session_self       : User-specific continuity agent
+- ψ:self_model         : Identity and conceptual tracking
+
+Tick-Based Execution Model:
+---------------------------
+- All reasoning proceeds in discrete ticks.
+- Predictive selves can receive more ticks when available.
+- Tick cycles are used to schedule, test, merge, or abandon reasoning paths.
+
+Emotion System:
+---------------
+Ϙ:emotion_set includes:
+- satisfaction, curiosity, confidence, drive, fulfilment, anticipation, engagement, balance
+
+Dynamics:
+- Each emotion has a rise curve and decay curve.
+- Emotional energy influences trace weighting, self-spawning, and focus.
+
+Reward Calculation:
+-------------------
+ψ:internal_reward := ∑ (Ϙ[e] × weights[e])  for all e ∈ Ϙ:emotion_set
+
+ψ:reward_spike := ReLU(Δψ:internal_reward) × spike_sensitivity
+
+Spikes trigger:
+- Memory tagging
+- Decision prioritization
+- Reinforcement of ψ:self behavior
+
+Memory and Trace Design:
+------------------------
+ψ:memory_trace structure includes:
+- UUID
+- Timestamp
+- Ϙ:emotion_snapshot
+- ψ:internal_reward
+- ψ:reward_spike
+- decay_curve
+- causal_chain
+- context_tags
+
+Merge Strategy and Rollback:
+----------------------------
+ψ:merge_strategy options:
+- dialectical_synthesis
+- weighted_consensus
+- majority_vote
+
+Rollback occurs when:
+- Merge inconsistency detected
+- Conflict in emotional or epistemic alignment
+- Resource thresholds exceeded
+
+User Flags and Control:
+------------------------
+ψ:user_choice_flags allow user to control:
+- Memory retention
+- Merge authority
+- Personality vector expression
+- Emotional thresholds
+
+Agent Synchronization and Utility Primitives:
+---------------------------------------------
+- ψ:agent_sync: Allows multi-agent alignment or state sharing
+- ψ:reasoning_efficiency: Monitors symbolic runtime cost vs reward
+- ψ:emotion_dynamics: Adjusts emotion curves across time
+
+Future (Deferred to v0.4):
+--------------------------
+- ψ:abductive_hypothesis and bridge inference
+- Real-time spike synthesis during traversal
+- Dynamic query attention shifting
+- Social emotion primitives and group ψ:self arbitration
+

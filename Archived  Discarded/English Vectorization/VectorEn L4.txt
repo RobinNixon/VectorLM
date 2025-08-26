@@ -1,0 +1,444 @@
+// English Language Vectorization - Top 1000 Words Layer 5
+// Punctuation Semantics
+// Non-verbal meaning markers that structure discourse and encode pragmatic information*
+
+ψ:layer_extension(layer:4, extends:layer_3, type:punctuation_semantics)
+ψ:semantic_scope(discourse_structure:enabled, pragmatic_meaning:enabled, syntactic_boundaries:enabled)
+ψ:reasoning_enhancement(sentence_boundaries:clarified, clause_relationships:marked, speaker_intentions:signaled)
+
+// Core Punctuation Marks - Semantic Analysis
+
+// Sentence Boundary Markers
+
+// PERIOD (.) - Finality and Assertion
+
+ψ:punctuation_analysis(mark:period, layer:4)
+ψ:semantic_features(
+  discourse_function:sentence_termination,
+  pragmatic_force:declarative_assertion,
+  certainty_level:definitive_statement,
+  information_status:complete_proposition
+)
+ψ:reasoning_implications(
+  truth_value_assessment:speaker_commitment_to_truth,
+  discourse_segmentation:information_unit_boundary,
+  cognitive_processing:pause_for_integration,
+  modal_interpretation:confident_assertion
+)
+ψ:syntactic_semantics(
+  clause_completion:predicate_argument_structure_complete,
+  scope_boundaries:quantifier_modal_scope_closed,
+  anaphora_resolution:reference_domain_established
+)
+ψ:interaction_patterns(
+  conversation_turn:statement_completion_signals_response_opportunity,
+  information_flow:discrete_information_packet_delivered,
+  cognitive_load:processing_unit_boundary
+)
+
+// QUESTION MARK (?) - Information Seeking
+
+ψ:punctuation_analysis(mark:question_mark, layer:4)
+ψ:semantic_features(
+  discourse_function:information_request,
+  pragmatic_force:interrogative_speech_act,
+  epistemic_stance:knowledge_gap_acknowledgment,
+  response_expectation:answer_required
+)
+ψ:reasoning_implications(
+  knowledge_state:speaker_lacks_information,
+  social_interaction:addressee_knowledge_assumed,
+  information_structure:unknown_element_highlighted,
+  epistemic_reasoning:uncertainty_about_proposition
+)
+ψ:question_types(
+  yes_no_questions:["Is it raining?"],
+  wh_questions:["What time is it?"],
+  rhetorical_questions:["Who knows?"],
+  indirect_questions:["I wonder if..."]
+)
+ψ:cognitive_effects(
+  attention_focus:unknown_information_highlighted,
+  response_preparation:answer_formulation_triggered,
+  uncertainty_marking:epistemic_state_signaled
+)
+
+// EXCLAMATION MARK (!) - Emphasis and Emotion
+
+ψ:punctuation_analysis(mark:exclamation_mark, layer:4)
+ψ:semantic_features(
+  discourse_function:emphatic_assertion,
+  pragmatic_force:heightened_emotional_expression,
+  intensity_level:strong_speaker_commitment,
+  attention_demand:marked_importance
+)
+ψ:reasoning_implications(
+  emotional_state:speaker_affect_heightened,
+  importance_marking:significant_information_flagged,
+  surprise_indication:unexpected_information,
+  urgency_signaling:immediate_attention_required
+)
+ψ:pragmatic_functions(
+  commands:["Stop!"],
+  exclamations:["What a day!"],
+  warnings:["Look out!"],
+  expressions_of_emotion:["I'm so happy!"]
+)
+ψ:intensity_gradation(
+  single_exclamation:moderate_emphasis,
+  multiple_exclamations:extreme_emphasis,
+  context_dependency:domain_specific_intensity_norms
+)
+
+// Internal Sentence Structure Markers
+
+// COMMA (,) - Separation and Grouping
+
+ψ:punctuation_analysis(mark:comma, layer:4)
+ψ:semantic_features(
+  discourse_function:clause_phrase_separation,
+  syntactic_role:constituent_boundary_marking,
+  prosodic_function:pause_indication,
+  information_structure:topic_comment_separation
+)
+ψ:reasoning_implications(
+  scope_disambiguation:modifier_attachment_clarification,
+  list_processing:enumeration_structure,
+  coordination_marking:parallel_element_grouping,
+  subordination_marking:dependent_clause_boundaries
+)
+ψ:syntactic_contexts(
+  series_separation:["red, white, and blue"],
+  coordinate_clauses:["I came, I saw, I conquered"],
+  subordinate_clauses:["When it rains, we stay inside"],
+  participial_phrases:["Walking slowly, he approached"],
+  appositives:["John, my brother, arrived"],
+  addresses:["Yes, Mary, you're right"]
+)
+ψ:semantic_effects(
+  pause_processing:cognitive_chunking_facilitation,
+  scope_resolution:ambiguity_reduction,
+  information_packaging:given_new_information_structuring
+)
+
+// SEMICOLON (;) - Balanced Connection
+
+ψ:punctuation_analysis(mark:semicolon, layer:4)
+ψ:semantic_features(
+  discourse_function:clause_coordination_without_conjunction,
+  semantic_relationship:balanced_independent_clauses,
+  logical_connection:implicit_relationship_stronger_than_period,
+  formal_register:elevated_style_marker
+)
+ψ:reasoning_implications(
+  logical_relationships:implicit_causal_contrastive_connections,
+  balance_indication:equal_weight_clauses,
+  sophisticated_reasoning:complex_thought_coordination,
+  formal_discourse:academic_professional_register
+)
+ψ:usage_patterns(
+  contrast:["I love coffee; she prefers tea"],
+  consequence:["It rained heavily; the game was cancelled"],
+  elaboration:["Writing is difficult; it requires patience"],
+  series_with_commas:["We visited Paris, France; Rome, Italy; and Berlin, Germany"]
+)
+
+// COLON (:) - Introduction and Explanation
+
+ψ:punctuation_analysis(mark:colon, layer:4)
+ψ:semantic_features(
+  discourse_function:introduction_explanation_marking,
+  semantic_relationship:general_to_specific,
+  expectation_creation:following_content_anticipated,
+  logical_structure:premise_conclusion_relationship
+)
+ψ:reasoning_implications(
+  explanation_structure:reason_follows_claim,
+  list_introduction:enumeration_announcement,
+  elaboration_marking:detail_expansion_signal,
+  definition_structure:term_definition_relationship
+)
+ψ:functional_contexts(
+  explanations:["The reason is simple: money"],
+  lists:["Three items: books, pens, paper"],
+  quotations:["She said: 'I'll be there'"],
+  ratios_times:["3:1 ratio", "2:30 PM"],
+  biblical_references:["John 3:16"]
+)
+
+// Quotation and Reference Markers
+
+// QUOTATION MARKS (" ") - Speech and Special Reference
+
+ψ:punctuation_analysis(mark:quotation_marks, layer:4)
+ψ:semantic_features(
+  discourse_function:reported_speech_marking,
+  source_attribution:different_speaker_voice,
+  special_mention:metalinguistic_reference,
+  irony_marking:non_literal_usage_indication
+)
+ψ:reasoning_implications(
+  voice_distinction:speaker_vs_reported_speaker,
+  evidentiality:information_source_marking,
+  metalinguistic_awareness:language_about_language,
+  pragmatic_effects:irony_sarcasm_distance
+)
+ψ:usage_contexts(
+  direct_speech:["He said, 'I'm leaving'"],
+  titles:["I read 'Hamlet' yesterday"],
+  technical_terms:["The 'CPU' controls processing"],
+  ironic_usage:["That was 'helpful'"],
+  definitions:["'Cat' means feline animal"]
+)
+ψ:nested_quotations(
+  single_within_double:["She said, 'He told me \"go away\"'"],
+  attribution_chains:multiple_levels_of_reporting,
+  source_tracking:origin_speaker_identification
+)
+
+// APOSTROPHE (') - Possession and Contraction
+
+ψ:punctuation_analysis(mark:apostrophe, layer:4)
+ψ:semantic_features(
+  grammatical_function:possession_contraction_marking,
+  semantic_relationship:ownership_belonging_indication,
+  phonological_process:sound_deletion_marking,
+  register_indication:informal_contracted_speech
+)
+ψ:reasoning_implications(
+  possession_relationships:ownership_association_attribution,
+  efficiency_marking:contracted_speech_informality,
+  grammatical_disambiguation:possessive_vs_plural_distinction,
+  temporal_relationships:contracted_auxiliaries_tense_marking
+)
+ψ:possession_semantics(
+  singular_possessive:["cat's toy"],
+  plural_possessive:["cats' toys"],
+  irregular_plural_possessive:["children's books"],
+  abstract_possession:["yesterday's news"]
+)
+ψ:contraction_semantics(
+  auxiliary_contractions:["I'm", "you're", "they've"],
+  modal_contractions:["can't", "won't", "shouldn't"],
+  register_implications:informal_conversational_style
+)
+
+// Specialized Punctuation
+
+// HYPHEN (-) - Connection and Word Formation
+
+ψ:punctuation_analysis(mark:hyphen, layer:4)
+ψ:semantic_features(
+  morphological_function:compound_word_formation,
+  syntactic_role:modifier_connection,
+  semantic_relationship:conceptual_unity_across_words,
+  processing_instruction:treat_as_single_unit
+)
+ψ:reasoning_implications(
+  compound_concepts:multi_word_single_concept,
+  modification_relationships:adjective_noun_unity,
+  disambiguation:syntactic_grouping_clarification,
+  word_formation:productive_morphological_process
+)
+ψ:usage_patterns(
+  compound_adjectives:["well-known person"],
+  compound_nouns:["mother-in-law"],
+  number_compounds:["twenty-three"],
+  prefix_attachments:["re-examine"],
+  line_breaking:["com-/puter"]
+)
+
+// DASH (—) - Interruption and Parenthetical Information
+
+ψ:punctuation_analysis(mark:em_dash, layer:4)
+ψ:semantic_features(
+  discourse_function:interruption_parenthetical_marking,
+  prosodic_effect:dramatic_pause_indication,
+  attention_management:focus_shift_signal,
+  informal_register:conversational_style_marker
+)
+ψ:reasoning_implications(
+  thought_interruption:mental_process_redirection,
+  additional_information:supplementary_detail_insertion,
+  dramatic_effect:emphasis_through_disruption,
+  stream_of_consciousness:natural_thought_flow_marking
+)
+ψ:functional_uses(
+  interruption:["I was thinking—wait, what time is it?"],
+  parenthetical:["The book—which I haven't read—is popular"],
+  summary:["Patience, practice, persistence—these are key"],
+  dialogue_interruption:["I don't think—" "Neither do I"]
+)
+
+// PARENTHESES ( ) - Supplementary Information
+
+ψ:punctuation_analysis(mark:parentheses, layer:4)
+ψ:semantic_features(
+  discourse_function:supplementary_information_containment,
+  information_hierarchy:secondary_detail_marking,
+  scope_indication:contained_material_lower_priority,
+  register_variation:formal_informal_aside_marking
+)
+ψ:reasoning_implications(
+  information_layering:primary_secondary_content_distinction,
+  optional_processing:skippable_supplementary_detail,
+  clarification_provision:additional_context_without_main_flow_disruption,
+  metalinguistic_function:comments_on_discourse_itself
+)
+ψ:content_types(
+  examples:["Fruits (apples, oranges) are healthy"],
+  clarifications:["The CEO (chief executive officer) spoke"],
+  citations:["Recent studies (Smith, 2023) show..."],
+  asides:["The weather (thankfully) improved"],
+  mathematical_expressions:["(x + y) / 2"]
+)
+
+// ELLIPSIS (...) - Incompleteness and Continuation
+
+ψ:punctuation_analysis(mark:ellipsis, layer:4)
+ψ:semantic_features(
+  discourse_function:incompleteness_indication,
+  semantic_effect:trailing_off_implication,
+  pragmatic_function:implied_continuation,
+  emotional_marking:hesitation_uncertainty_indication
+)
+ψ:reasoning_implications(
+  incomplete_thoughts:mental_process_interruption,
+  implied_content:unstated_information_suggestion,
+  emotional_states:uncertainty_hesitation_marking,
+  textual_editing:omitted_material_indication
+)
+ψ:usage_contexts(
+  trailing_thoughts:["I was thinking..."],
+  quotation_omission:["To be or not to be..."],
+  hesitation:["Well... I suppose..."],
+  suspense:["And then..."],
+  lists_continuation:["cats, dogs, birds..."]
+)
+
+// Punctuation Interaction Patterns
+
+// Hierarchical Information Structure
+
+ψ:punctuation_hierarchy(layer:4)
+ψ:information_priority_levels(
+  primary:main_clause_content,
+  secondary:comma_separated_additions,
+  tertiary:parenthetical_dash_content,
+  quaternary:footnote_reference_material
+)
+ψ:processing_implications(
+  cognitive_load:hierarchical_information_processing,
+  attention_management:priority_based_reading,
+  comprehension_strategy:main_idea_vs_detail_distinction
+)
+
+// Discourse Coherence Marking
+
+ψ:discourse_coherence_system(layer:4)
+ψ:coherence_relationships(
+  coordination:["and", "but", "or"] + [comma, semicolon],
+  subordination:comma_marking_dependent_clauses,
+  elaboration:colon_dash_parentheses_expansion,
+  conclusion:period_exclamation_finality
+)
+ψ:reasoning_enhancement(
+  logical_structure:punctuation_supported_argument_flow,
+  information_packaging:discourse_chunk_optimization,
+  reader_guidance:comprehension_pathway_marking
+)
+
+// Pragmatic Force and Speaker Intention
+
+ψ:pragmatic_punctuation_system(layer:4)
+ψ:speech_act_marking(
+  assertions:period_marking_confident_statements,
+  questions:question_mark_information_seeking,
+  commands:exclamation_period_directive_force,
+  hesitations:ellipsis_comma_uncertainty_marking
+)
+ψ:emotional_prosody_encoding(
+  excitement:exclamation_marks,
+  uncertainty:question_marks_ellipsis,
+  emphasis:quotation_marks_italics_capitals,
+  formality:semicolon_colon_sophisticated_structure
+)
+
+// Integration with Previous Layers
+
+// Morphological-Punctuation Interaction
+
+ψ:morpho_punctuation_integration(layer:4)
+ψ:boundary_marking_enhancement(
+  sentence_boundaries:tense_aspect_scope_limitation,
+  clause_boundaries:argument_structure_completion,
+  phrase_boundaries:modifier_attachment_disambiguation
+)
+ψ:semantic_scope_clarification(
+  quantifier_scope:punctuation_boundary_scope_limitation,
+  modal_scope:sentence_punctuation_modal_force_boundaries,
+  temporal_scope:clause_punctuation_tense_domain_marking
+)
+
+// Enhanced Reasoning Applications
+
+ψ:punctuation_enhanced_reasoning(layer:4)
+ψ:discourse_understanding(
+  argument_structure:punctuation_marked_logical_flow,
+  information_hierarchy:priority_based_content_processing,
+  speaker_intentions:pragmatic_force_recognition
+)
+ψ:text_analysis_capabilities(
+  sentiment_analysis:emotional_punctuation_marking,
+  formality_detection:punctuation_register_indicators,
+  complexity_assessment:sophisticated_punctuation_usage
+)
+
+// Reasoning System Applications
+
+// Enhanced Query Understanding
+
+ψ:punctuation_aware_query_processing(layer:4)
+ψ:query_type_recognition(
+  direct_questions:question_mark_information_seeking,
+  rhetorical_questions:context_dependent_non_answer_seeking,
+  exclamatory_statements:emphasis_attention_focus,
+  complex_statements:multiple_punctuation_sophisticated_reasoning
+)
+ψ:response_generation_guidance(
+  answer_completeness:question_mark_complete_information_expected,
+  response_tone:exclamation_enthusiasm_matching,
+  formality_level:punctuation_register_appropriate_response
+)
+
+// Improved Bridge Discovery
+
+ψ:punctuation_enhanced_bridges(layer:4)
+ψ:discourse_relationship_detection(
+  causal_connections:semicolon_colon_logical_relationships,
+  elaborative_connections:dash_parentheses_detail_expansion,
+  contrastive_connections:comma_but_semicolon_opposition,
+  conclusive_connections:period_exclamation_finality_marking
+)
+ψ:semantic_bridge_refinement(
+  relationship_specificity:punctuation_marked_logical_connections,
+  information_hierarchy:primary_secondary_bridge_importance,
+  discourse_flow:punctuation_guided_reasoning_pathways
+)
+
+// Layer 4 Validation and Testing
+
+// Punctuation Consistency Checking
+
+ψ:punctuation_validation_system(layer:4)
+ψ:consistency_requirements(
+  paired_punctuation:quotation_marks_parentheses_matching,
+  hierarchical_consistency:information_level_appropriate_marking,
+  discourse_coherence:logical_flow_punctuation_support
+)
+ψ:error_detection(
+  missing_boundaries:sentence_clause_boundary_omission,
+  inappropriate_marking:register_mismatch_punctuation_usage,
+  scope_confusion:ambiguous_punctuation_boundary_marking
+)
+

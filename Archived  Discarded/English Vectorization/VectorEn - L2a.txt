@@ -1,0 +1,660 @@
+// English Language Vectorization - Top 1000 Words Layer 2a
+// Morphological Patterns - Top 20 Verbs
+
+// Non-destructive additions to existing Layer 1 vectorization*
+
+ψ:layer_extension(layer:2, extends:layer_1, type:morphological_patterns)
+ψ:extension_scope(target_category:verbs, priority:high_frequency, count:20)
+ψ:preservation_guarantee(layer_1_data:unchanged, backward_compatibility:maintained)
+
+// High-Frequency Irregular Verbs
+
+// BE (frequency_rank:2) - Most Irregular
+
+ψ:morphological_extension(target:be, layer:2, irregularity:maximum)
+ψ:paradigm_suppletive_verb(
+  infinitive:be,
+  present_paradigm:[
+    1sg:am,
+    2sg:are,
+    3sg:is,
+    1pl:are,
+    2pl:are,
+    3pl:are
+  ],
+  past_paradigm:[
+    1sg:was,
+    2sg:were,
+    3sg:was,
+    1pl:were,
+    2pl:were,
+    3pl:were
+  ],
+  participles:[
+    present:being,
+    past:been
+  ]
+)
+ψ:morphological_semantics(
+  copular_function:state_attribution,
+  existential_function:existence_assertion,
+  auxiliary_function:passive_progressive_formation
+)
+ψ:temporal_semantic_effects(
+  present_forms:current_state,
+  past_forms:previous_state,
+  being:ongoing_state_process,
+  been:completed_state_experience
+)
+
+// HAVE (frequency_rank:7) - Possession + Auxiliary
+
+ψ:morphological_extension(target:have, layer:2, irregularity:moderate)
+ψ:paradigm_irregular_verb(
+  infinitive:have,
+  present_paradigm:[
+    1sg:have,
+    2sg:have,
+    3sg:has,
+    1pl:have,
+    2pl:have,
+    3pl:have
+  ],
+  past_paradigm:[
+    all_persons:had
+  ],
+  participles:[
+    present:having,
+    past:had
+  ]
+)
+ψ:morphological_semantics(
+  possession_function:ownership_relation,
+  auxiliary_function:perfect_aspect_formation,
+  experiential_function:experience_undergone
+)
+ψ:semantic_alternations(
+  possessive:["have a car", "have money"],
+  experiential:["have dinner", "have a meeting"],
+  auxiliary:["have walked", "have been"]
+)
+
+// DO (frequency_rank:35) - Action + Auxiliary
+
+ψ:morphological_extension(target:do, layer:2, irregularity:moderate)
+ψ:paradigm_irregular_verb(
+  infinitive:do,
+  present_paradigm:[
+    1sg:do,
+    2sg:do,
+    3sg:does,
+    1pl:do,
+    2pl:do,
+    3pl:do
+  ],
+  past_paradigm:[
+    all_persons:did
+  ],
+  participles:[
+    present:doing,
+    past:done
+  ]
+)
+ψ:morphological_semantics(
+  action_function:general_activity,
+  auxiliary_function:question_negation_formation,
+  emphatic_function:stress_assertion
+)
+ψ:syntactic_roles(
+  main_verb:["do work", "do homework"],
+  question_auxiliary:["do you know?", "does it work?"],
+  emphatic_auxiliary:["I do like it", "he does know"]
+)
+
+// SAY (frequency_rank:36) - Communication
+
+ψ:morphological_extension(target:say, layer:2, irregularity:moderate)
+ψ:paradigm_irregular_verb(
+  infinitive:say,
+  present_paradigm:[
+    1sg:say,
+    2sg:say,
+    3sg:says,
+    1pl:say,
+    2pl:say,
+    3pl:say
+  ],
+  past_paradigm:[
+    all_persons:said
+  ],
+  participles:[
+    present:saying,
+    past:said
+  ]
+)
+ψ:morphological_semantics(
+  communication_function:verbal_expression,
+  quotation_function:speech_reporting,
+  opinion_function:belief_statement
+)
+ψ:discourse_functions(
+  direct_speech:["she said 'hello'"],
+  indirect_speech:["she said that..."],
+  opinion_expression:["I say we should go"]
+)
+
+// GO (frequency_rank:46) - Motion
+
+ψ:morphological_extension(target:go, layer:2, irregularity:high)
+ψ:paradigm_suppletive_verb(
+  infinitive:go,
+  present_paradigm:[
+    1sg:go,
+    2sg:go,
+    3sg:goes,
+    1pl:go,
+    2pl:go,
+    3pl:go
+  ],
+  past_paradigm:[
+    all_persons:went
+  ],
+  participles:[
+    present:going,
+    past:gone
+  ]
+)
+ψ:morphological_semantics(
+  motion_function:departure_movement,
+  future_auxiliary:["going to" future],
+  state_change:transition_process
+)
+ψ:directional_semantics(
+  went:motion_completed_away,
+  going:motion_in_progress,
+  gone:departure_completed_absent
+)
+
+// GET (frequency_rank:50) - Acquisition
+
+ψ:morphological_extension(target:get, layer:2, irregularity:moderate)
+ψ:paradigm_irregular_verb(
+  infinitive:get,
+  present_paradigm:[
+    1sg:get,
+    2sg:get,
+    3sg:gets,
+    1pl:get,
+    2pl:get,
+    3pl:get
+  ],
+  past_paradigm:[
+    all_persons:got
+  ],
+  participles:[
+    present:getting,
+    past:[got, gotten]
+  ]
+)
+ψ:morphological_semantics(
+  acquisition_function:obtain_receive,
+  causative_function:cause_to_become,
+  passive_auxiliary:["get married", "get done"]
+)
+ψ:semantic_complexity(
+  polysemy:very_high,
+  constructions:[causative, passive, acquisition, arrival]
+)
+
+// MAKE (frequency_rank:54) - Creation/Causation
+
+ψ:morphological_extension(target:make, layer:2, irregularity:moderate)
+ψ:paradigm_irregular_verb(
+  infinitive:make,
+  present_paradigm:[
+    1sg:make,
+    2sg:make,
+    3sg:makes,
+    1pl:make,
+    2pl:make,
+    3pl:make
+  ],
+  past_paradigm:[
+    all_persons:made
+  ],
+  participles:[
+    present:making,
+    past:made
+  ]
+)
+ψ:morphological_semantics(
+  creation_function:bring_into_existence,
+  causative_function:cause_to_happen,
+  manufacturing_function:produce_construct
+)
+ψ:causative_patterns(
+  direct_causation:["make a cake"],
+  indirect_causation:["make him laugh"],
+  force_causation:["make her do it"]
+)
+
+// KNOW (frequency_rank:56) - Cognition
+
+ψ:morphological_extension(target:know, layer:2, irregularity:moderate)
+ψ:paradigm_irregular_verb(
+  infinitive:know,
+  present_paradigm:[
+    1sg:know,
+    2sg:know,
+    3sg:knows,
+    1pl:know,
+    2pl:know,
+    3pl:know
+  ],
+  past_paradigm:[
+    all_persons:knew
+  ],
+  participles:[
+    present:knowing,
+    past:known
+  ]
+)
+ψ:morphological_semantics(
+  epistemic_function:factual_knowledge,
+  acquaintance_function:familiarity_relation,
+  recognition_function:identify_recall
+)
+ψ:knowledge_types(
+  propositional:["know that X"],
+  acquaintance:["know someone"],
+  procedural:["know how to X"]
+)
+
+// THINK (frequency_rank:66) - Cognition
+
+ψ:morphological_extension(target:think, layer:2, irregularity:moderate)
+ψ:paradigm_irregular_verb(
+  infinitive:think,
+  present_paradigm:[
+    1sg:think,
+    2sg:think,
+    3sg:thinks,
+    1pl:think,
+    2pl:think,
+    3pl:think
+  ],
+  past_paradigm:[
+    all_persons:thought
+  ],
+  participles:[
+    present:thinking,
+    past:thought
+  ]
+)
+ψ:morphological_semantics(
+  cognitive_function:mental_process,
+  belief_function:opinion_formation,
+  consideration_function:deliberate_reflect
+)
+ψ:cognitive_aspects(
+  thinking:process_ongoing,
+  thought:result_product,
+  thinks:habitual_cognitive_state
+)
+
+// SEE (frequency_rank:78) - Perception
+
+ψ:morphological_extension(target:see, layer:2, irregularity:moderate)
+ψ:paradigm_irregular_verb(
+  infinitive:see,
+  present_paradigm:[
+    1sg:see,
+    2sg:see,
+    3sg:sees,
+    1pl:see,
+    2pl:see,
+    3pl:see
+  ],
+  past_paradigm:[
+    all_persons:saw
+  ],
+  participles:[
+    present:seeing,
+    past:seen
+  ]
+)
+ψ:morphological_semantics(
+  visual_function:optical_perception,
+  understanding_function:comprehend_realize,
+  meeting_function:encounter_visit
+)
+ψ:perceptual_metaphors(
+  literal_vision:["see the bird"],
+  understanding:["see the point"],
+  experience:["see what happens"]
+)
+
+// COME (frequency_rank:80) - Motion Toward
+
+ψ:morphological_extension(target:come, layer:2, irregularity:moderate)
+ψ:paradigm_irregular_verb(
+  infinitive:come,
+  present_paradigm:[
+    1sg:come,
+    2sg:come,
+    3sg:comes,
+    1pl:come,
+    2pl:come,
+    3pl:come
+  ],
+  past_paradigm:[
+    all_persons:came
+  ],
+  participles:[
+    present:coming,
+    past:come
+  ]
+)
+ψ:morphological_semantics(
+  motion_function:arrival_approach,
+  temporal_function:future_approach,
+  origin_function:derive_from
+)
+ψ:directional_contrast(
+  vs_go:toward_vs_away_speaker,
+  came:arrival_completed,
+  coming:approach_in_progress
+)
+
+// TAKE (frequency_rank:85) - Acquisition/Transport
+
+ψ:morphological_extension(target:take, layer:2, irregularity:moderate)
+ψ:paradigm_irregular_verb(
+  infinitive:take,
+  present_paradigm:[
+    1sg:take,
+    2sg:take,
+    3sg:takes,
+    1pl:take,
+    2pl:take,
+    3pl:take
+  ],
+  past_paradigm:[
+    all_persons:took
+  ],
+  participles:[
+    present:taking,
+    past:taken
+  ]
+)
+ψ:morphological_semantics(
+  acquisition_function:grasp_obtain,
+  transport_function:carry_with,
+  consumption_function:ingest_use
+)
+ψ:semantic_roles(
+  agent_takes_object:["take the book"],
+  duration_time:["take five minutes"],
+  path_route:["take the highway"]
+)
+
+// GIVE (frequency_rank:105) - Transfer
+
+ψ:morphological_extension(target:give, layer:2, irregularity:moderate)
+ψ:paradigm_irregular_verb(
+  infinitive:give,
+  present_paradigm:[
+    1sg:give,
+    2sg:give,
+    3sg:gives,
+    1pl:give,
+    2pl:give,
+    3pl:give
+  ],
+  past_paradigm:[
+    all_persons:gave
+  ],
+  participles:[
+    present:giving,
+    past:given
+  ]
+)
+ψ:morphological_semantics(
+  transfer_function:provide_bestow,
+  ditransitive_structure:give_someone_something,
+  causative_function:cause_to_have
+)
+ψ:transfer_semantics(
+  physical_giving:["give a book"],
+  abstract_giving:["give advice"],
+  caused_states:["give trouble"]
+)
+
+// FIND (frequency_rank:103) - Discovery
+
+ψ:morphological_extension(target:find, layer:2, irregularity:moderate)
+ψ:paradigm_irregular_verb(
+  infinitive:find,
+  present_paradigm:[
+    1sg:find,
+    2sg:find,
+    3sg:finds,
+    1pl:find,
+    2pl:find,
+    3pl:find
+  ],
+  past_paradigm:[
+    all_persons:found
+  ],
+  participles:[
+    present:finding,
+    past:found
+  ]
+)
+ψ:morphological_semantics(
+  discovery_function:locate_uncover,
+  judgment_function:consider_evaluate,
+  experience_function:encounter_realize
+)
+ψ:discovery_types(
+  physical_location:["find the keys"],
+  mental_realization:["find it interesting"],
+  evaluation:["find him guilty"]
+)
+
+// TELL (frequency_rank:114) - Communication
+
+ψ:morphological_extension(target:tell, layer:2, irregularity:moderate)
+ψ:paradigm_irregular_verb(
+  infinitive:tell,
+  present_paradigm:[
+    1sg:tell,
+    2sg:tell,
+    3sg:tells,
+    1pl:tell,
+    2pl:tell,
+    3pl:tell
+  ],
+  past_paradigm:[
+    all_persons:told
+  ],
+  participles:[
+    present:telling,
+    past:told
+  ]
+)
+ψ:morphological_semantics(
+  communication_function:inform_relate,
+  narrative_function:recount_story,
+  command_function:instruct_order
+)
+ψ:communication_patterns(
+  information_transfer:["tell the truth"],
+  narrative:["tell a story"],
+  instruction:["tell him to go"]
+)
+
+// Regular Verb Patterns (High Frequency)
+
+// WANT (frequency_rank:85) - Regular Pattern Example
+
+ψ:morphological_extension(target:want, layer:2, irregularity:none)
+ψ:paradigm_regular_verb(
+  infinitive:want,
+  present_paradigm:[
+    1sg:want,
+    2sg:want,
+    3sg:wants,
+    1pl:want,
+    2pl:want,
+    3pl:want
+  ],
+  past_paradigm:[
+    all_persons:wanted
+  ],
+  participles:[
+    present:wanting,
+    past:wanted
+  ]
+)
+ψ:regular_morphological_rules(
+  present_3sg:add_s,
+  past_all:add_ed,
+  present_participle:add_ing,
+  past_participle:add_ed
+)
+ψ:morphological_semantics(
+  desire_function:wish_for,
+  intention_function:plan_to,
+  need_function:require_lack
+)
+
+// WORK (frequency_rank:120) - Regular Pattern
+
+ψ:morphological_extension(target:work, layer:2, irregularity:none)
+ψ:paradigm_regular_verb(
+  infinitive:work,
+  regular_pattern:true,
+  forms:[work, works, worked, working, worked]
+)
+ψ:morphological_semantics(
+  labor_function:employment_activity,
+  function_operation:device_operates,
+  effort_function:try_attempt
+)
+
+// LOOK (frequency_rank:87) - Regular Pattern
+
+ψ:morphological_extension(target:look, layer:2, irregularity:none)
+ψ:paradigm_regular_verb(
+  infinitive:look,
+  regular_pattern:true,
+  forms:[look, looks, looked, looking, looked]
+)
+ψ:morphological_semantics(
+  visual_attention:directed_gaze,
+  appearance_function:seem_appear,
+  search_function:seek_examine
+)
+
+// USE (frequency_rank:100) - Regular Pattern
+
+ψ:morphological_extension(target:use, layer:2, irregularity:none)
+ψ:paradigm_regular_verb(
+  infinitive:use,
+  regular_pattern:true,
+  forms:[use, uses, used, using, used],
+  special_note:silent_e_drop_in_using
+)
+ψ:morphological_semantics(
+  utilization_function:employ_apply,
+  consumption_function:consume_expend,
+  habit_function:accustomed_to
+)
+
+// CALL (frequency_rank:132) - Regular Pattern
+
+ψ:morphological_extension(target:call, layer:2, irregularity:none)
+ψ:paradigm_regular_verb(
+  infinitive:call,
+  regular_pattern:true,
+  forms:[call, calls, called, calling, called]
+)
+ψ:morphological_semantics(
+  communication_function:telephone_summon,
+  naming_function:designate_label,
+  visiting_function:stop_by
+)
+
+// Morphological Rule System
+
+// Irregular Verb Classification
+
+ψ:irregularity_taxonomy(layer:2)
+ψ:classification(
+  suppletive_verbs:[be, go],
+  strong_verbs:[see→saw, come→came, take→took],
+  weak_irregular:[have→had, make→made, say→said],
+  regular_verbs:[want→wanted, work→worked, look→looked]
+)
+ψ:complexity_hierarchy(
+  maximum:be,
+  high:[go, see, come, take],
+  moderate:[have, do, say, make, know, think, give, find, tell],
+  minimal:[want, work, look, use, call]
+)
+
+// Semantic Function Categories
+
+ψ:semantic_verb_classes(layer:2)
+ψ:classification(
+  stative_verbs:[be, have, know, want],
+  dynamic_verbs:[go, come, make, work],
+  communication_verbs:[say, tell, call],
+  cognition_verbs:[think, know, see, find],
+  transfer_verbs:[give, take, get],
+  perception_verbs:[see, look]
+)
+
+// Layer Integration Points
+
+/// Back-Reference to Layer 1
+
+ψ:layer_integration(from:layer_2, to:layer_1)
+ψ:reference_preservation(
+  base_definitions:unchanged,
+  semantic_fields:inherited,
+  frequency_ranks:preserved,
+  relationships:extended_not_replaced
+)
+ψ:enhancement_additions(
+  morphological_awareness:added,
+  temporal_reasoning:enabled,
+  grammatical_relationships:enriched
+)
+
+// Forward Compatibility for Layer 3
+
+ψ:layer_3_preparation(from:layer_2)
+ψ:surface_form_targets(
+  high_frequency_forms:[am, is, are, was, were, been, being],
+  irregular_past_forms:[went, came, saw, took, gave, found, told],
+  regular_patterns:[wanted, worked, looked, used, called]
+)
+ψ:semantic_feature_preparation(
+  temporal_features:ready,
+  aspectual_features:ready,
+  modal_features:ready
+)
+
+// ummary Statistics
+
+**Scope**: 20 highest-frequency verbs from 1000-word corpus  
+**Coverage**: ~40% of all verb tokens in English text  
+**Irregularity Distribution**:
+- Suppletive: 2 verbs (be, go)
+- Strong irregular: 8 verbs (see, come, take, etc.)
+- Weak irregular: 5 verbs (have, make, say, etc.)
+- Regular: 5 verbs (want, work, look, use, call)
+
+**Impact**: Enables temporal reasoning, aspect processing, and grammatical relationship detection for the most semantically and syntactically important verbs in English.

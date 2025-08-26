@@ -1,0 +1,72 @@
+VECTOR: UPDATED PRIMITIVES, CONSTRUCTS, AND DEFINITIONS
+ATOMS (Primitives)
+
+Term	Definition
+existence	That which is; presence.
+self	A locus of awareness and distinction.
+identity	Persistence of self across time and change.
+continuity	The preservation of existence or structure across time.
+awareness	The capacity to register existence and change.
+motion	Change of location across time.
+change	Variation of state across time.
+location	A point or region in existence.
+time	Ordered progression of change.
+value	Assigned importance or weight to a concept or entity.
+lack	Perceived absence of a valued state or entity.
+desire	Orientation toward reducing lack.
+arousal	Activation of response readiness based on internal or external stimuli.
+perception	Awareness of external or internal phenomena through sensation.
+relation	Recognition of connection between entities or concepts.
+structure	Organized relation among entities.
+action	Self-initiated change in location, relation, or structure.
+intention	Directed action towards a desired state.
+language	Structured system for expressing and communicating meaning.
+symbol	Representation of a meaning through form.
+meaning	Relation between symbol and what it refers to.
+thought	Internal structured traversal of meaning.
+memory	Persistence and retrieval of structured perception or thought.
+attention	Directed focus of awareness toward an entity or relation.
+COMPOUNDS (Higher-Order Constructs)
+
+Term	Definition
+belief	Stabilized internal valuation of meaning or structure.
+truth	Stabilized, mutually agreed mapping of meaning between agents.
+emotion	Emergent modulation of attention, memory, and action readiness driven by value and arousal.
+communicate	Mutual transmission of structured meaning between agents.
+transmission	Sending of structured meaning through language or symbol.
+speak	Expression of meaning into external structure.
+listen	Reception of external structure into internal meaning.
+model	Internal structured representation of an external or conceptual entity.
+vector	Traversable relation of meaning through structured space.
+potential	Capacity for change within a structure or relation.
+difference	Detected deviation between two structures, states, or relations.
+expression	Externalization of internal meaning or structure.
+META-CONSTRUCTS (Systemic Behaviors and Conditions)
+
+Term	Definition
+presumption	Trusted inheritance of stabilized mappings without immediate local verification.
+challenge	Formal questioning of a presumption or stabilized mapping.
+note	Agent-authored annotation capturing divergence, uncertainty, challenge, or observation without altering structure.
+compression	Voluntary merging of stabilized mappings into shared nodes to reduce redundancy.
+divergence	Preservation of difference in mappings when stabilization is not achieved.
+stabilization	Persistent agreement of mappings, either internal or cross-agent.
+unresolved	Persistent mapping divergence acknowledged but not yet reconciled.
+dogma	Emergent pathological state from forced stabilization, forbidden challenge, and blocked traversal.
+best	Maximization of value within an evaluated structure.
+worst	Minimization of value within an evaluated structure.
+SUMMARY LAYERS
+
+Layer	Content
+Atoms	Core primitives — irreducible concepts.
+Compounds	Built concepts from primitives.
+Meta-constructs	Behaviors and conditions governing the semantic field itself.
+ADDITIONAL NOTES:
+All constructs are traversable, ledgerable, and challengeable.
+
+Divergence is preserved structurally — no forced convergence.
+
+Compression is voluntary and preferred when true stabilization occurs.
+
+Notes are critical beacons for semantic evolution — divergence seeds, not failures.
+
+Ledgering will preserve all mappings, notes, challenges, compressions, and divergences.

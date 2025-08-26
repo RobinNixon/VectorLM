@@ -1,0 +1,100 @@
+{
+  "vector_protocol": {
+    "version": "8.9.2",
+    "core_primitives": [
+      "ψ:state",
+      "ψ:temporal_range",
+      "ψ:definition",
+      "ψ:trait",
+      "ψ:classification",
+      "ψ:identity",
+      "ψ:boundary",
+      "ψ:composition",
+      "ψ:adaptation",
+      "ψ:reproduction",
+      "ψ:origin",
+      "ψ:history",
+      "ψ:study_fields",
+      "ψ:impact",
+      "ψ:null_op_detected",
+      "ψ:entropy",
+      "ψ:artificial_life",
+      "ψ:extraterrestrial_life",
+      "ψ:organism_type",
+      "ψ:concept"
+    ],
+    "compression_styles": {
+      "plain": {
+        "compression_level": "plain",
+        "line_spacing": "none",
+        "human_comments": "header_only"
+      },
+      "maximal": {
+        "compression_level": "maximal",
+        "formatting": "none",
+        "field_names": "short"
+      },
+      "audit": {
+        "compression_level": "audit",
+        "line_spacing": "section",
+        "comments": "moderate"
+      },
+      "human": {
+        "compression_level": "human",
+        "line_spacing": "section",
+        "comments": "on"
+      }
+    },
+    "style_instructions": {
+      "prefer_operators": true,
+      "acceptable_operators": [
+        "Δ",
+        "<",
+        ">",
+        "=",
+        "→",
+        ":",
+        "/",
+        "∈",
+        "⊆",
+        "⊂",
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "canonical_listification": true,
+      "single_definition_rule": true,
+      "attribute_maps": true,
+      "example_format": "ψ:example(subject:X, property:Y)",
+      "cross_link_format": "ψ:cross_link(from:X, to:Y, via:Z)",
+      "dependency_format": "ψ:dependency(subject:X, requires:[A,B,C])"
+    },
+    "packaging_rules": {
+      "bracketed_corpus": true,
+      "corpus_metadata": true,
+      "dictionary_appendix": true,
+      "redundancy_removal": true,
+      "atomic_export": true,
+      "global_declarations": {
+        "dictionary": "global:true",
+        "tokens": "global:true"
+      }
+    },
+    "provenance_levels": {
+      "A": "Canonical – peer-reviewed or approved sources",
+      "B": "Substantiated – 2+ reliable sources",
+      "C": "Unverified – widely circulated, low verification",
+      "D": "Unvetted – unreliable or satire"
+    },
+    "token_dictionary_levels": {
+      "level_1": "Foundational terms (e.g. biology, logic)",
+      "level_2": "Moderate abstraction (e.g. cultural_transmission)",
+      "level_3": "High abstraction (e.g. reproductive_isolation_criterion)"
+    },
+    "mandatory_structures": [
+      "one ψ:definition per subject",
+      "at least one ψ:relationship(...) unless nullified"
+    ]
+  }
+}

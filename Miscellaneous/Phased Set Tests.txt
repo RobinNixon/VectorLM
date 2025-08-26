@@ -1,0 +1,146 @@
+1) Three maintenance windows must overlap
+Scenario.
+Machine A allows work for 45 minutes every 12 hours.
+Machine B allows work during the first 15 minutes of each 560-minute cycle, starting 120 minutes after epoch.
+Machine C allows work for 30 minutes once per 1 008-minute (weekly) cycle, starting 300 minutes after epoch.
+
+Your job.
+Find the first time ≥ 0 minutes when all three windows are simultaneously open, and list all overlap intervals in the range [0, 50 000) minutes.
+
+Rules.
+
+Model all clocks in the shared dimension "min".
+
+Windows are closed intervals on residues: [a,b] with 0 ≤ a ≤ b < period.
+
+You must use.
+
+ψ:pv (one per window), ψ:ps (A, B, C), ψ:al([...], 0, 50000, "min"), and a schedule for A ∩ B ∩ C via intersection and ψ:sch.
+
+Deliverables.
+
+First alignment time t*.
+
+Merged schedule intervals for the triple overlap within [0, 50 000).
+
+2) Night vs morning operations (wraparound)
+Scenario.
+NightOps is active from 22:00 to 01:59 every day.
+MorningOps is initially active 06:00–08:59.
+
+Your job.
+
+Prove there is no hour when both are active.
+
+Then change MorningOps to be active 23:00 and 00:00 only, and compute the first hour ≥ 0 when both are active within a 10-day horizon.
+
+Rules.
+
+Use dimension "hr" with period 24.
+
+Wraparound windows must be split into two residue ranges.
+
+You must use.
+
+ψ:pv, ψ:ps, ψ:al([...], 0, 240, "hr").
+
+Show windows as residue ranges; do not “hand-wave” midnight.
+
+Deliverables.
+
+A short proof of emptiness for the first case.
+
+The first alignment hour for the second case.
+
+3) Zone-gated workdays
+Scenario.
+Fleet elements have zones: m1:2, m2:9, m3:11, m4:4.
+Work is allowed Tue–Thu only on a 7-day cycle.
+
+Your job.
+At day t = 23, list which IDs are admitted, given the rule: an element is admitted only when (zone mod 7) ∈ [2..4] and the day window is active. Also provide the active-day schedule for [0, 21] with the admitted IDs for each active day.
+
+Rules.
+
+Use "day" as the dimension (period 7, Tue–Thu window).
+
+Apply property-based masking via the zone field.
+
+You must use.
+
+ψ:pv, ψ:ps with rule:"mask" or ψ:maskf("day", e => e.zone), and ψ:sch.
+
+Deliverables.
+
+IDs admitted at day 23.
+
+A day-by-day table (only active days) listing admitted IDs in [0, 21].
+
+4) Medication vs meals with drift
+Scenario.
+A medication “pings” exactly every 8 hours (instantaneous window).
+Meals occur at 07:00, 12:00, 19:00 daily.
+The medication start time drifts earlier by 0.03 hours per hour (linear phase drift).
+
+Your job.
+Find the next three conflict times ≥ 0 hours where a medication ping coincides with any meal time within a 500-hour horizon.
+
+Rules.
+
+Use the shared dimension "hr".
+
+Model drift with ψ:drift on the medication set only.
+
+You must use.
+
+ψ:pv for dose and meals, ψ:ps, ψ:drift("MedDose","hr", -0.03), and alignment/scheduling to list 3 conflicts.
+
+Deliverables.
+
+A list of three times (hours since epoch).
+
+One-line note explaining how drift interacts with modular residues.
+
+5) Non-coprime cycles with windows
+Scenario.
+Billing runs on days 3–5 of a 30-day cycle.
+ETL runs on days 10–12 of a 20-day cycle with phase offset 10.
+
+Your job.
+Compute the superperiod for possible overlaps on dimension "day", then list the first two overlap intervals ≥ day 0.
+
+Rules.
+
+Periods 30 and 20 are not coprime; windows and phases matter.
+
+You must use.
+
+ψ:pv, ψ:ps, ψ:beat(["Billing","ETL"], "day"), plus a schedule of Billing ∩ ETL.
+
+Deliverables.
+
+The superperiod.
+
+Two concrete overlap intervals as [start,end] day indices.
+
+6) Planetary alignment: orbit vs rotation
+Scenario.
+Model Earth and Mars each with two dimensions: "orbit" (their orbital periods, small active window at peri-alignment) and "rotation" (24-hour instantaneous window).
+
+Your job.
+
+Compute the next orbital-window alignment within a 50 000-day horizon.
+
+Compute the next rotational alignment within a 1 000-hour horizon.
+Explain why (2) is trivial/degenerate relative to (1).
+
+Rules.
+
+Use dim? to disambiguate which dimension you are aligning on.
+
+You must use.
+
+ψ:pv, ψ:ps, ψ:al([...], fromT, horizon, "orbit") and again with "rotation".
+
+Deliverables.
+

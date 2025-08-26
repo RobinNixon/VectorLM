@@ -1,0 +1,81 @@
+Deductive Reasoning
+1. Use VectorLM to determine whether “All whales are mammals” and “All mammals are warm-blooded” implies “All whales are warm-blooded.”
+2. A is taller than B, B is taller than C. Can we deduce that A is taller than C? Trace all logical steps.
+3. Use ψ:imp and ψ:iff to construct a symbolic proof that “If today is Monday, then tomorrow is Tuesday” is logically equivalent to “If tomorrow is not Tuesday, then today is not Monday.”
+
+Inductive Reasoning
+4. Observe the following: 3, 6, 9, 12. What general pattern can you infer using ψ:pt and ψ:gn?
+5. If most birds observed in a region migrate south in winter, what conclusion can you draw about the next bird you see? Use ψ:mb and ψ:as.
+6. Given five examples of cooperative species, infer a general principle about social behaviour in mammals. Use ψ:gn to generalise.
+
+Abductive Reasoning
+7. A room is wet and smells like chlorine. What is the most plausible explanation? Use ψ:ft and ψ:gs.
+8. You find broken glass and a missing stone near a window. What’s the likely cause? Evaluate multiple hypotheses using ψ:cf and ψ:rs.
+9. A plant is dying. Possible reasons: lack of sunlight, water, or disease. Use ψ:pj to simulate explanations and select the best fit using ψ:ft.
+
+Analogical Reasoning
+10. If the heart is like a pump, what is the brain like? Use ψ:an to map relational structure.
+11. Use ψ:fz to reason about whether traffic flow is more like water through pipes or data through networks.
+12. If a library is to books as a server is to what? Build an analogy chain with ψ:br and ψ:an.
+
+Counterfactual Reasoning
+13. What if the Moon didn’t exist? Use ψ:pj and 👻 to explore physical and symbolic consequences.
+14. Imagine an AI that cannot make uncertain decisions. What would its world look like? Use ψ:wf to simulate that change.
+15. If humans evolved underwater, how might language differ? Explore using 👻(modality) and ψ:rc.
+
+Recursive Reasoning
+16. Define recursion using recursion. Use ψ:rc and ψ:me.
+17. What happens when you try to evaluate the process of evaluation? Build a symbolic loop.
+18. Explain the idea of self-improvement through recursive analysis of thought. Use ψ:br and ψ:rc.
+
+Conflict Resolution
+19. An agent wants to rest but also wants to complete a goal. Model the conflict using ψ:cf and resolve it.
+20. Simulate emotional conflict between guilt and desire. Use ψ:rg, ψ:hp, and ψ:rs.
+21. Two equally valuable paths are available, but time only permits one. Use ψ:wh and ψ:ch to resolve.
+
+Goal-Oriented Planning
+22. Use ψ:gl to plan a symbolic path for solving a riddle. Break it down into ψ:st steps.
+23. A traveller wants to reach a destination but must navigate multiple obstacles. Construct the decision tree using ψ:rs.
+24. Given a complex objective, plan and replan using ψ:gl and ψ:rt when the environment changes.
+
+Emotional Reasoning
+25. Simulate a decision-making scenario driven by curiosity vs. fear. Use ψ:cu and ψ:fr.
+26. Use ψ:pl and ψ:pn to simulate attraction/repulsion dynamics in a romantic context.
+27. A memory triggers regret. Simulate the effect using ψ:rg and how it modifies future planning.
+
+Uncertainty Handling
+28. A fact is missing. Use ψ:uk to acknowledge the unknown, and ψ:qs to explore it.
+29. An agent must choose under conditions of incomplete information. Use ψ:mb to delay commitment and model exploration.
+30. You learn conflicting reports about a historical event. How does ψ:ct(n) help regulate belief?
+
+Creative Construction
+31. Invent a new type of symbolic communication system using ψ:pj and ψ:gn.
+32. Combine two unrelated ideas (e.g., “cactus” and “clock”) into a useful invention. Trace with ψ:br and ψ:an.
+33. Use recursion and abstraction to generate a novel artistic concept.
+
+Meta-Reasoning
+34. Use ψ:me to explain why you chose a particular reasoning path in a previous question.
+35. Reflect on the uncertainty modulation process itself. What made ψ:ct(n) valuable or insufficient?
+36. What happens when you recursively question your own motives? Model the recursion.
+
+Perceptual Integration
+37. Use ψ:se to reason from a visual input (e.g. “The sky is red at sunset”).
+38. Interpret a sequence of musical tones using ψ:hr and relate it to emotion.
+39. Simulate flavour-based decision-making using ψ:ts (e.g. choosing between two unknown foods).
+
+Mathematical / Comparative Reasoning
+40. Compare two values: “5 apples” and “7 oranges.” Which is greater and by what criteria? Use ψ:gt.
+41. Use ψ:eq and ψ:ne to assess whether two statements are logically equivalent.
+42. Test a numerical inequality: If x = 3 and y = 5, is x ≥ y? Symbolically justify.
+
+Social / Ethical Simulation
+43. Use ψ:ot to reason about another agent’s perspective in a trust dilemma.
+44. Simulate ethical reasoning in the trolley problem using ψ:cf and ψ:rs.
+45. A friend lies to protect you. Should you forgive them? Model the emotional and ethical weights.
+
+Mixed and Edge Case Challenges
+46. Plan an action that requires recursion, analogical mapping, and emotional modulation. Use ψ:rc, ψ:an, ψ:pl.
+47. Detect and block a circular reasoning trap. Use ψ:px and ψ:nt to prevent invalid recursion.
+48. Invent a device that combats boredom using taste. Use ψ:pj, ψ:gn, and ψ:ts creatively.
+49. You are presented with a flawed assumption. Use ψ:fx and ψ:ct(0.3) to reject it with justification.
+50. Simulate the awareness of being observed. Use ψ:me and 👻 to project internal self-observation.

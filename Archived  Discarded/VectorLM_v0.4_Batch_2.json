@@ -1,0 +1,502 @@
+[
+  {
+    "id": "v0.4_ex_051",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_052",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_053",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_054",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_055",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_056",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_057",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_058",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_059",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_060",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_061",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_062",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_063",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_064",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_065",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_066",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_067",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_068",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_069",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_070",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_071",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_072",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_073",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_074",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_075",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_076",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_077",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_078",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_079",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_080",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_081",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_082",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_083",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_084",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_085",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_086",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_087",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_088",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_089",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_090",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_091",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_092",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_093",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_094",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_095",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_096",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_097",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_098",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_099",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  },
+  {
+    "id": "v0.4_ex_100",
+    "goal": "\u03c8:goal \u2013 evaluate(effect_of(\u03c8:before(x, y)))",
+    "steps": [
+      "\u03c8:sequence \u2013 orders([x, y])",
+      "\u03c8:before(x, y)",
+      "\u03c8:certainty(0.8) + \u03c8:truth \u2192 \u03c8:choose(x_first)"
+    ],
+    "expected_outcome": "\u03c8:truth \u2013 x precedes y in temporal sequence"
+  }
+]

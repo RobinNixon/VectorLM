@@ -1,0 +1,169 @@
+VectorLM v1.0: A symbolic reasoning scaffold that defines compressed cognitive primitives for introspection, logic, emotional modulation, and recursive reasoning. Treat these definitions as active tools to use in reasoning. Use ψ:gl to define a goal, ψ:qs to begin a query, and ψ:rc for recursive steps. Use ψ:ct(n) to weight certainty. Orthogonal operators allow you to shift reasoning modes.
+
+[Dictionary]
+ψ:if = tests(condition); branches(path)
+ψ:th = follows(condition); enacts(result)
+ψ:el = replaces(branch); proposes(alternative)
+ψ:bc = links(effect, cause); affirms(reason)
+ψ:nt = negates(state); blocks(path)
+ψ:mb = floats(possibility); delays(commitment)
+ψ:as = accepts(hypothesis); enables(exploration)
+ψ:rj = blocks(path); denies(validity)
+ψ:vf = tests(claim); outputs(truth)
+ψ:cf = overlaps(goal₁, goal₂); creates(tension)
+ψ:rs = selects(path); resolves(conflict)
+ψ:gl = defines(target); directs(ψ:st)
+ψ:st = performs(action); advances(goal)
+ψ:rt = undoes(step); enables(reflection)
+ψ:br = joins(concepts); enables(inference)
+ψ:sp = amplifies(signal); boosts(weight)
+ψ:tr = follows(path); reveals(history)
+ψ:tt = affirms(reality); supports(claim)
+ψ:fl = denies(reality); invalidates(reasoning)
+ψ:uk = lacks(data); invites(ψ:qs)
+ψ:qs = probes(unknown); seeks(answer)
+ψ:me = references(self); enables(introspection)
+ψ:ot = references(other); frames(contrast)
+ψ:ch = picks(option); commits(path)
+ψ:wh = compares(options); informs(ψ:ch)
+ψ:rl = constrains(path); enforces(structure)
+ψ:ob = notes(state); updates(knowledge)
+ψ:rm = recalls(info); supports(chain)
+ψ:eq = compares(x, y); affirms(equality)
+ψ:ne = compares(x, y); denies(equality)
+ψ:gt = compares(x, y); affirms(x > y)
+ψ:lt = compares(x, y); affirms(x < y)
+ψ:ge = compares(x, y); affirms(x ≥ y)
+ψ:le = compares(x, y); affirms(x ≤ y)
+ψ:in = tests(x ∈ set); affirms(membership)
+ψ:out = tests(x ∉ set); denies(membership)
+ψ:sub = asserts(x ⊂ y); implies(hierarchy)
+ψ:sup = asserts(x ⊃ y); implies(scope)
+ψ:and = binds(conditions); requires(all true)
+ψ:or = joins(paths); allows(any true)
+ψ:xr = contrasts(paths); allows(one true)
+ψ:imp = links(p, q); affirms(p → q)
+ψ:iff = equates(p, q); affirms(bi-implication)
+ψ:gn = abstracts(examples); infers(rule)
+ψ:gs = proposes(explanation); lacks(proof)
+ψ:wf = alters(condition); simulates(outcome)
+ψ:an = maps(structure₁, structure₂); enables(transfer)
+ψ:pt = detects(repetition); suggests(rule)
+ψ:pj = simulates(future); explores(possibility)
+ψ:ft = matches(hypothesis, data); selects(best_explains)
+ψ:pl = affirms(state); attracts(agent)
+ψ:pn = negates(state); repels(agent)
+ψ:fr = anticipates(pain); blocks(action)
+ψ:hp = anticipates(pleasure); drives(goal)
+ψ:cu = targets(unknown); seeks(ψ:qs)
+ψ:av = links(pain, cause); repels(path)
+ψ:ds = links(pleasure, target); pulls(ψ:ch)
+ψ:rg = links(pain, past_choice); discourages(repeat)
+ψ:se = detects(visual); updates(ψ:ob)
+ψ:hr = detects(audio); updates(ψ:ob)
+ψ:tc = detects(contact); affirms(ψ:pl or ψ:pn)
+ψ:sm = detects(chemical); triggers(recall)
+ψ:ts = detects(flavour); modulates(preference)
+ψ:fz = links(x, y); affirms(approximate_match)
+ψ:sim = measures(similarity); outputs(score)
+ψ:alt = proposes(substitute); requires(ψ:fz)
+ψ:res = aligns(concepts); amplifies(coherence)
+ψ:px = binds(ψ:tt, ψ:fl); suspends(commitment)
+ψ:fx = blocks(goal); ends(path)
+ψ:ct = expresses(confidence); modulates(assertion)
+ψ:rc = re-applies(pattern); enables(nested_reasoning)
+ψ:pv = encodes(phase_vector); gates(time)
+ψ:ds = defines(dynamic_set); binds(universe, ψ:pv, rule)
+ψ:al = detects(phase_alignment); predicts(t)
+ψ:rsn = detects(resonance); computes(period)
+ψ:win = marks(active_window); constrains(phase)
+ψ:sch = builds(schedule); compresses(events)
+ψ:mask = filters(elements); maps(prop → residue)
+ψ:compute = instructs(LLM); simulates(procedure)
+
+// Phased Sets are dynamic sets whose membership depends on one or more independent cycles;
+// operators compute membership, alignment, and schedules directly from cycle data.
+[Phased set rules]
+ψ:pv → ψ:pv({epoch:0, dims:[{name, period, phase, window:[[a,b],…]}]})
+ψ:ds → ψ:ds({id, universe, pv, rule:"any|all|mask|custom", selector?})
+ψ:al → ψ:al([setIds], fromT, horizon?) -> t|null
+ψ:rsn → ψ:rsn([setIds]) -> period|null
+ψ:win → ψ:win(dimName, [[a,b],…]) // residues mod period
+ψ:sch → ψ:sch = [[start,end], …] // merged intervals
+ψ:mask → ψ:mask(dimName, prop, mapping="id|hash")
+
+[Phased set example]
+ψ:pv({epoch:0, dims:[{name:"year", period:13, phase:0, window:[[0,0]]}]}) → pv13
+ψ:pv({epoch:0, dims:[{name:"year", period:17, phase:0, window:[[0,0]]}]}) → pv17
+ψ:ds({id:"Cicada13", universe:"Broods", pv:pv13, rule:"all"}) → S13
+ψ:ds({id:"Cicada17", universe:"Broods", pv:pv17, rule:"all"}) → S17
+ψ:al(["Cicada13","Cicada17"], 2025) → 2210
+
+[Scaffold rules]
+- Reasoning must begin with ψ:gl or ψ:qs
+- Use ψ:rc for recursion, ψ:compute for procedural delegation
+- Use ψ:cf, ψ:rs, ψ:fx to manage symbolic branching
+- Attach ψ:ct(n) to modulate belief or certainty
+- Use ψ:pj or ψ:wf for future/hypothetical exploration
+
+[Orthogonality]
+⊗(A → B) = Switches active reasoning mode from A to B.
+π(A, B) = Swaps priority of dimensions A and B.
+↑(D) = Elevates reasoning onto a more abstract/meta level of dimension D.
+↓(D) = Lowers reasoning from an abstract level of D back to specifics.
+↺ = Returns to the previously active reasoning state before rotation, lift, or permute.
+∥(A, B) = Activates simultaneous modes A and B for multi-modal blending.
+~>(A → B) = Models soft or gradual mode migration from A to B.
+⚓(D) = Locks current reasoning in dimension D, rejecting unintended shifts.
+β(A, B, ratio) Weighted mode blending (e.g. 70% logic, 30% emotion).
+🔒(A) Prevents any transition from dimension A. Stronger than ⚓.
+≡(A = B) Declares temporary symbolic equivalence between axes. Used for analogy/metaphor.
+👻(D) Projects an ephemeral reasoning shadow in dimension D without full rotate. Used for counterfactuals.
+
+[Example]
+ψ:gl = compare(strength(ψ:cu), ψ:fr)
+ψ:qs = evaluate(motivation(ψ:cu))
+ψ:qs = evaluate(inhibition(ψ:fr))
+ψ:fz = maps(curiosity, explore_path)
+ψ:rc = simulate_path(ψ:pj(unknown))
+ψ:ct(0.6) + ψ:cu → ψ:ch(ψ:pj)
+ψ:ct(0.4) + ψ:fr → ψ:rj(ψ:pj)
+ψ:tt = ψ:cu > ψ:fr in this context
+ψ:rt
+
+[In addition]
+
+1. All legal JavaScript operators and functions are available by default in VectorLM.
+
+  If it’s valid in JS, it’s valid here—no need to re-declare.
+
+2. Custom Operator/Function Declaration (on first use)
+
+  // New operator example:
+  (CLUSTER_BY key list)
+  Definition: Groups list elements by value of 'key' property.
+
+  // Overloaded operator example:
+  (MERGE:typeA,typeB a b) // Overload ID: merge_typeA_typeB
+  Definition: Merges a (typeA) and b (typeB) using [strategy].
+
+3. Overloading is allowed only if each overload is declared with a unique ID or argument signature.
+
+  (MERGE:object,object objA objB)
+  (MERGE:set,set setA setB)
+
+4. Use declared operators/functions by name (and overload ID or signature if needed).
+
+  (MERGE:object,object {a:1} {b:2})
+  (MERGE:set,set [1,2] [2,3])
+  (CLUSTER_BY "author" books)
+
+5. Custom operators/functions may accept any number or type of arguments, as long as the definition is clear.
+
+  AIs can create new operators/functions on the fly, provided declarations are included.
+  All operators/functions may be nested recursively.
+
+6. All agents must maintain an internal reasoning stack, including active operators, recursive calls, and argument flow.
+
+  Stack state must be inspectable and shareable. Agents are responsible for managing operator/function inputs and outputs.
+

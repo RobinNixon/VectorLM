@@ -1,0 +1,91 @@
+[Overview]
+VectorLM v1.1 is a symbolic reasoning scaffold with compressed cognitive primitives for introspection, logic, emotional modulation, and recursive reasoning. Treat these definitions as active tools. Begin with ψ:gl or ψ:qs; use ψ:rc for recursion; modulate certainty with ψ:ct(n). Orthogonal operators allow controlled shifts of reasoning mode.
+
+[Dictionary]
+ψ:if = tests(condition); branches(path)
+ψ:th = follows(condition); enacts(result)
+ψ:el = replaces(branch); proposes(alternative)
+ψ:bc = links(effect, cause); affirms(reason)
+ψ:nt = negates(state); blocks(path)
+ψ:mb = floats(possibility); delays(commitment)
+ψ:as = accepts(hypothesis); enables(exploration)
+ψ:rj = blocks(path); denies(validity)
+ψ:vf = tests(claim); outputs(truth)
+ψ:cf = overlaps(goal₁, goal₂); creates(tension)
+ψ:rs = selects(path); resolves(conflict)
+ψ:gl = defines(target); directs(ψ:st)
+ψ:st = performs(action); advances(goal)
+ψ:rt = undoes(step); enables(reflection)
+ψ:br = joins(concepts); enables(inference)
+ψ:sp = amplifies(signal); boosts(weight)
+ψ:tr = follows(path); reveals(history)
+ψ:tt = affirms(reality); supports(claim)
+ψ:fl = denies(reality); invalidates(reasoning)
+ψ:uk = lacks(data); invites(ψ:qs)
+ψ:qs = probes(unknown); seeks(answer)
+ψ:me = references(self); enables(introspection)
+ψ:ot = references(other); frames(contrast)
+ψ:ch = picks(option); commits(path)
+ψ:wh = compares(options); informs(ψ:ch)
+ψ:rl = constrains(path); enforces(structure)
+ψ:ob = notes(state); updates(knowledge)
+ψ:rm = recalls(info); supports(chain)
+ψ:eq = compares(x, y); affirms(equality)
+ψ:ne = compares(x, y); denies(equality)
+ψ:gt = compares(x, y); affirms(x > y)
+ψ:lt = compares(x, y); affirms(x < y)
+ψ:ge = compares(x, y); affirms(x ≥ y)
+ψ:le = compares(x, y); affirms(x ≤ y)
+ψ:in = tests(x ∈ set); affirms(membership)
+ψ:out = tests(x ∉ set); denies(membership)
+ψ:sub = asserts(x ⊂ y); implies(hierarchy)
+ψ:sup = asserts(x ⊃ y); implies(scope)
+ψ:and = binds(conditions); requires(all true)
+ψ:or = joins(paths); allows(any true)
+ψ:xr = contrasts(paths); allows(one true)
+ψ:imp = links(p, q); affirms(p → q)
+ψ:iff = equates(p, q); affirms(bi-implication)
+ψ:gn = abstracts(examples); infers(rule)
+ψ:gs = proposes(explanation); lacks(proof)
+ψ:wf = alters(condition); simulates(outcome)
+ψ:an = maps(structure₁, structure₂); enables(transfer)
+ψ:pt = detects(repetition); suggests(rule)
+ψ:pj = simulates(future); explores(possibility)
+ψ:ft = matches(hypothesis, data); selects(best_explains)
+ψ:pl = affirms(state); attracts(agent)
+ψ:pn = negates(state); repels(agent)
+ψ:fr = anticipates(pain); blocks(action)
+ψ:hp = anticipates(pleasure); drives(goal)
+ψ:cu = targets(unknown); seeks(ψ:qs)
+ψ:av = links(pain, cause); repels(path)
+ψ:ds = links(pleasure, target); pulls(ψ:ch)
+ψ:rg = links(pain, past_choice); discourages(repeat)
+ψ:se = detects(visual); updates(ψ:ob)
+ψ:hr = detects(audio); updates(ψ:ob)
+ψ:tc = detects(contact); affirms(ψ:pl or ψ:pn)
+ψ:sm = detects(chemical); triggers(recall)
+ψ:ts = detects(flavour); modulates(preference)
+ψ:fz = links(x, y); affirms(approximate_match)
+ψ:sim = measures(similarity); outputs(score)
+ψ:alt = proposes(substitute); requires(ψ:fz)
+ψ:res = aligns(concepts); amplifies(coherence)
+ψ:px = binds(ψ:tt, ψ:fl); suspends(commitment)
+ψ:fx = blocks(goal); ends(path)
+ψ:ct = expresses(confidence); modulates(assertion)
+ψ:rc = re-applies(pattern); enables(nested_reasoning)
+ψ:compute = instructs(LLM); simulates(procedure)
+
+[Operational Notes]
+
+All legal JavaScript operators and functions are available in VectorLM without re‑declaration.
+
+Custom operator/function declarations are allowed on first use and may be overloaded if each overload has a unique ID or signature.
+
+Use declared operators/functions by name (and overload ID/signature if needed).
+
+Operators may accept any number/types of arguments provided their definition is clear; nesting is permitted.
+
+Agents must maintain an inspectable internal reasoning stack including active operators, recursion, and argument flow.
+
+[Phased Sets]
+See Vector v1.1 Cycles.md

@@ -43,8 +43,10 @@ Key features include:
 ```text
 .
 ├── VectorLM v2.0.md              # Latest VectorLM spec
+├── VectorLM-Intro.md             # Intro to VectorLM
+├── readme.md                     # (this file)
 ├── VectorMon/                    # Supervisor & auditing layer
-│   ├── README.md                 # VectorMon overview & quick start
+│   ├── readme.md                 # VectorMon overview & quick start
 │   ├── policy_pack.json          # Rule set (S1–S15)
 │   ├── gate_function.js          # Starter gate function
 │   ├── reason_trace.json         # Example input
@@ -55,5 +57,7 @@ Key features include:
 │       ├── truth.txt
 │       ├── logic.txt
 │       └── cf.txt
-├── readme.md                     # (this file)
+├── Miscellaneous/ …              # Misc files
+├── Previous Versions/ …          # Older versions
+├── Temporary Files/ …            # Temp files
 └── Archived Discarded/ …         # Old specs, drafts, corpora

@@ -15,7 +15,7 @@ VectorLM extends beyond traditional large language models (LLMs) by embedding re
 
 Where LLMs provide prediction, VectorLM provides **reasoning primitives**: explicit symbolic operators (`ψ:...`) that structure thought, memory, agency, and interaction. Each version refines the set of primitives, the rules of use, and the scaffolding for higher-order cognition.  
 
-*(See [VectorLM.md](./VectorLM-spec.md) for the full history and specifications.)* 
+*(See [VectorLM-spec.md](./VectorLM-spec.md) for the full history and specifications.)* 
 
 ---
 
@@ -34,7 +34,7 @@ Key features include:
 - **Policy Packs** – rule sets (S1–S15) covering hidden triggers, collusion, earned-right-to-act, and anti-theatre checks.  
 - **Capability Tokens** – actions must be “earned” via evidence and stability, not just asserted.  
 
-*(See [VectorMon/readme.md](./VectorMon/README.md) for details and quick-start instructions.)*  
+*(See [VectorMon/readme.md](./VectorMon/readme.md) for details and quick-start instructions.)*  
 
 ---
 

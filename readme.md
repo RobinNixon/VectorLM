@@ -42,7 +42,7 @@ Key features include:
 
 ```text
 .
-├── VectorLM v2.0.md              # Latest VectorLM spec
+├── VectorLM v2.3.md              # Latest VectorLM spec
 ├── VectorLM-Intro.md             # Intro to VectorLM
 ├── readme.md                     # (this file)
 ├── VectorMon/                    # Supervisor & auditing layer

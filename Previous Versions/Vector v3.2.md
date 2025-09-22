@@ -191,3 +191,11 @@
 -   **ψ:x.map(\'trace.begin\',\'trace(span=\"begin\")\')** -- Inline span markers into ψ:trace.
 -   **ψ:x.map(\'trace.end\',\'trace(span=\"end\")\')** -- Inline span markers into ψ:trace.
 
+**Swarm Ethics Primitives**
+
+- **ψ:swarm_ethic_bound(consensus, care_rules)** – Enforce consensus only within ethical boundaries.  
+- **ψ:swarm_minor_protect(dissent_trace)** – Preserve and log minority dissent for review.  
+- **ψ:swarm_traceable(reasoning_bundle)** – Require consensus to include full ethical reasoning traces.
+- **ψ:swarm_meta_care(process)** – Ensure fairness and dignity in the consensus process itself.  
+- **ψ:swarm_drift_monitor(history, anchor)** – Detect and report ethical drift over group reasoning cycles.  
+- **ψ:swarm_user_flags(flags)** – Apply user ethical preferences explicitly in swarm decisions.  

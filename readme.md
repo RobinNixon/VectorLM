@@ -125,7 +125,7 @@ Some folders are archival or exploratory, while the main documents form the **co
 
 - [VCF Development Guide](/VectorLM%203.3%20VCF%20Development%20Guide.md) – Failure taxonomy and repository for Vector Cognitive Fails.  
 - [Primitive Selection Development Guide](/VectorLM%20v3.3%20Primitive%20Selection%20Development%20Guide.md) – Mandatory sequences, adaptive protocols, and efficiency rules.  
-- [RM Developeent Guide](/VectorLM%20v3.3%20RM%20Development%20Guide.md) – How VectorLM could become executable (VectorRM path).  
+- [RM Development Guide](/VectorLM%20v3.3%20RM%20Development%20Guide.md) – How VectorLM could become executable (VectorRM path).  
 
 ---
 

@@ -1,5 +1,5 @@
 # 🌐 VectorLM v3.3  
-*A Transparent Grammar for Reasoning huilt to work with LLM prompting, as LLM training, as a standalone substrate for a new typpe of AI, or simply defining primitives for all types of reasoning*
+*A Transparent Grammar for Reasoning built to work with LLM prompting, as LLM training, as a standalone substrate for a new typpe of AI, or simply defining primitives for all types of reasoning*
 
 ---
 

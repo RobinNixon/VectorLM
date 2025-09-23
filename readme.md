@@ -91,6 +91,7 @@ These are *possible futures*. VectorLM itself remains **the root language**.
 ψ:coherence_check(sequence) → {ok, score}
 ψ:what_then(state) → {ok, projection}
 ψ:humor_switch(setup, punchline) → {ok, coherence}
+```
 
 ---
 

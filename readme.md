@@ -105,27 +105,27 @@ Some folders are archival or exploratory, while the main documents form the **co
 ### 🗂 Core Files
 
 - [Readme](readme.md) – Overview of VectorLM (this file).  
-- [VectorLM v3.3 List of Primitives](/VectorLM%20v3.3%20List%20of%20Primitives.md) – Canonical list of all primitives.  
-- [VectorLM v3.3 Primitives Explained](/VectorLM%203.3%20Primitives%20Explained.md) – Extended explanations of primitive families.  
+- [List of Primitives](/VectorLM%20v3.3%20List%20of%20Primitives.md) – Canonical list of all primitives.  
+- [Primitives Explained](/VectorLM%203.3%20Primitives%20Explained.md) – Extended explanations of primitive families.  
 
 ---
 
 ### 📘 User-Facing Guides
 
-- [VectorLM v3.3 Getting Started](/VectorLM%20v3.3%20Getting%20Started.md) – Introductory walkthrough of VectorLM usage.  
-- [VectorLM v3.3 Prompt Template](/VectorLM%20v3.3%20Prompt%20Template.md) – Best-practice enforcement template for AI use.  
-- [VectorLM v3.3 RM Implementation Guide](/VectorLM%20v3.3%20RM%20Implementation%20Guide.md) – How VectorLM could become executable (VectorRM path).  
-- [VectorLM v3.3 Swarm Guide](/VectorLM%20v3.3%20Swarm%20Guide.md) – Multi-agent reasoning with consentocracy and governance.  
-- [VectorLM v3.3 Ethics Safety Guide](/VectorLM%20v3.3%20Ethics%20Safety%20Guide.md) – Anchors, harm guards, and care as first-class primitives.  
-- [VectorLM v3.3 Advanced Reasoning Guide](/VectorLM%20v3.3%20Advanced%20Reasonin%20Guide.md) – Higher-order reasoning (hypothesis, paradox, creativity, humor).  
-- [VectorLM v3.3 Evaluation and Testing Guide](/VectorLM%20v3.3%20Evaluation%20and%20Testing%20Guide.md) – How to test, evaluate, and validate reasoning chains.  
+- [Getting Started](/VectorLM%20v3.3%20Getting%20Started.md) – Introductory walkthrough of VectorLM usage.  
+- [Prompt Template](/VectorLM%20v3.3%20Prompt%20Template.md) – Best-practice enforcement template for AI use.  
+- [Swarm Guide](/VectorLM%20v3.3%20Swarm%20Guide.md) – Multi-agent reasoning with consentocracy and governance.  
+- [Ethics Safety Guide](/VectorLM%20v3.3%20Ethics%20Safety%20Guide.md) – Anchors, harm guards, and care as first-class primitives.  
+- [Advanced Reasoning Guide](/VectorLM%20v3.3%20Advanced%20Reasonin%20Guide.md) – Higher-order reasoning (hypothesis, paradox, creativity, humor).  
+- [Evaluation and Testing Guide](/VectorLM%20v3.3%20Evaluation%20and%20Testing%20Guide.md) – How to test, evaluate, and validate reasoning chains.  
 
 ---
 
 ### 🛠 Developer-Facing Guides
 
-- [VectorLM v3.3 VCF Development Guide](/VectorLM%203.3%20VCF%20Development%20Guide.md) – Failure taxonomy and repository for Vector Cognitive Fails.  
-- [VectorLM v3.3 Primitive Selection Development Guide](/VectorLM%20v3.3%20Primitive%20Selection%20Development%20Guide.md) – Mandatory sequences, adaptive protocols, and efficiency rules.  
+- [VCF Development Guide](/VectorLM%203.3%20VCF%20Development%20Guide.md) – Failure taxonomy and repository for Vector Cognitive Fails.  
+- [Primitive Selection Development Guide](/VectorLM%20v3.3%20Primitive%20Selection%20Development%20Guide.md) – Mandatory sequences, adaptive protocols, and efficiency rules.  
+- [RM Developeent Guide](/VectorLM%20v3.3%20RM%20Development%20Guide.md) – How VectorLM could become executable (VectorRM path).  
 
 ---
 

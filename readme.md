@@ -116,7 +116,7 @@ Some folders are archival or exploratory, while the main documents form the **co
 - [Prompt Template](/VectorLM%20v3.3%20Prompt%20Template.md) – Best-practice enforcement template for AI use.  
 - [Swarm Guide](/VectorLM%20v3.3%20Swarm%20Guide.md) – Multi-agent reasoning with consentocracy and governance.  
 - [Ethics Safety Guide](/VectorLM%20v3.3%20Ethics%20Safety%20Guide.md) – Anchors, harm guards, and care as first-class primitives.  
-- [Advanced Reasoning Guide](/VectorLM%20v3.3%20Advanced%20Reasonin%20Guide.md) – Higher-order reasoning (hypothesis, paradox, creativity, humor).  
+- [Advanced Reasoning Guide](/VectorLM%20v3.3%20Advanced%20Reasoning%20Guide.md) – Higher-order reasoning (hypothesis, paradox, creativity, humor).  
 - [Evaluation and Testing Guide](/VectorLM%20v3.3%20Evaluation%20and%20Testing%20Guide.md) – How to test, evaluate, and validate reasoning chains.  
 
 ---

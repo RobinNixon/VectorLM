@@ -1,4 +1,4 @@
-# VectorLM v3.3: Software Implementation Guide  
+# VectorLM v3.3: RM Software Development Guide  
 *The VectorRM Approach*
 
 ---

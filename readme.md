@@ -151,11 +151,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 VectorLM is shared under a **dual licensing approach**:
 
-- The **specification and documentation** (this grammar, guides, and primitives) are licensed under **Creative Commons Attribution-ShareAlike 4.0 (CC-BY-SA 4.0)**.  
-  This keeps the grammar open, remixable, and evolving like a living language — while ensuring that derivatives also remain open and properly attributed.
+- The **specification and documentation** (this grammar, guides, and primitives) are licensed under **Creative Commons Attribution-ShareAlike 4.0 (CC-BY-SA 4.0)**. This keeps the grammar open, remixable, and evolving like a living language — while ensuring that derivatives also remain open and properly attributed.
 
-- Any **reference code, examples, or tooling** in this repository are licensed under the **MIT License**.  
-  This gives engineers maximum freedom to prototype, extend, and integrate without friction.
+- Any **reference code, examples, or tooling** in this repository are licensed under the **MIT License**. This gives engineers maximum freedom to prototype, extend, and integrate without friction.
 
 ---
 

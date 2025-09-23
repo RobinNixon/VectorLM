@@ -136,3 +136,31 @@ Some folders are archival or exploratory, while the main documents form the **co
 - **Temporary Files/** – Working files, scratch notes, and partial drafts.  
 - **VectorMon/** – Exploratory monitoring / adjunct tooling concepts.  
 
+---
+
+# ⚖️ Licensing
+
+VectorLM is shared under a **dual licensing approach**:
+
+- The **specification and documentation** (this grammar, guides, and primitives) are licensed under **Creative Commons Attribution-ShareAlike 4.0 (CC-BY-SA 4.0)**.  
+  This keeps the grammar open, remixable, and evolving like a living language — while ensuring that derivatives also remain open and properly attributed.
+
+- Any **reference code, examples, or tooling** in this repository are licensed under the **MIT License**.  
+  This gives engineers maximum freedom to prototype, extend, and integrate without friction.
+
+---
+
+## 📘 Specification & Documentation License (CC-BY-SA 4.0)
+
+*Human-readable summary:*  
+You are free to **share** (copy, redistribute) and **adapt** (remix, transform, build upon) this work, even commercially, under the conditions that you **credit the original authors** and that any derivatives are distributed under the same license. Nothing in this license restricts fair use or other rights.
+
+Full legal text: [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
+
+---
+
+## 💻 Code License (MIT)
+
+*Human-readable summary:*  
+The reference code in this repository is released under the MIT License — short, permissive, and engineer-friendly. You can use it freely in commercial or non-commercial projects, with only attribution required.
+

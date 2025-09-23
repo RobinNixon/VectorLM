@@ -106,7 +106,7 @@ Some folders are archival or exploratory, while the main documents form the **co
 
 - [Readme](readme.md) – Overview of VectorLM (this file).  
 - [List of Primitives](/VectorLM%20v3.3%20List%20of%20Primitives.md) – Canonical list of all primitives.  
-- [Primitives Explained](/VectorLM%203.3%20Primitives%20Explained.md) – Extended explanations of primitive families.  
+- [Primitives Explained](/VectorLM%20v3.3%20Primitives%20Explained.md) – Extended explanations of primitive families.  
 
 ---
 

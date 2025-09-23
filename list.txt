@@ -1,0 +1,28 @@
+ Volume in drive C is Windows
+ Volume Serial Number is AA1A-D014
+
+ Directory of C:\Users\robin\OneDrive\Documents\GitHub\VectorLM
+
+23/09/2025  12:32    <DIR>          .
+22/09/2025  14:37    <DIR>          ..
+26/08/2025  17:43    <DIR>          Archived  Discarded
+23/09/2025  12:32                 0 list.txt
+26/08/2025  17:49    <DIR>          Miscellaneous
+22/09/2025  19:38    <DIR>          Previous Versions
+23/09/2025  11:40           241,418 readme.md
+22/09/2025  20:10    <DIR>          Temporary Files
+23/09/2025  12:11             4,406 VectorLM v3.3 Advanced Reasoning Guide.md
+23/09/2025  12:08             5,063 VectorLM v3.3 Ethics Safety Guide.md
+23/09/2025  12:14             5,541 VectorLM v3.3 Evaluation and Testing Guide.md
+23/09/2025  11:51            11,771 VectorLM v3.3 Getting Started.md
+23/09/2025  12:27            10,474 VectorLM v3.3 Primitive Selection DevelopmentGuide.md
+22/09/2025  19:38            50,661 VectorLM v3.3 Primitives.md
+23/09/2025  11:51             4,424 VectorLM v3.3 Prompt Template.md
+23/09/2025  11:40           241,418 VectorLM v3.3 Readme.md
+23/09/2025  12:01             7,763 VectorLM v3.3 RM Implementation Guide.md
+23/09/2025  12:05             6,132 VectorLM v3.3 Swarm Guide.md
+23/09/2025  12:20             7,130 VectorLM v3.3 VCF Development Guide.md
+26/08/2025  14:34             5,078 VectorLM-Intro.md
+14/09/2025  18:25    <DIR>          VectorMon
+              14 File(s)        601,279 bytes
+               7 Dir(s)  232,698,834,944 bytes free

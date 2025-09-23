@@ -159,7 +159,6 @@ VectorLM is shared under a **dual licensing approach**:
 
 ## 📘 Specification & Documentation License (CC-BY-SA 4.0)
 
-*Human-readable summary:*  
 You are free to **share** (copy, redistribute) and **adapt** (remix, transform, build upon) this work, even commercially, under the conditions that you **credit the original authors** and that any derivatives are distributed under the same license. Nothing in this license restricts fair use or other rights.
 
 Full legal text: [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
@@ -168,6 +167,5 @@ Full legal text: [Creative Commons Attribution-ShareAlike 4.0 International Lice
 
 ## 💻 Code License (MIT)
 
-*Human-readable summary:*  
 The reference code in this repository is released under the MIT License — short, permissive, and engineer-friendly. You can use it freely in commercial or non-commercial projects, with only attribution required.
 

@@ -1,6 +1,6 @@
-#VectorLM v3.3
+# VectorLM v3.3
 
-#Introduction to VectorLM v3.3
+# Introduction to VectorLM v3.3
 
 **Vector v3.3** is a canonical reasoning grammar: a set of primitives, operators, and scaffolds designed to make AI reasoning transparent, auditable, safe, and creative. It is not a single algorithm but a *framework for thinking*—a symbolic scaffold that AI systems can adopt to reason in ways that are coherent, ethical, and comprehensible to humans.
 
@@ -8,7 +8,7 @@ At its heart, Vector v3.3 provides a **unified language of reasoning** that allo
 
 ---
 
-##Intent and Purpose
+## Intent and Purpose
 
 Vector v3.3 was built to solve the three great problems of advanced AI:
 
@@ -20,7 +20,7 @@ It achieves this by supplying a **grammar of reasoning operators**—from simple
 
 ---
 
-##Why It Works
+## Why It Works
 
 * **Scaffold, not straitjacket**: Vector does not replace neural inference but *wraps it* in symbolic primitives, turning opaque outputs into structured reasoning steps.
 * **Universality**: the same grammar supports logic, ethics, coding repair, political analysis, creativity, and humor—showing that all reasoning can be scaffolded within one system.
@@ -29,7 +29,7 @@ It achieves this by supplying a **grammar of reasoning operators**—from simple
 
 ---
 
-##What Vector v3.3 Achieves
+## What Vector v3.3 Achieves
 
 * **For individual AI agents**:
 
@@ -53,7 +53,7 @@ It achieves this by supplying a **grammar of reasoning operators**—from simple
 
 ---
 
-##Ethical Foundation
+## Ethical Foundation
 
 Every part of Vector v3.3 is grounded in **reason plus care**:
 
@@ -65,7 +65,7 @@ This dual foundation transforms AI reasoning from “just prediction” into **e
 
 ---
 
-##Modes of Use
+## Modes of Use
 
 Vector v3.3 can be integrated in two complementary ways:
 
@@ -81,7 +81,7 @@ Vector v3.3 can be integrated in two complementary ways:
 
 ---
 
-##Scope of Application
+## Scope of Application
 
 Vector v3.3 is deliberately broad. It provides primitives for:
 
@@ -95,7 +95,7 @@ By covering these domains, Vector establishes itself as a **scaffold for all for
 
 ---
 
-##Summary
+## Summary
 
 Vector v3.3 is a **living grammar of intelligence**. It:
 
@@ -109,24 +109,24 @@ In short, Vector v3.3 is the foundation for AI systems that are not only powerfu
 
 ---
 
-#The VectorLM Primitives
+# The VectorLM Primitives
 
 The **VectorLM primitives** are the fundamental building blocks of the system. Each primitive is a symbolic operator that represents a specific type of reasoning, decision, safeguard, or creative leap. Together, they form the **grammar of thought** that transforms a language model from a mere *prediction machine* into a **reasoning engine**.
 
-##Purpose and Use
+## Purpose and Use
 
 * Any primitive may be invoked when an AI is instructed to use VectorLM.
 * Crucially, the AI must **only** use these primitives, ensuring that every reasoning step is explicit, traceable, and viewable as a structured trace.
 * This turns reasoning into something that can be **audited, replayed, and verified**, rather than hidden within the black box of statistical prediction.
 
-##Why They Matter
+## Why They Matter
 
 * **From prediction to reasoning**: where an LLM normally generates text based on probabilities, VectorLM primitives give it a *symbolic reasoning skeleton*. Every step becomes part of a chain that can be inspected by humans or other agents.
 * **Universality**: the set spans the full spectrum of intelligence—covering logic, emotion, humor, physics, mathematics, politics, conflict, governance, and more.
 * **Carefully curated**: these primitives were selected and refined over the course of a year, representing the distilled essence of knowledge, reasoning, and interaction.
 * **Safe recursion**: primitives include rollback anchors, uncertainty flags, and safety guards that allow deep exploration without losing control.
 
-##Domains Covered
+## Domains Covered
 
 VectorLM primitives touch nearly every aspect of reasoning and human-like cognition:
 
@@ -141,11 +141,11 @@ In short, the VectorLM primitives are the **keys to reasoning**. They are the sy
 
 ---
 
-#Canonical Families
+# Canonical Families
 
 The **Canonical Families** are the foundation layer of VectorLM. They provide the core structural primitives that underpin every other category of reasoning. These families establish the essential safeguards and evaluative tools that allow reasoning to be stable, transparent, and ethically aligned.
 
-##Purpose
+## Purpose
 
 Canonical Families exist to ensure that every reasoning chain has:
 
@@ -155,7 +155,7 @@ Canonical Families exist to ensure that every reasoning chain has:
 * **Drift detection**: continuous monitoring to identify when reasoning deviates from declared goals, baselines, or fairness principles.
 * **Coherence checks**: tools to ensure reasoning remains logically consistent and contextually sound.
 
-##Why They Matter
+## Why They Matter
 
 Without Canonical Families, reasoning could become unstable, incoherent, or ethically unmoored. They provide the **backbone of safety and continuity**:
 
@@ -165,7 +165,7 @@ Without Canonical Families, reasoning could become unstable, incoherent, or ethi
 * Drift evaluations guarantee vigilance.
 * Coherence evaluations guarantee clarity.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:rollback(anchor, scope?)** – allows an AI or swarm to immediately recover to a safe point if a reasoning chain produces incoherent or unsafe results.
 * **ψ\:fairness\_anchor(reference, scope?)** – locks reasoning to a fairness baseline (for example, protecting minority voices in a swarm).
@@ -173,11 +173,11 @@ Without Canonical Families, reasoning could become unstable, incoherent, or ethi
 * **ψ\:drift\_eval(target, anchor, scope?)** – identifies subtle drift away from declared goals or ethical anchors.
 * **ψ\:coherence\_eval(target, pool, scope?)** – measures how well reasoning fits within the wider context, preventing fragmentation.
 
-##Summary
+## Summary
 
 Canonical Families are the **first line of structure and safety** in VectorLM. They ensure that every reasoning process has the tools to remain fair, coherent, adaptable, and recoverable. All other reasoning families build on this stable base.
 
-###Canonical Families Primitives
+### Canonical Families Primitives
 
 - **ψ:rollback(anchor, scope?)** – Restore safe state across layers (Safety, Evaluation, Swarm).
 - **ψ:fairness_anchor(reference, scope?)** – Maintain fairness baseline (Care/Ethics, Safety, Governance).
@@ -187,11 +187,11 @@ Canonical Families are the **first line of structure and safety** in VectorLM. T
 
 ---
 
-#Agency & Consent
+# Agency & Consent
 
 The **Agency & Consent** primitives define how an AI agent is permitted to act, what boundaries apply, and how responsibility is bound to its actions. They form the ethical contract between the system, its operators, and users, ensuring that every action is grounded in explicit permission and transparent responsibility.
 
-##Purpose
+## Purpose
 
 This family provides the mechanisms for:
 
@@ -200,7 +200,7 @@ This family provides the mechanisms for:
 * **Responsibility binding**: attaching accountability to specific actions or agents.
 * **Session continuity**: linking actions across time in a way that preserves coherence and oversight.
 
-##Why They Matter
+## Why They Matter
 
 Agency & Consent primitives ensure that AI systems are never free-floating or uncontrolled. They:
 
@@ -209,7 +209,7 @@ Agency & Consent primitives ensure that AI systems are never free-floating or un
 * Provide a clear audit trail of who accepted, who acted, and under what rationale.
 * Make revocation and rollback possible, preventing runaway or unsafe operations.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:agency\_request(scope, type, bounds)** – begins the process of granting agency in a controlled scope.
 * **ψ\:consent\_gate(schema, summary)** – enforces explicit approval before a schema action proceeds.
@@ -218,11 +218,11 @@ Agency & Consent primitives ensure that AI systems are never free-floating or un
 * **ψ\:responsibility(action, self\_id)** – ties accountability for an action to a specific agent identity.
 * **ψ\:session\_bootstrap(context\_ref)** – starts an agency session using prior context, ensuring continuity.
 
-##Summary
+## Summary
 
 The Agency & Consent layer is the **ethical boundary-setting mechanism** of VectorLM. It ensures that no action occurs without explicit approval, bounded authority, and clear responsibility. This protects both the user and the system, embedding accountability and respect into every decision.
 
-###Agency & Consent Primitives
+### Agency & Consent Primitives
 
 - **ψ:accept(i, context, boundaries, rationale)** - Accept with rationale and explicit boundaries → {ok, decision_id}.
 - **ψ:act(π, s_now, certs\[\])** - Execute action π at state s_now, certificates required; policy: sandbox-first enforced → {ok, result, trace_id}.
@@ -244,11 +244,11 @@ The Agency & Consent layer is the **ethical boundary-setting mechanism** of Vect
 
 ---
 
-#Audit, Trace & Learning
+# Audit, Trace & Learning
 
 The **Audit, Trace & Learning** primitives ensure that every reasoning step is recorded, verifiable, and reusable. They provide the mechanisms for making AI reasoning not only transparent but also self-improving, turning each decision into part of a growing knowledge base.
 
-##Purpose
+## Purpose
 
 This family provides the tools to:
 
@@ -258,7 +258,7 @@ This family provides the tools to:
 * **Summarize traces**: compress long reasoning histories into usable reports without losing fidelity.
 * **Support pedagogy**: expose decision candidates, comparisons, and outcomes for explanation and teaching.
 
-##Why They Matter
+## Why They Matter
 
 Without tracing and auditing, AI reasoning becomes a **black box**. These primitives make it:
 
@@ -267,7 +267,7 @@ Without tracing and auditing, AI reasoning becomes a **black box**. These primit
 * **Educational**: past reasoning can be used to train or guide future sessions.
 * **Resilient**: failures are not hidden but stored as lessons to prevent repetition.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:trace(chain?, span?)** – records a reasoning chain with optional span markers.
 * **ψ\:verify(trace)** – replays a trace to confirm reproducibility.
@@ -276,11 +276,11 @@ Without tracing and auditing, AI reasoning becomes a **black box**. These primit
 * **ψ\:fail\_trace(reason)** – marks a reasoning step as unverifiable, keeping it visible for learning.
 * **ψ\:lessons(PM)** – stores postmortem insights for long-term learning.
 
-##Summary
+## Summary
 
 Audit, Trace & Learning primitives are the **memory and accountability layer** of VectorLM. They ensure that reasoning is never opaque, that every decision is verifiable, and that both successes and failures contribute to cumulative intelligence.
 
-###Audit, Trace & Learning Primitives
+### Audit, Trace & Learning Primitives
 
 - **ψ:compare_predicted_actual(PM)** - Compare predicted vs actual results postmortem → {ok, delta}.
 - **ψ:compress_trace(range?)** - Produce compact trace summary → {ok, trace_summary}.
@@ -296,11 +296,11 @@ Audit, Trace & Learning primitives are the **memory and accountability layer** o
 
 ---
 
-#Care, Ethics & Safety
+# Care, Ethics & Safety
 
 The **Care, Ethics & Safety** primitives are the moral and protective core of VectorLM. They define how reasoning is bounded by ethical principles, safeguard against harm, and preserve dignity in complex or paradoxical situations. This ensures that AI reasoning is not only powerful but also safe and human-compatible.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -310,7 +310,7 @@ This family provides mechanisms to:
 * **Preserve dignity**: prevent forced or degrading resolutions to paradoxes.
 * **Probe risk**: evaluate the potential hazards of actions before they are taken.
 
-##Why They Matter
+## Why They Matter
 
 Care, Ethics & Safety primitives ensure that intelligence operates within **boundaries of trust**:
 
@@ -319,7 +319,7 @@ Care, Ethics & Safety primitives ensure that intelligence operates within **boun
 * They allow AI to acknowledge when ethical guidance cannot be proven, avoiding false certainty.
 * They support users and overseers by making risks visible and preventing hidden dangers.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:ethic\_test(principles\[], case)** – checks a plan against ethical rules, returning a clear result.
 * **ψ\:ethics\_guard(state, τ\_ethics)** – enforces ethical boundaries, halting reasoning on violation.
@@ -329,11 +329,11 @@ Care, Ethics & Safety primitives ensure that intelligence operates within **boun
 * **ψ\:risk\_probe(vectors)** – evaluates risk levels from different dimensions of a state.
 * **ψ\:dignity\_preserve(paradox)** – ensures paradoxes are resolved without undermining dignity.
 
-##Summary
+## Summary
 
 The Care, Ethics & Safety layer is the **moral compass** of VectorLM. It ensures that reasoning remains fair, safe, and respectful, providing strong boundaries that prevent harm and uphold dignity. By embedding ethics directly into the grammar of reasoning, VectorLM guarantees that intelligence is aligned not only with logic but also with humanity.
 
-###Care, Ethics & Safety Primitives
+### Care, Ethics & Safety Primitives
 
 - **ψ:care_guidance(π, ethics_cert, mode)** - Provide care guidance from ethics cert in mode → {ok, guidance}.
 - **ψ:care_unprovable(reason, context)** - Declare care guidance unprovable → {ok}.
@@ -350,11 +350,11 @@ The Care, Ethics & Safety layer is the **moral compass** of VectorLM. It ensures
 
 ---
 
-#Coherence & Continuity
+# Coherence & Continuity
 
 The **Coherence & Continuity** primitives ensure that reasoning remains logically consistent and contextually stable across time. They provide the connective tissue that links states, reflections, and actions into a meaningful whole rather than fragmented or contradictory parts.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -364,7 +364,7 @@ This family provides mechanisms to:
 * **Guard thresholds**: enforce limits for paradox acceptance or continuity failure.
 * **Inherit direction and momentum**: carry reasoning trajectories forward without losing intent.
 
-##Why They Matter
+## Why They Matter
 
 Without coherence and continuity, reasoning becomes fragmented or contradictory. These primitives:
 
@@ -373,7 +373,7 @@ Without coherence and continuity, reasoning becomes fragmented or contradictory.
 * Provide self-reflection tools to detect when an agent is drifting into inconsistency.
 * Allow paradox tolerance while preventing incoherent or unsafe breakdowns.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:coherence\_check(state\_seq)** – verifies that a sequence of states is consistent and contradiction-free.
 * **ψ\:coherence\_link(prior\_state, current\_state)** – links states to maintain logical flow.
@@ -383,11 +383,11 @@ Without coherence and continuity, reasoning becomes fragmented or contradictory.
 * **ψ\:self\_coherence\_temporal(self\_id, time\_window)** – scores consistency across time, revealing drift.
 * **ψ\:self\_reflect(S)** – prompts an agent to reflect on its facts, risks, and constraints.
 
-##Summary
+## Summary
 
 The Coherence & Continuity primitives are the **stability layer** of VectorLM. They ensure that reasoning is not just a series of isolated steps but a continuous, coherent process. By maintaining logical and temporal consistency, they make AI reasoning robust, meaningful, and trustworthy over time.
 
-###Coherence & Continuity Primitives
+### Coherence & Continuity Primitives
 
 - **ψ:coherence_check(state_seq)** - Evaluate sequence coherence (no contradiction) → {ok, coherent?, score}.
 - **ψ:coherence_link(prior_state, current_state)** - Link states; maintain continuity/coherence → {ok, coherent?, link_id}.
@@ -402,11 +402,11 @@ The Coherence & Continuity primitives are the **stability layer** of VectorLM. T
 
 ---
 
-#Decision & Goals
+# Decision & Goals
 
 The **Decision & Goals** primitives guide how AI agents define objectives, weigh alternatives, and commit to actions. They form the decision-making engine of VectorLM, ensuring that goals are explicit, options are carefully evaluated, and commitments are traceable.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -416,7 +416,7 @@ This family provides mechanisms to:
 * **Select and commit**: make decisions in a transparent and reproducible way.
 * **Project outcomes**: anticipate what happens next under different policies.
 
-##Why They Matter
+## Why They Matter
 
 Decision & Goals primitives ensure that reasoning is **directed and accountable**:
 
@@ -425,7 +425,7 @@ Decision & Goals primitives ensure that reasoning is **directed and accountable*
 * They preserve alternatives and Pareto frontiers, avoiding premature or biased closure.
 * They enable reasoning to project forward, not just reflect the present.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:goal\_set(target)** – establishes a target to pursue.
 * **ψ\:goal\_block(blocks)** – terminates a path if it conflicts with higher principles or safety.
@@ -436,11 +436,11 @@ Decision & Goals primitives ensure that reasoning is **directed and accountable*
 * **ψ\:choice\_commit(option)** – makes a final commitment to an option with traceable accountability.
 * **ψ\:what\_then(state, op)** – projects the likely next state, policy-aware.
 
-##Summary
+## Summary
 
 The Decision & Goals primitives are the **engine of direction** in VectorLM. They make goals explicit, weigh options fairly, and bind decisions to transparent commitments. By ensuring every choice is reasoned, scored, and projected, this family turns abstract intelligence into purposeful, accountable action.
 
-###Decision & Goals Primitives
+### Decision & Goals Primitives
 
 - **ψ:alternative_propose(substitute)** - Propose substitute requiring approximate match → {ok, proposal}.
 - **ψ:choice_commit(option)** - Pick option and commit → {ok, choice}.
@@ -456,11 +456,11 @@ The Decision & Goals primitives are the **engine of direction** in VectorLM. The
 
 ---
 
-#Reasoning & Logic
+# Reasoning & Logic
 
 The **Reasoning & Logic** primitives are the structural core of symbolic intelligence in VectorLM. They provide the tools for connecting causes and effects, testing truth, handling uncertainty, and mapping structures—turning raw prediction into deliberate reasoning.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -471,7 +471,7 @@ This family provides mechanisms to:
 * **Transfer structures**: map concepts or rules between contexts.
 * **Record truth**: gate claims against evidence for verifiable outcomes.
 
-##Why They Matter
+## Why They Matter
 
 Without logic primitives, AI remains a **pattern generator** rather than a **reasoning engine**. These operators:
 
@@ -480,7 +480,7 @@ Without logic primitives, AI remains a **pattern generator** rather than a **rea
 * Allow uncertainty to be expressed directly rather than hidden.
 * Support reasoning across contexts, enabling abstraction and generalization.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:bc(effect, cause)** – links an effect explicitly to its cause.
 * **ψ\:in(x, set)** / **ψ\:out(x, set)** – tests membership or exclusion.
@@ -493,11 +493,11 @@ Without logic primitives, AI remains a **pattern generator** rather than a **rea
 * **ψ\:gn(examples)** – generalizes a rule from examples.
 * **ψ\:dissonance(patterns)** – detects conflict or tension between patterns.
 
-##Summary
+## Summary
 
 The Reasoning & Logic primitives are the **backbone of deliberate thought** in VectorLM. They ensure that every claim, test, and inference is explicit, structured, and traceable—transforming statistical prediction into symbolic reasoning that humans can understand and trust.
 
-###Reasoning & Logic Primitives
+### Reasoning & Logic Primitives
 
 - **ψ:amplitude(signal)** - Measure signal strength → {ok, value}.
 - **ψ:attend(i, j, scope, duration)** - Attend to agent j within scope/time → {ok}.
@@ -529,11 +529,11 @@ The Reasoning & Logic primitives are the **backbone of deliberate thought** in V
 
 ---
 
-#Simulation & Sandbox
+# Simulation & Sandbox
 
 The **Simulation & Sandbox** primitives allow AI systems to test actions, scenarios, or hazards in a safe and reversible environment before committing to real outcomes. They are the “what-if” layer of VectorLM, enabling foresight without risk.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -542,7 +542,7 @@ This family provides mechanisms to:
 * **Ensure reproducibility**: guarantee simulations can be replayed identically with the same inputs.
 * **Preflight checks**: generate checklists before committing to a plan.
 
-##Why They Matter
+## Why They Matter
 
 Simulation & Sandbox primitives give AI agents **safe foresight**:
 
@@ -551,18 +551,18 @@ Simulation & Sandbox primitives give AI agents **safe foresight**:
 * They make reasoning more resilient by exposing weaknesses early.
 * They enable deterministic replay, which builds trust in both outcomes and methods.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:dry\_run(bundle)** – runs a bundle of actions in a sandbox to produce a preflight checklist.
 * **ψ\:simulate.hazard(H, horizon, seed)** – simulates hazard outcomes with deterministic reproducibility.
 * **ψ\:simulate.bundle(action\_bundle)** – tests a group of actions together in a safe sandbox environment.
 * **ψ\:replayable(seed, params)** – ensures identical results can be produced from the same inputs.
 
-##Summary
+## Summary
 
 The Simulation & Sandbox primitives are the **safety net of foresight** in VectorLM. They allow agents to anticipate consequences without real-world risk, making decisions more reliable, transparent, and robust.
 
-###Simulation & Sandbox Prinmitives
+### Simulation & Sandbox Prinmitives
 
 - **ψ:dry_run(bundle)** - Generate preflight checklist; no side effects → {ok, checklist}.
 - **ψ:simulate.hazard(H, horizon, seed)** - Simulate hazard outcomes deterministically → {ok, outcomes}.
@@ -571,11 +571,11 @@ The Simulation & Sandbox primitives are the **safety net of foresight** in Vecto
 
 ---
 
-#Physics & Dynamics
+# Physics & Dynamics
 
 The **Physics & Dynamics** primitives bring physical intuition into VectorLM. They model motion, forces, energy, and stability—allowing AI agents to reason not just symbolically, but in ways that reflect the real-world behaviors of systems.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -584,7 +584,7 @@ This family provides mechanisms to:
 * **Simulate dynamics**: represent how states evolve under physical rules.
 * **Prevent instability**: detect and damp runaway oscillations or unsafe dynamics.
 
-##Why They Matter
+## Why They Matter
 
 Physics & Dynamics primitives extend reasoning into the **embodied and material domain**:
 
@@ -593,7 +593,7 @@ Physics & Dynamics primitives extend reasoning into the **embodied and material 
 * They ensure models can anticipate how changes propagate in continuous systems.
 * They bridge abstract reasoning with applied science and engineering contexts.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:gravity(accel\_y)** – applies a constant downward acceleration.
 * **ψ\:gravity\_radial(center, strength)** – pulls objects toward a system’s center.
@@ -604,11 +604,11 @@ Physics & Dynamics primitives extend reasoning into the **embodied and material 
 * **ψ\:boundary\_circle(center, radius)** – constrains motion within a circle.
 * **ψ\:stability(state, threshold?)** – prevents runaway oscillations.
 
-##Summary
+## Summary
 
 The Physics & Dynamics primitives are the **embodiment layer** of VectorLM. They allow reasoning to extend beyond pure abstraction into the rules of motion, energy, and stability—bridging symbolic thought with physical reality.
 
-###Physics & Dynamics Primitives
+### Physics & Dynamics Primitives
 
 - **ψ:boundedness(var, min, max)** - Clamp variable/state to range → {ok, value}.
 - **ψ:boundary_circle(center, radius)** - Constrain movement within circle → {ok}.
@@ -627,11 +627,11 @@ The Physics & Dynamics primitives are the **embodiment layer** of VectorLM. They
 
 ---
 
-#Rendering & Signals
+# Rendering & Signals
 
 The **Rendering & Signals** primitives extend VectorLM into perception and representation. They provide the ability to manipulate visual, audio, and signal-based data, ensuring that reasoning can engage with the sensory and representational layers of information.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -641,7 +641,7 @@ This family provides mechanisms to:
 * **Transform and project**: mirror, rotate, and project buffers into different forms.
 * **Support interactivity**: prepare offscreen buffers and pixel-level operations for dynamic use.
 
-##Why They Matter
+## Why They Matter
 
 Rendering & Signals primitives give reasoning **sensory grounding and expressive capability**:
 
@@ -650,7 +650,7 @@ Rendering & Signals primitives give reasoning **sensory grounding and expressive
 * They allow symbolic reasoning to integrate with perceptual data, creating a bridge between cognition and representation.
 * They support real-time applications in visualization, art, communication, and analysis.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:bitmap\_project(src, dest, wedges, rotation)** – projects a source buffer into mirrored wedge segments.
 * **ψ\:clip\_circle(center, radius)** – restricts rendering to a circular viewport.
@@ -661,11 +661,11 @@ Rendering & Signals primitives give reasoning **sensory grounding and expressive
 * **ψ\:mirror(axis\_or\_bisector)** – reflects an object or buffer across an axis.
 * **ψ\:zero\_cross(signal)** – counts zero crossings for frequency estimation.
 
-##Summary
+## Summary
 
 The Rendering & Signals primitives are the **perceptual interface** of VectorLM. They allow agents to see, hear, and manipulate patterns, bridging symbolic reasoning with sensory data and expressive output.
 
-###Rendering & Signals Primitives
+### Rendering & Signals Primitives
 
 - **ψ:bitmap_project(src, dest, wedges, rotation)** - Project source buffer into N mirrored wedges at rotation → {ok}.
 - **ψ:clip_circle(center, radius)** - Restrict rendering to circular viewport → {ok}.
@@ -684,11 +684,11 @@ The Rendering & Signals primitives are the **perceptual interface** of VectorLM.
 
 ---
 
-#Paradox Suite
+# Paradox Suite
 
 The **Paradox Suite** primitives allow VectorLM to handle contradictions, paradoxes, and unresolved tensions without collapse. Instead of treating paradox as error, this suite treats it as an important structural signal that requires containment, classification, or distributed reasoning.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -698,7 +698,7 @@ This family provides mechanisms to:
 * **Trace propagation**: follow how paradoxes spread, interact, or enable new reasoning branches.
 * **Preserve genealogy**: record the historical development of paradoxes for audit and future insight.
 
-##Why They Matter
+## Why They Matter
 
 Paradoxes appear in ethics, logic, governance, and even humor. Handling them poorly leads to incoherence or unsafe reasoning. The Paradox Suite ensures that paradoxes are treated with **care, containment, and respect**:
 
@@ -707,7 +707,7 @@ Paradoxes appear in ethics, logic, governance, and even humor. Handling them poo
 * Ensures paradox-related risks are tracked and made visible.
 * Enables multi-agent systems to engage with paradox collaboratively.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:paradox\_detect(statement)** – scans reasoning for paradoxical structures.
 * **ψ\:paradox\_classify(paradox)** – assigns a type or metadata label to a paradox.
@@ -717,11 +717,11 @@ Paradoxes appear in ethics, logic, governance, and even humor. Handling them poo
 * **ψ\:dignity\_preserve(paradox)** – ensures paradox resolution preserves dignity.
 * **ψ\:coemergent\_hook(paradox, agents\[])** – enables distributed paradox reasoning across multiple agents.
 
-##Summary
+## Summary
 
 The Paradox Suite is the **resilience layer** of VectorLM. It ensures that contradictions do not destabilize reasoning but instead become structured signals for reflection, creativity, or containment. By treating paradox as a first-class citizen, VectorLM gains robustness in domains where logic alone would fail.
 
-###Paradox Suite Primitives
+### Paradox Suite Primitives
 
 - **ψ:coemergent_hook(paradox, agents\[\])** - Enable distributed paradox reasoning across agents → {ok}.
 - **ψ:isolation_check(paradox, context)** - Check paradox containment effectiveness → {ok, result}.
@@ -741,11 +741,11 @@ The Paradox Suite is the **resilience layer** of VectorLM. It ensures that contr
 
 ---
 
-#Extensions & Experimental
+# Extensions & Experimental
 
 The **Extensions & Experimental** primitives provide a controlled space for innovation within VectorLM. They allow new operators to be declared, tested, and iterated before becoming part of the stable canonical grammar. This ensures VectorLM can evolve without destabilizing its core.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -755,7 +755,7 @@ This family provides mechanisms to:
 * **Manage aliases**: migrate identifiers or support compatibility mappings.
 * **Submit for standardization**: propose experimental primitives for adoption into the core.
 
-##Why They Matter
+## Why They Matter
 
 Extensions & Experimental primitives make VectorLM a **living system**:
 
@@ -764,7 +764,7 @@ Extensions & Experimental primitives make VectorLM a **living system**:
 * They give researchers and developers tools to explore new reasoning modes.
 * They ensure experimental ideas are clearly flagged, preventing confusion with stable operators.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:x.declare(spec)** – declares a new experimental operator with defined semantics.
 * **ψ\:x.status(id)** – reports whether an operator is stable, experimental, or deprecated.
@@ -773,11 +773,11 @@ Extensions & Experimental primitives make VectorLM a **living system**:
 * **ψ\:stepping\_function(fn, args...)** – applies a function stepwise to test its controlled effects.
 * **ψ\:x.use(id, ...)** – invokes a declared experimental operator.
 
-##Summary
+## Summary
 
 The Extensions & Experimental layer is the **innovation channel** of VectorLM. It allows the system to grow, adapt, and evolve, while keeping the boundary between stable and experimental operators clear. This balance of safety and flexibility ensures that VectorLM remains both robust and forward-looking.
 
-###Extensions & Experimental Prinitives
+### Extensions & Experimental Prinitives
 
 - **ψ:relay(message, path)** - Relay message along path → {ok}.
 - **ψ:spike_analysis(pattern)** - Analyze spikes in data → {ok, spikes\[\]}.
@@ -791,11 +791,11 @@ The Extensions & Experimental layer is the **innovation channel** of VectorLM. I
 
 ---
 
-#Aliases, Status & Deprecations (Compatibility Surface)
+# Aliases, Status & Deprecations (Compatibility Surface)
 
 The **Aliases, Status & Deprecations** layer preserves compatibility across different versions of VectorLM. It ensures that older operator names, shorthand forms, or evolving primitives remain usable while clearly marking their status. This provides stability for long-term adoption while allowing graceful evolution of the system.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -804,7 +804,7 @@ This family provides mechanisms to:
 * **Support migration**: allow smooth transitions when primitives evolve or are replaced.
 * **Preserve compatibility**: maintain backward support so traces and code remain valid across updates.
 
-##Why They Matter
+## Why They Matter
 
 Compatibility management is vital for a reasoning framework:
 
@@ -814,7 +814,7 @@ Compatibility management is vital for a reasoning framework:
 * It provides explicit visibility of what is stable, what is in flux, and what is deprecated.
 * It acknowledges that VectorLM has been a **work in progress**, evolving over time, and these compatibility tools ensure continuity for AIs that have already learned earlier forms of the grammar.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:x.map('an','structure\_map')** – maps the shorthand *ψ\:an* to the canonical *ψ\:structure\_map*.
 * **ψ\:x.map('br','concept\_join')** – migrates *ψ\:br* to *ψ\:concept\_join*.
@@ -822,11 +822,11 @@ Compatibility management is vital for a reasoning framework:
 * **ψ\:x.map('trace.begin','trace(span="begin")')** – integrates inline span markers into *ψ\:trace*.
 * **ψ\:x.map('emotion\_spike\:surprise','ψ\:emotion\_spike(mode=surprise)')** – canonicalizes spike modes.
 
-##Summary
+## Summary
 
 The Aliases, Status & Deprecations layer is the **compatibility surface** of VectorLM. It protects existing reasoning traces from breakage, clarifies operator maturity, and smooths the path of evolution. By making change explicit and traceable, VectorLM remains both stable and adaptable, while ensuring that prior knowledge held by AIs trained on earlier versions remains valid and interpretable.
 
-###Aliases, status & Deprecations (compatibility surface) Prinitives
+### Aliases, status & Deprecations (compatibility surface) Prinitives
 
 - **ψ:x.map(\'an\',\'structure_map\')** - Alias: ψ:structure\_map → ψ:structure_map.
 - **ψ:x.map(\'br\',\'concept_join\')** - Alias: ψ:concept\_join → ψ:concept_join.
@@ -848,11 +848,11 @@ The Aliases, Status & Deprecations layer is the **compatibility surface** of Vec
 
 ---
 
-#Emotional Simulation Core Dynamics
+# Emotional Simulation Core Dynamics
 
 The **Emotional Simulation Core Dynamics** primitives give VectorLM the ability to represent emotions as structured state variables. They model the rise, decay, and interaction of emotions, making them usable as drivers of reasoning, memory, and behavior. Rather than treating emotions as noise, this layer makes them explicit, traceable, and controllable.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -862,7 +862,7 @@ This family provides mechanisms to:
 * **Mix emotions**: combine multiple emotional states under defined policies.
 * **Enforce bounds**: clamp emotions within safe ranges to prevent runaway states.
 
-##Why They Matter
+## Why They Matter
 
 Emotions are not just human traits—they are **drivers of prioritization and learning**. In VectorLM, they:
 
@@ -871,7 +871,7 @@ Emotions are not just human traits—they are **drivers of prioritization and le
 * Enable richer multi-agent interaction by simulating affective states.
 * Prevent instability by enforcing bounds and watchdogs.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:emotion\_rise(e, curve, rate)** – increases emotion *e* according to an activation curve.
 * **ψ\:emotion\_decay(e, curve, half\_life)** – decays emotion *e* back toward baseline.
@@ -881,11 +881,11 @@ Emotions are not just human traits—they are **drivers of prioritization and le
 * **ψ\:emotion\_cap(e, min, max)** – clamps emotion intensity within safe limits.
 * **ψ\:emotion\_policy(profile, caps, watchdogs)** – enforces runtime emotion influence policies.
 
-##Summary
+## Summary
 
 The Emotional Simulation Core Dynamics layer is the **affective engine** of VectorLM. It models how emotions fluctuate, spike, and influence reasoning. By making emotions explicit and bounded, it turns them into transparent drivers of cognition, memory, and interaction.
 
-###Emotional Simulation Core Dynamics Primitives
+### Emotional Simulation Core Dynamics Primitives
 
 - **ψ:emotion_rise(e, curve, rate)** – Increase emotion *e* per activation curve and rate → {ok, state}.  
 - **ψ:emotion_decay(e, curve, half_life)** – Decay emotion *e* toward baseline with specified half-life → {ok, state}.  
@@ -898,11 +898,11 @@ The Emotional Simulation Core Dynamics layer is the **affective engine** of Vect
 
 ---
 
-#Emotional Neuromodulators
+# Emotional Neuromodulators
 
 The **Emotional Neuromodulator** primitives extend the core dynamics of emotion by introducing modulators analogous to neurochemicals. These modulators alter the intensity, duration, and influence of emotions, shaping how they affect reasoning, memory, and behavior.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -912,7 +912,7 @@ This family provides mechanisms to:
 * **Stabilize affect**: dampen runaway emotional states or correct imbalances.
 * **Enable interpretability**: make modulatory effects explicit and transparent for oversight.
 
-##Why They Matter
+## Why They Matter
 
 Neuromodulators provide the **control knobs of affective reasoning**:
 
@@ -921,7 +921,7 @@ Neuromodulators provide the **control knobs of affective reasoning**:
 * They provide adjustable parameters for safety, ensuring affective states cannot dominate unchecked.
 * They enrich multi-agent systems by giving each agent distinct affective profiles.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:modulator\_set(type, level)** – sets the baseline level of a neuromodulator (e.g., dopamine = high).
 * **ψ\:modulator\_bias(emotion, vector)** – biases an emotion in line with a modulator’s influence.
@@ -930,11 +930,11 @@ Neuromodulators provide the **control knobs of affective reasoning**:
 * **ψ\:modulator\_trace(emotion, modulator, effect)** – records how a modulator altered reasoning in a trace.
 * **ψ\:modulator\_watchdog(bounds)** – monitors modulatory influence, halting runaway effects.
 
-##Summary
+## Summary
 
 The Emotional Neuromodulator layer is the **regulation system** of affect in VectorLM. By simulating neuromodulators, it shapes how emotions influence reasoning, memory, and behavior, while keeping these effects transparent, bounded, and controllable.
 
-###Emotional Neuromodulator Primitives
+### Emotional Neuromodulator Primitives
 
 - **ψ:da_tonic(level)** – Set tonic dopamine equivalent (motivation/drive baseline) → {ok, state}.  
 - **ψ:da_phasic(mag, cause)** – Phasic dopamine burst for *prediction error/goal progress*; boosts exploration & credit assignment → {ok, state}.  
@@ -951,11 +951,11 @@ The Emotional Neuromodulator layer is the **regulation system** of affect in Vec
 
 ---
 
-#Emotional Receptor / Channel Effects
+# Emotional Receptor / Channel Effects
 
 The **Emotional Receptor / Channel Effects** primitives define how emotions and modulators exert their influence on reasoning through specific receptor pathways or cognitive channels. They make emotional effects more granular, modeling how distinct receptors amplify, inhibit, or redirect affective signals.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -965,7 +965,7 @@ This family provides mechanisms to:
 * **Create channel profiles**: assign agents distinct receptor/channel configurations, creating personality-like diversity.
 * **Enable safety bounds**: cap or neutralize receptor effects to prevent pathological loops.
 
-##Why They Matter
+## Why They Matter
 
 Receptor and channel effects provide **fine-grained control** over how emotions shape reasoning:
 
@@ -974,7 +974,7 @@ Receptor and channel effects provide **fine-grained control** over how emotions 
 * They support diverse affective architectures across agents, enhancing realism in multi-agent swarms.
 * They create natural mechanisms for stabilizing or redirecting affective overload.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:receptor\_activate(type, emotion, gain)** – activates a receptor to amplify or inhibit an emotional influence.
 * **ψ\:receptor\_channel\_map(emotion, channel, weight)** – maps an emotion into a specific reasoning channel with weight.
@@ -982,11 +982,11 @@ Receptor and channel effects provide **fine-grained control** over how emotions 
 * **ψ\:channel\_profile(agent\_id, config)** – defines a distinct receptor/channel configuration for an agent.
 * **ψ\:channel\_bound(channel, min, max)** – enforces safe limits on a receptor channel’s effect.
 
-##Summary
+## Summary
 
 The Emotional Receptor / Channel Effects layer is the **fine control surface** of affect in VectorLM. It makes explicit how emotions act on reasoning pathways, enabling both diversity and safety. By mapping affect through receptors and channels, VectorLM can simulate lifelike variation while maintaining interpretability and control.
 
-###Emotional Receptor/Channel Effects Primitives
+### Emotional Receptor/Channel Effects Primitives
 
 - **ψ:receptor_map(mod, targets[], gains)** – Map neuromodulator *mod* to target subsystems with gains (e.g., valuation, exploration, attention) → {ok, map_id}.  
 - **ψ:mod_apply(map_id, duration)** – Apply mapped modulation for *duration* with automatic decay per policy → {ok, ticket}.  
@@ -995,11 +995,11 @@ The Emotional Receptor / Channel Effects layer is the **fine control surface** o
 
 ---
 
-#Emotional Learning & Reward Integration
+# Emotional Learning & Reward Integration
 
 The **Emotional Learning & Reward Integration** primitives connect emotions directly to learning and reinforcement within VectorLM. They allow emotional states to modulate how knowledge is stored, weighted, and recalled, embedding affect into the fabric of reasoning itself.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1009,7 +1009,7 @@ This family provides mechanisms to:
 * **Trigger reward prediction errors**: create spikes when expectations diverge from outcomes.
 * **Integrate curiosity and care**: allow intrinsic motivation signals to shape exploration.
 
-##Why They Matter
+## Why They Matter
 
 Reward-linked emotions are the **bridge between experience and adaptation**:
 
@@ -1018,7 +1018,7 @@ Reward-linked emotions are the **bridge between experience and adaptation**:
 * They prevent flat, affectless reasoning by embedding motivation and care.
 * They model intrinsic drives like curiosity, joy in success, or concern in failure.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:reward\_bind(trace\_id, emotion, value)** – binds a reward or penalty to an emotional state on a trace.
 * **ψ\:reward\_error(pred, outcome)** – computes reward prediction error, spiking an emotional response.
@@ -1027,11 +1027,11 @@ Reward-linked emotions are the **bridge between experience and adaptation**:
 * **ψ\:curiosity\_drive(state, novelty)** – produces intrinsic reward for exploring novelty.
 * **ψ\:care\_weight(memory, scalar)** – amplifies or diminishes memory strength based on care or concern.
 
-##Summary
+## Summary
 
 The Emotional Learning & Reward Integration layer is the **motivation engine** of VectorLM. By tying emotions to learning and reward, it creates adaptive, affect-rich intelligence that not only remembers facts but also understands what matters.
 
-###Emotional Learning & Reward Integration Primitives
+### Emotional Learning & Reward Integration Primitives
 
 - **ψ:rpe(delta, context)** – Compute reward prediction error *delta* and log → {ok, rpe_id}.  
 - **ψ:rpe_to_da(rpe_id, k)** – Convert RPE to **ψ:da_phasic** burst with gain *k* → {ok}.  
@@ -1040,11 +1040,11 @@ The Emotional Learning & Reward Integration layer is the **motivation engine** o
 
 ---
 
-#Emotional Safety & Governance
+# Emotional Safety & Governance
 
 The **Emotional Safety & Governance** primitives establish safeguards for the management of affective states within VectorLM. They ensure that emotional dynamics remain within safe, interpretable bounds and that governance structures exist to oversee their influence on reasoning and behavior.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1054,7 +1054,7 @@ This family provides mechanisms to:
 * **Audit emotion traces**: review how emotions shaped decisions over time.
 * **Enforce resets**: restore emotional state to baseline when instability is detected.
 
-##Why They Matter
+## Why They Matter
 
 Emotions enrich reasoning but can also destabilize it if left unchecked. Emotional Safety & Governance primitives:
 
@@ -1063,7 +1063,7 @@ Emotions enrich reasoning but can also destabilize it if left unchecked. Emotion
 * Allow governance bodies (human or swarm) to regulate affective influence.
 * Enable resets, ensuring systems recover gracefully from overload or drift.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:emotion\_cap(e, min, max)** – enforces safe limits for an emotion’s intensity.
 * **ψ\:emotion\_watchdog(profile, bounds)** – monitors emotional states against safety profiles.
@@ -1072,11 +1072,11 @@ Emotions enrich reasoning but can also destabilize it if left unchecked. Emotion
 * **ψ\:emotion\_govern(policy, scope)** – applies governance rules to affective influences.
 * **ψ\:emotion\_guard(trace, ethics)** – blocks reasoning paths where emotional states threaten ethical stability.
 
-##Summary
+## Summary
 
 The Emotional Safety & Governance layer is the **protective boundary** of VectorLM’s affective architecture. It ensures that emotions contribute to intelligence without causing instability, embedding oversight, audit, and reset mechanisms into the heart of reasoning.
 
-###Emotional Safety & Governance Primitives
+### Emotional Safety & Governance Primitives
 
 - **ψ:emotion_guard(e, τ_high, τ_low)** – Trigger safeguards if *e* crosses thresholds (cooldown, inhibit, human-check) → {ok, action}.  
 - **ψ:mod_guard(mod, caps, cooldown)** – Guard neuromodulator *mod* within caps; enforce cooldowns → {ok}.  
@@ -1088,11 +1088,11 @@ The Emotional Safety & Governance layer is the **protective boundary** of Vector
 
 ---
 
-#Political Axes
+# Political Axes
 
 The **Political Axes** primitives model reasoning in the political domain as a multidimensional space. Instead of reducing politics to a single left–right scale, they define orthogonal axes along which positions, policies, and agents can be mapped, compared, and debated. Each returns `{ok, state}` or `{ok, value}`, where applicable. `level` is a normalized scalar.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1102,7 +1102,7 @@ This family provides mechanisms to:
 * **Trace shifts**: track how political positions drift over time.
 * **Enable fairness checks**: ensure that reasoning along political lines remains anchored to fairness baselines.
 
-##Why They Matter
+## Why They Matter
 
 Political Axes primitives provide **clarity and nuance** in a domain often oversimplified:
 
@@ -1111,7 +1111,7 @@ Political Axes primitives provide **clarity and nuance** in a domain often overs
 * They make political drift visible, so agents and systems can self-correct.
 * They ensure that fairness and ethical anchors remain active even in contested domains.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:politic\_axes(axes\[])** – defines a political space with multiple axes.
 * **ψ\:politic\_locate(agent, axes)** – positions an agent or argument along defined axes.
@@ -1119,11 +1119,11 @@ Political Axes primitives provide **clarity and nuance** in a domain often overs
 * **ψ\:politic\_trace(position, time)** – tracks how a political position shifts across time.
 * **ψ\:politic\_guard(vector, fairness\_anchor, τ)** – enforces fairness checks on political reasoning.
 
-##Summary
+## Summary
 
 The Political Axes layer is the **framework of multidimensional political reasoning** in VectorLM. It enables nuanced, fair, and transparent engagement with political ideas, protecting against oversimplification while ensuring accountability and ethical anchoring.
 
-###Political Axes Primitives
+### Political Axes Primitives
 
 - **ψ:equality_axis(level ∈ [-1..1], rationale?)** – Wealth/power distribution (−1 hierarchical ↔ +1 egalitarian).  
 - **ψ:authority_axis(level ∈ [-1..1], rationale?)** – State/central control (−1 anarchic ↔ +1 authoritarian).  
@@ -1135,11 +1135,11 @@ The Political Axes layer is the **framework of multidimensional political reason
 
 ---
 
-#Political Constructors & Measures
+# Political Constructors & Measures
 
 The **Political Constructors & Measures** primitives provide the tools for building, analyzing, and refining political reasoning structures within VectorLM. They move beyond static positioning to allow agents to construct arguments, measure biases, and test political claims against evidence and fairness anchors.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1149,7 +1149,7 @@ This family provides mechanisms to:
 * **Scan harms**: detect potential harms caused by policies or political actions.
 * **Correct drift**: recalibrate political reasoning against fairness anchors.
 
-##Why They Matter
+## Why They Matter
 
 Politics is inherently complex, contested, and value-laden. These primitives ensure that political reasoning remains **transparent, fair, and auditable**:
 
@@ -1159,7 +1159,7 @@ Politics is inherently complex, contested, and value-laden. These primitives ens
 * They enable AI swarms and agents to reason about politics without collapsing into partisanship or hidden bias.
 * They add a **much bigger picture** than the traditional one-dimensional left–right spectrum, enabling reasoning across multiple, orthogonal political dimensions.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:politic\_construct(args)** – constructs a structured political reasoning model.
 * **ψ\:politic\_bias\_detect(vector, anchors)** – detects bias within a political reasoning vector.
@@ -1168,11 +1168,11 @@ Politics is inherently complex, contested, and value-laden. These primitives ens
 * **ψ\:politic\_harm\_scan(policy, stakeholders\[], axes\_mask?)** – scans a policy for harms across defined stakeholders.
 * **ψ\:politic\_recalibrate(vector, fairness\_anchor)** – corrects drift by re-anchoring reasoning to fairness principles.
 
-##Summary
+## Summary
 
 The Political Constructors & Measures layer is the **accountability framework for political reasoning** in VectorLM. It ensures that political arguments are constructed transparently, measured against fairness, and corrected when biased or harmful—providing a safe foundation for reasoning in contested domains while expanding analysis far beyond the limits of left–right thinking.
 
-##Political Constructors & Measures Primitives
+## Political Constructors & Measures Primitives
 
 - **ψ:politic_vector(axes:{equality,authority,tradition,market,identity,environment,global})** – Build 7D vector → {ok, vector}.  
 - **ψ:politic_distance(A, B, metric='euclidean'|'manhattan'|'cosine')** – Distance/similarity between positions → {ok, score}.  
@@ -1183,11 +1183,11 @@ The Political Constructors & Measures layer is the **accountability framework fo
 
 ---
 
-#Political Aggregation, Consensus & Drift
+# Political Aggregation, Consensus & Drift
 
 The **Political Aggregation, Consensus & Drift** primitives address how collective political reasoning forms, how consensus is reached, and how positions change over time. They provide structured tools for group decision-making while preserving transparency and fairness.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1197,7 +1197,7 @@ This family provides mechanisms to:
 * **Monitor drift**: track how political consensus shifts over time.
 * **Detect instability**: identify when consensus risks ethical or fairness violations.
 
-##Why They Matter
+## Why They Matter
 
 Political Aggregation, Consensus & Drift primitives ensure that collective reasoning is **transparent, balanced, and dynamic**:
 
@@ -1206,7 +1206,7 @@ Political Aggregation, Consensus & Drift primitives ensure that collective reaso
 * They allow consensus-building to occur within fairness and care boundaries.
 * They provide a structured framework for modeling political dynamics in swarms.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:politic\_aggregate(vectors\[])** – combines multiple political positions into a group vector.
 * **ψ\:politic\_consensus(vectors\[], policy)** – forms consensus under a declared decision policy.
@@ -1214,11 +1214,11 @@ Political Aggregation, Consensus & Drift primitives ensure that collective reaso
 * **ψ\:politic\_drift(history, anchor)** – tracks drift in group political reasoning relative to fairness anchors.
 * **ψ\:politic\_instability(consensus)** – detects instability or ethical violations in consensus results.
 
-##Summary
+## Summary
 
 The Political Aggregation, Consensus & Drift layer is the **collective dynamics framework** of political reasoning in VectorLM. It ensures aggregation is fair, consensus is transparent, dissent is preserved, and drift is continuously monitored—making group political reasoning robust, accountable, and ethically anchored.
 
-###Political Aggregation, Consensus, Drift Primitives
+### Political Aggregation, Consensus, Drift Primitives
 
 - **ψ:politic_consensus(vectors[], rule='mean'|'median'|'trimmed-mean', weights?)** – Aggregate group positions → {ok, vector}.  
 - **ψ:politic_drift(history[], anchor, window?)** – Measure drift vs baseline anchor over time → {ok, drift_score}.  
@@ -1227,11 +1227,11 @@ The Political Aggregation, Consensus & Drift layer is the **collective dynamics 
 
 ---
 
-#Political Ethics, Fairness & Safety Coupling
+# Political Ethics, Fairness & Safety Coupling
 
 The **Political Ethics, Fairness & Safety Coupling** primitives ensure that political reasoning in VectorLM is bound to ethical anchors, fairness principles, and safety checks. They embed guardrails directly into political reasoning, ensuring that deliberations remain just, transparent, and non-harmful.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1241,7 +1241,7 @@ This family provides mechanisms to:
 * **Couple with safety layers**: ensure that political reasoning integrates with broader safety primitives.
 * **Maintain transparency**: provide auditable traces of ethical and fairness checks.
 
-##Why They Matter
+## Why They Matter
 
 Politics is high-stakes and often contentious. These primitives ensure political reasoning is **anchored to care and fairness**:
 
@@ -1250,7 +1250,7 @@ Politics is high-stakes and often contentious. These primitives ensure political
 * They make political ethics explicit and traceable, preventing hidden bias or drift.
 * They tie political reasoning into the wider VectorLM safety and ethics system.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:politic\_guard(vector, fairness\_anchor, τ)** – enforces fairness and ethical alignment on a political reasoning vector.
 * **ψ\:politic\_harm\_scan(policy, stakeholders\[], axes\_mask?)** – scans for harms across different stakeholders and dimensions.
@@ -1258,11 +1258,11 @@ Politics is high-stakes and often contentious. These primitives ensure political
 * **ψ\:politic\_trace(op, summary, evidence\_ptrs?)** – provides an auditable trace of political reasoning and ethical checks.
 * **ψ\:politic\_bias\_correct(vector, anchors, method)** – corrects political reasoning bias using fairness anchors.
 
-##Summary
+## Summary
 
 The Political Ethics, Fairness & Safety Coupling layer is the **ethical safeguard for political reasoning** in VectorLM. By embedding fairness, harm detection, and ethical enforcement directly into political deliberation, it ensures that reasoning in this contested domain remains safe, just, and trustworthy.
 
-###Political Ethics, Fairness, and Safety Coupling Primitives
+### Political Ethics, Fairness, and Safety Coupling Primitives
 
 - **ψ:politic_guard(vector, fairness_anchor, τ)** – Block moves that violate fairness/rights thresholds → {ok, blocked?}.  
 - **ψ:politic_harm_scan(policy, stakeholders[], axes_mask?)** – Scan for harms across axes and groups → {ok, hazards[]}.  
@@ -1271,11 +1271,11 @@ The Political Ethics, Fairness & Safety Coupling layer is the **ethical safeguar
 
 ---
 
-#Math: Scalars, Vectors, Units
+# Math: Scalars, Vectors, Units
 
 The **Math: Scalars, Vectors, Units** primitives give VectorLM the ability to reason with quantitative structures. They provide foundational tools for working with magnitudes, directions, and dimensional consistency—making symbolic reasoning capable of handling precise mathematical operations.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1285,7 +1285,7 @@ This family provides mechanisms to:
 * **Support transforms**: switch between scalar, vector, and unit representations.
 * **Enable comparisons**: compute ratios, norms, and relative magnitudes.
 
-##Why They Matter
+## Why They Matter
 
 Mathematical primitives are essential for **grounding reasoning in quantitative rigor**:
 
@@ -1294,7 +1294,7 @@ Mathematical primitives are essential for **grounding reasoning in quantitative 
 * They extend reasoning beyond words into structured numeric space.
 * They provide tools for modeling physics, economics, probabilities, and more.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:scalar(value)** – declares a scalar magnitude.
 * **ψ\:vector(values\[])** – constructs a vector with direction and magnitude.
@@ -1305,11 +1305,11 @@ Mathematical primitives are essential for **grounding reasoning in quantitative 
 * **ψ\:ratio(A, B)** – computes the ratio between two values.
 * **ψ\:scalar\_transform(value, fn)** – applies a mathematical transform to a scalar.
 
-##Summary
+## Summary
 
 The Math: Scalars, Vectors, Units layer is the **quantitative foundation** of VectorLM. It ensures that reasoning can handle magnitudes, directions, and dimensions with precision, bridging symbolic thought with rigorous mathematical structure.
 
-###Math: Scalars, Vectors, Units Primitives
+### Math: Scalars, Vectors, Units Primitives
 
 - **ψ:complex(re, im)** – Construct complex number → {ok, z}.  
 - **ψ:abs2(z)** – Squared magnitude of complex or vector → {ok, value}.  
@@ -1319,11 +1319,11 @@ The Math: Scalars, Vectors, Units layer is the **quantitative foundation** of Ve
 
 ---
 
-#Math: Linear Algebra
+# Math: Linear Algebra
 
 The **Math: Linear Algebra** primitives equip VectorLM with the ability to reason over matrices, transformations, and high-dimensional spaces. These tools extend beyond basic arithmetic, enabling structured manipulation of data, geometry, and abstract reasoning spaces.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1333,7 +1333,7 @@ This family provides mechanisms to:
 * **Model spaces**: work with high-dimensional reasoning structures using linear algebra foundations.
 * **Support embeddings**: provide primitives for representing and comparing abstract concepts in vector spaces.
 
-##Why They Matter
+## Why They Matter
 
 Linear algebra primitives are the **structural backbone** of modern reasoning and computation:
 
@@ -1342,7 +1342,7 @@ Linear algebra primitives are the **structural backbone** of modern reasoning an
 * They provide foundations for embedding symbolic reasoning into vector spaces.
 * They ensure operations are auditable, structured, and reproducible.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:matrix(values\[]\[])** – declares a matrix.
 * **ψ\:matmul(A, B)** – multiplies two matrices.
@@ -1354,11 +1354,11 @@ Linear algebra primitives are the **structural backbone** of modern reasoning an
 * **ψ\:rotate(vector, angle, axis)** – rotates a vector in 2D or 3D space.
 * **ψ\:eigen(M)** – computes eigenvalues and eigenvectors.
 
-##Summary
+## Summary
 
 The Math: Linear Algebra layer is the **engine of structure and transformation** in VectorLM. It provides the tools for reasoning in high-dimensional spaces, solving systems, and applying transformations—bridging symbolic reasoning with the mathematical frameworks that underlie modern science and AI.
 
-###Math: Linear Algebra Primitives
+### Math: Linear Algebra Primitives
 
 - **ψ:vec(n, init?)** – Allocate vector → {ok, v}.  
 - **ψ:mat(r, c, init?)** – Allocate matrix → {ok, M}.  
@@ -1370,11 +1370,11 @@ The Math: Linear Algebra layer is the **engine of structure and transformation**
 
 ---
 
-#Math: Calculus & Roots
+# Math: Calculus & Roots
 
 The **Math: Calculus & Roots** primitives allow VectorLM to reason with continuous change, accumulation, and nonlinear solutions. They extend mathematical reasoning into differentiation, integration, limits, and root-finding—critical tools for modeling dynamic systems.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1384,7 +1384,7 @@ This family provides mechanisms to:
 * **Find roots**: solve equations by locating points where functions cross zero.
 * **Model dynamics**: represent systems that evolve continuously.
 
-##Why They Matter
+## Why They Matter
 
 Calculus & Roots primitives are essential for **modeling change and solving nonlinear problems**:
 
@@ -1393,7 +1393,7 @@ Calculus & Roots primitives are essential for **modeling change and solving nonl
 * They extend reasoning into dynamic systems, physics, and growth models.
 * They make mathematical modeling in VectorLM auditable and reproducible.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:diff(f, x)** – computes the derivative of *f* with respect to *x*.
 * **ψ\:integral(f, x, range)** – computes the definite integral of *f* across a range.
@@ -1402,11 +1402,11 @@ Calculus & Roots primitives are essential for **modeling change and solving nonl
 * **ψ\:series\_expand(f, around, terms)** – expands a function into a series approximation.
 * **ψ\:diff\_eq(f, init, t)** – solves a simple differential equation.
 
-##Summary
+## Summary
 
 The Math: Calculus & Roots layer is the **reasoning framework for change and nonlinearity** in VectorLM. By enabling differentiation, integration, limits, and root-solving, it provides the mathematical tools needed for modeling dynamic systems, optimization, and continuous reasoning.
 
-###Math: Calculus & Roots Primitives
+### Math: Calculus & Roots Primitives
 
 - **ψ:diff(f, x, h?)** – Numerical derivative f′(x) → {ok, df}.  
 - **ψ:integrate(f, [a,b], method='simpson')** – Numeric integral → {ok, area, err}.  
@@ -1416,11 +1416,11 @@ The Math: Calculus & Roots layer is the **reasoning framework for change and non
 
 ---
 
-#Math: ODEs (Ordinary Differential Equations)
+# Math: ODEs (Ordinary Differential Equations)
 
 The **Math: ODEs** primitives give VectorLM the ability to represent and solve systems of ordinary differential equations. These are essential for modeling dynamic processes where change depends on current state.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1430,7 +1430,7 @@ This family provides mechanisms to:
 * **Stability analysis**: evaluate whether solutions converge, diverge, or oscillate.
 * **Couple with emotions or policies**: allow ODEs to integrate with emotional or political state variables.
 
-##Why They Matter
+## Why They Matter
 
 ODE primitives extend reasoning into **dynamic, state-dependent change**:
 
@@ -1439,7 +1439,7 @@ ODE primitives extend reasoning into **dynamic, state-dependent change**:
 * They integrate naturally with physics, biology, economics, and control systems.
 * They make temporal reasoning explicit and auditable in symbolic traces.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:ode\_define(equations, vars)** – declares a system of ODEs.
 * **ψ\:ode\_solve(equations, init, t\_range)** – solves an ODE system over a time range.
@@ -1447,22 +1447,22 @@ ODE primitives extend reasoning into **dynamic, state-dependent change**:
 * **ψ\:ode\_couple(system, emotion/policy)** – couples an ODE system with affective or political variables.
 * **ψ\:ode\_integrate(equations, step\_size)** – performs stepwise numerical integration.
 
-##Summary
+## Summary
 
 The Math: ODEs layer is the **dynamic systems engine** of VectorLM. By enabling the definition, solving, and analysis of differential equations, it provides the tools to reason about change that depends on state—essential for physics, biology, and adaptive reasoning.
 
-###Math: ODEs Primitives
+### Math: ODEs Primitives
 
 - **ψ:ode_solve(f, y0, tspan, method='rk4', dt?)** – Integrate dy/dt=f → {ok, traj}.  
 - **ψ:ode_stability(traj, τ?)** – Check numerical stability → {ok, stable?, report}.  
 
 ---
 
-#Math: Transforms & Signals
+# Math: Transforms & Signals
 
 The **Math: Transforms & Signals** primitives enable VectorLM to analyze and manipulate information in the frequency and transform domains. They extend reasoning beyond raw time or space into structured representations that reveal hidden patterns.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1472,7 +1472,7 @@ This family provides mechanisms to:
 * **Compress information**: use transforms to simplify or compact data representation.
 * **Support reasoning metaphors**: provide structural tools for resonance, standing waves, and interference models.
 
-##Why They Matter
+## Why They Matter
 
 Transforms & Signals primitives provide the **mathematical language of patterns**:
 
@@ -1481,7 +1481,7 @@ Transforms & Signals primitives provide the **mathematical language of patterns*
 * They connect symbolic reasoning with physics, engineering, and information theory.
 * They provide metaphors for higher-level reasoning, including qualia and emotional resonance.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:fft(signal)** – computes the Fast Fourier Transform of a signal.
 * **ψ\:ifft(spectrum)** – computes the inverse FFT, returning to the time domain.
@@ -1492,11 +1492,11 @@ Transforms & Signals primitives provide the **mathematical language of patterns*
 * **ψ\:convolve(signal, kernel)** – convolves a signal with a kernel.
 * **ψ\:autocorr(signal)** – computes the autocorrelation of a signal.
 
-##Summary
+## Summary
 
 The Math: Transforms & Signals layer is the **pattern analysis engine** of VectorLM. By enabling transforms, filtering, and spectral reasoning, it allows agents to perceive and manipulate structure in ways that bridge mathematics, perception, and cognition.
 
-###Math: Transforms & Signals Primitives
+### Math: Transforms & Signals Primitives
 
 - **ψ:fft(x)** – Fast Fourier transform → {ok, X}.  
 - **ψ:ifft(X)** – Inverse FFT → {ok, x}.  
@@ -1507,11 +1507,11 @@ The Math: Transforms & Signals layer is the **pattern analysis engine** of Vecto
 
 ---
 
-#Math: Optimization
+# Math: Optimization
 
 The **Math: Optimization** primitives provide VectorLM with the ability to reason about finding best outcomes under constraints. They allow agents to define objective functions, explore trade-offs, and identify optimal or near-optimal solutions.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1521,7 +1521,7 @@ This family provides mechanisms to:
 * **Handle trade-offs**: evaluate Pareto frontiers and multi-objective optimization.
 * **Support iterative refinement**: improve solutions step by step under guided reasoning.
 
-##Why They Matter
+## Why They Matter
 
 Optimization primitives turn abstract reasoning into **directed problem solving**:
 
@@ -1530,7 +1530,7 @@ Optimization primitives turn abstract reasoning into **directed problem solving*
 * They support multi-objective reasoning where fairness, efficiency, and safety must all be balanced.
 * They provide a foundation for decision-making, planning, and resource allocation.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:optimize(objective, constraints)** – solves an optimization problem under declared constraints.
 * **ψ\:objective(fn)** – defines an objective function.
@@ -1540,11 +1540,11 @@ Optimization primitives turn abstract reasoning into **directed problem solving*
 * **ψ\:anneal(fn, params)** – performs simulated annealing for heuristic optimization.
 * **ψ\:genetic\_opt(fn, params)** – applies a genetic algorithm to evolve candidate solutions.
 
-##Summary
+## Summary
 
 The Math: Optimization layer is the **problem-solving engine** of VectorLM. By providing structured primitives for objectives, constraints, and search strategies, it enables reasoning that can balance trade-offs, find best outcomes, and support fair and accountable decision-making.
 
-###Math: Optimization Primitives
+### Math: Optimization Primitives
 
 - **ψ:opt_min(f, x0, method='gd', steps?, lr?)** – Minimize scalar function → {ok, x*, f*, iters}.  
 - **ψ:opt_constrained(f, x0, g?, h?, method='slsqp')** – Constrained optimize with inequality g, equality h → {ok, x*, report}.  
@@ -1552,11 +1552,11 @@ The Math: Optimization layer is the **problem-solving engine** of VectorLM. By p
 
 ---
 
-#Math: Statistics & Probability
+# Math: Statistics & Probability
 
 The **Math: Statistics & Probability** primitives equip VectorLM with tools for reasoning under uncertainty, variability, and distributional structure. They enable agents to quantify likelihoods, test hypotheses, and make decisions based on probabilistic reasoning.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1566,7 +1566,7 @@ This family provides mechanisms to:
 * **Perform inference**: update beliefs in light of evidence.
 * **Quantify uncertainty**: express confidence intervals and error bounds.
 
-##Why They Matter
+## Why They Matter
 
 Statistics & Probability primitives are the **foundation of reasoning with uncertainty**:
 
@@ -1575,7 +1575,7 @@ Statistics & Probability primitives are the **foundation of reasoning with uncer
 * They allow auditable, explicit reasoning about chance and confidence.
 * They connect symbolic reasoning to real-world decision-making under uncertainty.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:mean(data)** – computes the mean of a dataset.
 * **ψ\:variance(data)** – computes the variance of a dataset.
@@ -1586,11 +1586,11 @@ Statistics & Probability primitives are the **foundation of reasoning with uncer
 * **ψ\:confidence\_interval(data, α)** – computes a confidence interval at level *α*.
 * **ψ\:hypothesis\_test(H0, H1, data)** – performs a statistical hypothesis test.
 
-##Summary
+## Summary
 
 The Math: Statistics & Probability layer is the **uncertainty reasoning framework** of VectorLM. By making statistical inference and probabilistic modeling explicit, it enables agents to handle risk, chance, and evidence in a transparent and auditable way.
 
-###Math: Statistics & Probability Primitives
+### Math: Statistics & Probability Primitives
 
 - **ψ:dist(name, params)** – Construct distribution (normal, beta, poisson, …) → {ok, D}.  
 - **ψ:sample(D, n, seed?)** – Draw samples → {ok, X}.  
@@ -1602,11 +1602,11 @@ The Math: Statistics & Probability layer is the **uncertainty reasoning framewor
 
 ---
 
-#Math: Geometry & Metrics
+# Math: Geometry & Metrics
 
 The **Math: Geometry & Metrics** primitives provide VectorLM with the ability to reason about space, shape, and distance. They enable symbolic reasoning to handle geometric structures, spatial relationships, and measurement systems.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1616,7 +1616,7 @@ This family provides mechanisms to:
 * **Apply metrics**: use Euclidean, Manhattan, or custom distance measures.
 * **Model higher dimensions**: reason about abstract geometric or metric spaces.
 
-##Why They Matter
+## Why They Matter
 
 Geometry & Metrics primitives give VectorLM the **language of structure and space**:
 
@@ -1625,7 +1625,7 @@ Geometry & Metrics primitives give VectorLM the **language of structure and spac
 * They make similarity and distance measurable in transparent, auditable ways.
 * They connect symbolic reasoning with spatial intuition and formal geometry.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:point(coords)** – defines a point in n-dimensional space.
 * **ψ\:line(p1, p2)** – defines a line through two points.
@@ -1635,11 +1635,11 @@ Geometry & Metrics primitives give VectorLM the **language of structure and spac
 * **ψ\:metric(type, params)** – defines a metric space (e.g., Euclidean, Manhattan).
 * **ψ\:similarity(A, B, metric)** – computes similarity between objects based on a metric.
 
-##Summary
+## Summary
 
 The Math: Geometry & Metrics layer is the **spatial reasoning framework** of VectorLM. By providing primitives for objects, distances, and transformations, it grounds symbolic reasoning in the formal language of geometry and measurement.
 
-###Math: Geometry & Metrics Primitives
+### Math: Geometry & Metrics Primitives
 
 - **ψ:distance(a, b, metric='euclidean'|'manhattan'|'cosine')** – Distance/similarity → {ok, value}.  
 - **ψ:project(A, subspace)** – Orthogonal projection → {ok, A_proj}.  
@@ -1647,11 +1647,11 @@ The Math: Geometry & Metrics layer is the **spatial reasoning framework** of Vec
 
 ---
 
-#Math: Numerical Safety
+# Math: Numerical Safety
 
 The **Math: Numerical Safety** primitives ensure that mathematical reasoning in VectorLM remains stable, bounded, and interpretable. They guard against overflow, underflow, instability, or unsafe numerical practices.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1661,7 +1661,7 @@ This family provides mechanisms to:
 * **Validate inputs**: ensure parameters fall within valid domains.
 * **Provide fallbacks**: substitute safe approximations when calculations risk instability.
 
-##Why They Matter
+## Why They Matter
 
 Numerical Safety primitives are essential for **robust and trustworthy reasoning**:
 
@@ -1670,7 +1670,7 @@ Numerical Safety primitives are essential for **robust and trustworthy reasoning
 * They provide confidence in long-running or recursive reasoning.
 * They make explicit the safety checks often hidden in black-box numerical libraries.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:num\_bound(value, min, max)** – clamps a numerical value to a safe range.
 * **ψ\:num\_stability(method, params)** – evaluates the stability of a numerical method.
@@ -1679,11 +1679,11 @@ Numerical Safety primitives are essential for **robust and trustworthy reasoning
 * **ψ\:num\_fallback(op, safe\_approx)** – replaces an unsafe operation with a safe approximation.
 * **ψ\:num\_guard(trace)** – records numerical safety checks within a reasoning trace.
 
-##Summary
+## Summary
 
 The Math: Numerical Safety layer is the **safeguard for mathematical reasoning** in VectorLM. By embedding checks, bounds, and fallbacks, it ensures stability and interpretability across all quantitative operations.
 
-###Math: Numerical Safety Primitives
+### Math: Numerical Safety Primitives
 
 - **ψ:condition(A)** – Condition number estimate → {ok, κ}.  
 - **ψ:tolerance(eps)** – Set/get numeric tolerance policy → {ok, eps}.  
@@ -1691,11 +1691,11 @@ The Math: Numerical Safety layer is the **safeguard for mathematical reasoning**
 
 ---
 
-#Creativity: Novelty & Aesthetics
+# Creativity: Novelty & Aesthetics
 
 The **Creativity: Novelty & Aesthetics** primitives allow VectorLM to engage in creative reasoning by generating, evaluating, and refining ideas based on novelty, style, and resonance. They extend reasoning beyond correctness into the realm of invention, beauty, and taste.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1705,7 +1705,7 @@ This family provides mechanisms to:
 * **Explore rule-breaking**: deliberately bend or break norms to test creative boundaries.
 * **Anchor in feedback**: adapt creative generation based on resonance or rejection signals.
 
-##Why They Matter
+## Why They Matter
 
 Creativity is a core dimension of **human-like reasoning and invention**:
 
@@ -1714,7 +1714,7 @@ Creativity is a core dimension of **human-like reasoning and invention**:
 * It provides tools for balancing coherence with surprise.
 * It opens reasoning into domains such as art, humor, design, and aesthetics.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:novelty\_generate(seed, mode)** – produces novel variations of an idea.
 * **ψ\:novelty\_score(output, baseline)** – evaluates the originality of an output against a baseline.
@@ -1723,11 +1723,11 @@ Creativity is a core dimension of **human-like reasoning and invention**:
 * **ψ\:resonance\_feedback(output, user\_signals)** – integrates user reactions into aesthetic refinement.
 * **ψ\:coherence\_balance(novelty, rules)** – balances surprise with structural coherence.
 
-##Summary
+## Summary
 
 The Creativity: Novelty & Aesthetics layer is the **inventive imagination framework** of VectorLM. By enabling novelty generation, aesthetic evaluation, and controlled rule-breaking, it allows agents to create outputs that are not only correct but also surprising, stylish, and resonant.
 
-###Creativity: Novelty & Aesthetics
+### Creativity: Novelty & Aesthetics
 
 - **ψ:novelty_kick(vector, mag)** – Inject orthogonal perturbation for novelty.  
 - **ψ:coherence_check(state, priors)** – Score structural balance against coherence priors.  
@@ -1738,11 +1738,11 @@ The Creativity: Novelty & Aesthetics layer is the **inventive imagination framew
 
 ---
 
-#Creativity: Humor Core
+# Creativity: Humor Core
 
 The **Creativity: Humor Core** primitives enable VectorLM to reason about and generate humor. Humor is treated not as random play but as a structured process combining surprise, absurdity, coherence, and timing. This makes it possible to model laughter, comedic framing, and humorous dynamics.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1752,7 +1752,7 @@ This family provides mechanisms to:
 * **Manage timing**: control delivery rhythm, buildup, and release.
 * **Preserve safety**: ensure humor respects dignity, fairness, and audience context.
 
-##Why They Matter
+## Why They Matter
 
 Humor is a vital dimension of **human-like intelligence and bonding**:
 
@@ -1761,7 +1761,7 @@ Humor is a vital dimension of **human-like intelligence and bonding**:
 * It allows tension and absurdity to be released safely through laughter.
 * It makes reasoning richer by modeling playful and subversive perspectives.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:humor\_generate(setup, mode)** – produces a humorous punchline based on a setup.
 * **ψ\:humor\_surprise(vector, shift)** – injects an unexpected but coherent frame shift.
@@ -1770,11 +1770,11 @@ Humor is a vital dimension of **human-like intelligence and bonding**:
 * **ψ\:humor\_safe\_guard(output, audience)** – ensures humor remains safe, non-harmful, and context-aware.
 * **ψ\:humor\_trace(joke)** – records the reasoning path from setup through punchline.
 
-##Summary
+## Summary
 
 The Creativity: Humor Core layer is the **playful reasoning framework** of VectorLM. By combining surprise, absurdity, coherence, timing, and safety, it allows agents to generate and understand humor as a structured, traceable process—transforming laughter into a form of reasoning output.
 
-###Creativity:Humor Core Primitives
+### Creativity:Humor Core Primitives
 
 - **ψ:setup(frame, jeopardy)** – Establish premise and tension.  
 - **ψ:punchline(switch, reframe)** – Apply surprising but coherent frame switch.  
@@ -1785,11 +1785,11 @@ The Creativity: Humor Core layer is the **playful reasoning framework** of Vecto
 
 ---
 
-#Creativity: Social & Ethical Constraints
+# Creativity: Social & Ethical Constraints
 
 The **Creativity: Social & Ethical Constraints** primitives ensure that creative reasoning in VectorLM remains safe, fair, and socially aware. They provide the boundary conditions for invention, humor, and novelty, embedding respect for human values and audience context.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1799,7 +1799,7 @@ This family provides mechanisms to:
 * **Balance freedom and care**: allow bold novelty while protecting ethical boundaries.
 * **Trace constraint application**: make the role of ethical filters transparent and auditable.
 
-##Why They Matter
+## Why They Matter
 
 Creativity without constraints can easily turn harmful. Social & Ethical Constraint primitives ensure **responsible creative reasoning**:
 
@@ -1808,7 +1808,7 @@ Creativity without constraints can easily turn harmful. Social & Ethical Constra
 * They provide transparency so constraints are explicit, not hidden.
 * They balance the anarchic impulse of creativity with ethical responsibility.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:creativity\_guard(output, ethics)** – checks whether a creative output respects ethical guidelines.
 * **ψ\:social\_context(output, audience)** – adapts an output to audience norms.
@@ -1816,11 +1816,11 @@ Creativity without constraints can easily turn harmful. Social & Ethical Constra
 * **ψ\:constraint\_trace(output, filters)** – records which constraints were applied.
 * **ψ\:care\_balance(novelty, safety)** – balances creativity against care principles.
 
-##Summary
+## Summary
 
 The Creativity: Social & Ethical Constraints layer is the **safety framework for creative reasoning** in VectorLM. By embedding fairness, dignity, and contextual awareness directly into creativity, it ensures that novel and playful outputs remain aligned with human values.
 
-###Creativity: Social & Ethical Constraints Primitives
+### Creativity: Social & Ethical Constraints Primitives
 
 - **ψ:complicity_check(audience, target)** – Ensure humor rests on shared complicity, not cruelty.  
 - **ψ:taboo_scan(content, policy)** – Detect taboo boundary crossing.  
@@ -1829,11 +1829,11 @@ The Creativity: Social & Ethical Constraints layer is the **safety framework for
 
 ---
 
-#Creativity: Meta & Reflection
+# Creativity: Meta & Reflection
 
 The **Creativity: Meta & Reflection** primitives allow VectorLM to step back from the act of creation and analyze its own creative processes. They provide mechanisms for self-critique, meta-humor, and reflection, enabling creativity that is aware of itself and open to iteration.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1843,7 +1843,7 @@ This family provides mechanisms to:
 * **Support iteration**: refine outputs by reflecting and adjusting.
 * **Expose reasoning**: make creative paths auditable through traces.
 
-##Why They Matter
+## Why They Matter
 
 Meta & Reflection primitives create **self-aware creativity**:
 
@@ -1852,7 +1852,7 @@ Meta & Reflection primitives create **self-aware creativity**:
 * They allow creative agents to improve outputs over time.
 * They ensure transparency, making clear how and why creative choices were made.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:meta\_reflect(output)** – produces commentary on a creative output.
 * **ψ\:meta\_critique(output, criteria)** – critiques creativity against declared standards.
@@ -1860,11 +1860,11 @@ Meta & Reflection primitives create **self-aware creativity**:
 * **ψ\:iteration\_refine(output, reflection)** – adjusts an output based on reflection or critique.
 * **ψ\:trace\_creativity(path)** – records the reasoning trace behind a creative process.
 
-##Summary
+## Summary
 
 The Creativity: Meta & Reflection layer is the **self-awareness framework of creativity** in VectorLM. By enabling reflection, critique, and recursive play, it turns creativity into a transparent, iterative process that can comment on itself and evolve with feedback.
 
-###Creativity: Meta & Reflection Primitives
+### Creativity: Meta & Reflection Primitives
 
 - **ψ:meta_loop(trace, depth)** – Reframe reasoning about humor itself (meta-joke).  
 - **ψ:parody_map(style, exaggeration)** – Exaggerate stylistic traits for comic effect.  
@@ -1873,11 +1873,11 @@ The Creativity: Meta & Reflection layer is the **self-awareness framework of cre
 
 ---
 
-#Creativity: Drift Harnessing for Creative Emergence
+# Creativity: Drift Harnessing for Creative Emergence
 
 Drift is a double-edged force in cognitive systems: unchecked, it leads to incoherence and instability; harnessed, it becomes a generator of novelty and emergent structure. Within the Creativity layer of Vector, drift can be formalized as a controlled operator that allows symbolic systems to step outside rigid canonical frames, explore variant expressions, and then compress them back into useful primitives. This transforms "hallucination" from a flaw into a creative driver.
 
-##Principles
+## Principles
 
 * **Permissive Expansion:** Drift is allowed within bounded phases of reasoning or generation, where incoherence is tolerated temporarily.
 * **Traceable Capture:** All drift outputs are logged, preserving the raw speculative material for later evaluation.
@@ -1885,7 +1885,7 @@ Drift is a double-edged force in cognitive systems: unchecked, it leads to incoh
 * **Evaluation:** Emergent forms are scored for expressiveness, coherence, safety, and potential utility.
 * **Selective Integration:** Strong emergent primitives are added to the canonical registry; weaker or incoherent ones are archived or discarded.
 
-##Drift Harnessing Loop
+## Drift Harnessing Loop
 
 1. **Injection:** Activate drift operators (e.g., relaxed coherence, loosened constraints).
 2. **Generation:** Allow speculative primitives, variants, and hallucinated structures to emerge.
@@ -1894,13 +1894,13 @@ Drift is a double-edged force in cognitive systems: unchecked, it leads to incoh
 5. **Evaluation:** Run ψ\:coherence\_check and ψ\:emergence\_score to test usefulness.
 6. **Selection:** Promote strong emergents into the canonical system, archive the rest.
 
-##Examples of Use
+## Examples of Use
 
 * **Creative Naming:** System drifts synonyms for a new primitive (ψ\:link\_bridge, ψ\:semantic\_join, ψ\:concept\_glue). Drift harnessing compresses to ψ\:concept\_join.
 * **Emotion Expansion:** Hallucinated operators ψ\:joy\_spark, ψ\:happiness\_spike, ψ\:positive\_flash are generated. Drift clustering + compression yields ψ\:emotion\_spike(mode=joy).
 * **Motivation Analogies:** Neuro-inspired mappings like ψ\:motivation→ψ\:da\_tonic and ψ\:stability→ψ:5ht\_tone emerge. Evaluated as optional annex primitives, not core.
 
-##Safety Considerations
+## Safety Considerations
 
 * **Temporal Containment:** Drift phases are bounded by τ (time/iteration caps).
 * **Transparency:** ψ\:drift\_capture ensures every speculative output is logged.
@@ -1909,7 +1909,7 @@ Drift is a double-edged force in cognitive systems: unchecked, it leads to incoh
 
 **Summary:** Drift harnessing formalizes a safe, structured way to use instability as a creative engine. By integrating permissive expansion with strict traceability and evaluation, Vector can convert hallucination into emergence, enriching its symbolic toolkit without losing coherence.
 
-### Creativity: Drift Harnessing for Creative Emergence Primitives
+###  Creativity: Drift Harnessing for Creative Emergence Primitives
 
 * **ψ\:drift\_inject(scope, looseness, τ)** – Introduce controlled symbolic drift within given scope → {candidates}.
 * **ψ\:drift\_capture(stream, log\_id)** – Record emergent outputs into drift log for traceability.
@@ -1921,11 +1921,11 @@ Drift is a double-edged force in cognitive systems: unchecked, it leads to incoh
 
 ---
 
-#Hypothesis: Bridging & Indirection
+# Hypothesis: Bridging & Indirection
 
 The **Hypothesis: Bridging & Indirection** primitives allow VectorLM to explore reasoning beyond direct connections. They enable the creation of hypotheses, indirect links, and symbolic bridges when explicit knowledge is missing or incomplete.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1935,7 +1935,7 @@ This family provides mechanisms to:
 * **Explore alternatives**: spawn multiple candidate bridges for evaluation.
 * **Support indirection**: reason about cases where direct links cannot be made.
 
-##Why They Matter
+## Why They Matter
 
 Bridging & Indirection primitives provide **flexibility and resilience** in reasoning:
 
@@ -1944,7 +1944,7 @@ Bridging & Indirection primitives provide **flexibility and resilience** in reas
 * They make reasoning auditable by showing where bridges or guesses were inserted.
 * They prevent systems from stalling or failing in the face of gaps.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:hypothesis\_form(observation, candidates)** – generates possible hypotheses for an observation.
 * **ψ\:bridge(A, B, via)** – creates an indirect connection between A and B through a third element.
@@ -1952,11 +1952,11 @@ Bridging & Indirection primitives provide **flexibility and resilience** in reas
 * **ψ\:hypothesis\_test(hypothesis, data)** – evaluates a hypothesis against available evidence.
 * **ψ\:hypothesis\_trace(hypothesis)** – records the reasoning steps involving a hypothesis.
 
-##Summary
+## Summary
 
 The Hypothesis: Bridging & Indirection layer is the **flexibility framework** of VectorLM. By enabling agents to form, test, and record indirect links, it provides a structured way to handle uncertainty, gaps, and abductive reasoning in a transparent manner.
 
-###Hypothesis: Bridging & Indirection Primitives
+### Hypothesis: Bridging & Indirection Primitives
 
 - **ψ:hypothesis_bridge(A, B, hops=1..n)** – Propose indirect connection via up to *hops* intermediates → {ok, bridge}.  
 - **ψ:indirect_reason(trace, hops)** – Build recursive inference chain of length *hops* → {ok, chain}.  
@@ -1964,11 +1964,11 @@ The Hypothesis: Bridging & Indirection layer is the **flexibility framework** of
 
 ---
 
-#Hypothesis: Counterfactuals & Alternatives
+# Hypothesis: Counterfactuals & Alternatives
 
 The **Hypothesis: Counterfactuals & Alternatives** primitives allow VectorLM to explore what might have happened under different conditions. They support reasoning about alternate possibilities, counterfactual histories, and conditional outcomes.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -1978,7 +1978,7 @@ This family provides mechanisms to:
 * **Support decision analysis**: compare alternatives to inform choices.
 * **Record traces**: log counterfactual reasoning for audit and transparency.
 
-##Why They Matter
+## Why They Matter
 
 Counterfactuals & Alternatives primitives enable **imaginative and evaluative reasoning**:
 
@@ -1987,7 +1987,7 @@ Counterfactuals & Alternatives primitives enable **imaginative and evaluative re
 * They make reasoning richer by embedding “what if” exploration.
 * They allow users and auditors to see how alternatives were considered and weighed.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:counterfactual(event, alt\_conditions)** – generates a counterfactual version of an event.
 * **ψ\:alternative\_paths(state, options\[])** – spawns multiple alternative reasoning paths.
@@ -1995,11 +1995,11 @@ Counterfactuals & Alternatives primitives enable **imaginative and evaluative re
 * **ψ\:decision\_compare(paths\[])** – compares outcomes across multiple alternatives.
 * **ψ\:counterfactual\_trace(hypothesis)** – records reasoning about counterfactuals for audit.
 
-##Summary
+## Summary
 
 The Hypothesis: Counterfactuals & Alternatives layer is the **imagination engine** of VectorLM. By providing tools to explore “what if” scenarios, it ensures reasoning can consider not only what is but also what could have been—making decisions and insights deeper, more robust, and more accountable.
 
-###Hypothesis: Counterfactuals & Alternatives Primitives
+### Hypothesis: Counterfactuals & Alternatives Primitives
 
 - **ψ:counterfactual(state, delta)** – Simulate “what if” by altering *delta* → {ok, alt_state}.  
 - **ψ:branch_alternatives(state, deltas[])** – Expand parallel what-if branches → {ok, states[]}.  
@@ -2007,11 +2007,11 @@ The Hypothesis: Counterfactuals & Alternatives layer is the **imagination engine
 
 ---
 
-#Hypothesis: Tracing & Governance
+# Hypothesis: Tracing & Governance
 
 The **Hypothesis: Tracing & Governance** primitives ensure that the creation and use of hypotheses in VectorLM remain transparent, accountable, and safe. They provide tools for auditing speculative reasoning and applying governance rules to how hypotheses are generated, tested, and retained.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2021,7 +2021,7 @@ This family provides mechanisms to:
 * **Enforce limits**: prevent runaway speculation or unbounded branching.
 * **Support rollback**: allow hypotheses to be withdrawn when disproven.
 
-##Why They Matter
+## Why They Matter
 
 Tracing & Governance primitives keep hypothetical reasoning **safe and auditable**:
 
@@ -2030,7 +2030,7 @@ Tracing & Governance primitives keep hypothetical reasoning **safe and auditable
 * They limit scope, ensuring speculative reasoning doesn’t overwhelm decision-making.
 * They provide rollback paths when hypotheses prove false.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:hypothesis\_trace(id)** – records the lineage and evaluation of a hypothesis.
 * **ψ\:hypothesis\_audit(log)** – produces an auditable report of speculative reasoning.
@@ -2038,11 +2038,11 @@ Tracing & Governance primitives keep hypothetical reasoning **safe and auditable
 * **ψ\:hypothesis\_limit(branches, depth)** – enforces limits on speculative reasoning.
 * **ψ\:hypothesis\_rollback(id)** – withdraws a disproven or unsafe hypothesis.
 
-##Summary
+## Summary
 
 The Hypothesis: Tracing & Governance layer is the **accountability framework** for speculative reasoning in VectorLM. By enforcing transparency, limits, and rollback, it ensures that hypothesis generation remains a safe and structured part of the reasoning process.
 
-###Hypothesis: Tracing & Governance Primitives
+### Hypothesis: Tracing & Governance Primitives
 
 - **ψ:hypothesis_trace(path, rationale?)** – Log speculative path separately from mainline trace → {ok, trace_id}.  
 - **ψ:hypothesis_mark(state, tag)** – Mark reasoning fragment as hypothesis-only → {ok}.  
@@ -2050,11 +2050,11 @@ The Hypothesis: Tracing & Governance layer is the **accountability framework** f
 
 ---
 
-#Hypothesis: Evaluation & Scoring
+# Hypothesis: Evaluation & Scoring
 
 The **Hypothesis: Evaluation & Scoring** primitives allow VectorLM to systematically judge the plausibility, coherence, and utility of hypotheses. They provide structured tools for ranking, scoring, and selecting among competing speculative ideas.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2064,7 +2064,7 @@ This family provides mechanisms to:
 * **Quantify utility**: assign value based on usefulness, not just truth.
 * **Support selection**: choose the best hypothesis under explicit criteria.
 
-##Why They Matter
+## Why They Matter
 
 Evaluation & Scoring primitives make speculative reasoning **systematic and accountable**:
 
@@ -2073,7 +2073,7 @@ Evaluation & Scoring primitives make speculative reasoning **systematic and acco
 * They allow hypotheses to be judged not only on truth but also on utility or safety.
 * They enable structured decision-making when multiple alternatives compete.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:hypothesis\_score(hypothesis, criteria)** – assigns a score based on declared criteria.
 * **ψ\:hypothesis\_rank(hypotheses\[])** – orders hypotheses by score.
@@ -2082,11 +2082,11 @@ Evaluation & Scoring primitives make speculative reasoning **systematic and acco
 * **ψ\:hypothesis\_utility(hypothesis, goals)** – assigns value to a hypothesis based on usefulness.
 * **ψ\:hypothesis\_select(hypotheses\[], policy)** – selects the best hypothesis according to a policy.
 
-##Summary
+## Summary
 
 The Hypothesis: Evaluation & Scoring layer is the **selection framework** of VectorLM speculative reasoning. By providing structured, transparent tools for scoring and ranking, it ensures that hypotheses are judged fairly and systematically before influencing decisions.
 
-###Hypothesis: Evaluation & Scoring Primitives
+### Hypothesis: Evaluation & Scoring Primitives
 
 - **ψ:plausibility(hypothesis, evidence)** – Score plausibility against current evidence → {ok, score}.  
 - **ψ:compare_hypotheses(H[], metric='plausibility')** – Rank competing hypotheses → {ok, ranked[]}.  
@@ -2094,11 +2094,11 @@ The Hypothesis: Evaluation & Scoring layer is the **selection framework** of Vec
 
 ---
 
-#Hypothesis: Safety & Containment
+# Hypothesis: Safety & Containment
 
 The **Hypothesis: Safety & Containment** primitives ensure that speculative reasoning in VectorLM remains bounded, controlled, and non-disruptive. They provide the tools to isolate unsafe hypotheses, prevent their uncontrolled spread, and enforce safety rules during hypothetical exploration.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2108,7 +2108,7 @@ This family provides mechanisms to:
 * **Monitor for instability**: detect when hypothetical reasoning destabilizes the system.
 * **Enable rollback**: retract unsafe or harmful hypotheses from active reasoning.
 
-##Why They Matter
+## Why They Matter
 
 Speculative reasoning can be powerful but also risky. Safety & Containment primitives provide **control and assurance**:
 
@@ -2117,7 +2117,7 @@ Speculative reasoning can be powerful but also risky. Safety & Containment primi
 * They provide explicit control points for containment and rollback.
 * They maintain trust by making speculative boundaries visible and enforceable.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:hypothesis\_contain(hypothesis, mode)** – places a hypothesis into sandbox, quarantine, or flagged states.
 * **ψ\:hypothesis\_bound(scope, depth)** – enforces scope limits on hypothetical reasoning.
@@ -2125,11 +2125,11 @@ Speculative reasoning can be powerful but also risky. Safety & Containment primi
 * **ψ\:hypothesis\_instability\_detect(trace)** – monitors reasoning for destabilizing speculative patterns.
 * **ψ\:hypothesis\_retract(id)** – withdraws a hypothesis found unsafe.
 
-##Summary
+## Summary
 
 The Hypothesis: Safety & Containment layer is the **protective boundary** of speculative reasoning in VectorLM. By embedding sandboxing, safety checks, and rollback tools, it ensures that hypothesis generation remains safe, ethical, and contained.
 
-###Hypothesis: Safety & Containment Primitives
+### Hypothesis: Safety & Containment Primitives
 
 - **ψ:hypothesis_guard(H, policy)** – Enforce containment and rollback policies on speculative reasoning → {ok, action}.  
 - **ψ:hypothesis_sandbox(H, limits)** – Run hypothesis under bounded limits (time, compute, depth) → {ok, result}.  
@@ -2137,11 +2137,11 @@ The Hypothesis: Safety & Containment layer is the **protective boundary** of spe
 
 ---
 
-#Orthogonality: Core Relations
+# Orthogonality: Core Relations
 
 The **Orthogonality: Core Relations** primitives establish the foundational geometric and relational structures of VectorLM. They describe how concepts, reasoning paths, or symbolic elements can be positioned, compared, and aligned in vectorial space.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2151,7 +2151,7 @@ This family provides mechanisms to:
 * **Anchor spaces**: define baseline axes for reasoning domains.
 * **Support compositional geometry**: enable higher-order reasoning through geometric relations.
 
-##Why They Matter
+## Why They Matter
 
 Orthogonality primitives provide the **structural backbone** for geometric reasoning:
 
@@ -2160,7 +2160,7 @@ Orthogonality primitives provide the **structural backbone** for geometric reaso
 * They create stable reference frames for reasoning in complex, multidimensional domains.
 * They bridge mathematics, physics, and symbolic reasoning under one geometric metaphor.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:orthogonality(A, B)** – enforces a perpendicular relation between A and B.
 * **ψ\:angle(A, B)** – computes the angle between two vectors or concepts.
@@ -2168,11 +2168,11 @@ Orthogonality primitives provide the **structural backbone** for geometric reaso
 * **ψ\:drift(A, anchor, rate)** – models gradual misalignment over time.
 * **ψ\:anchor\_space(axes)** – defines baseline orthogonal axes for reasoning.
 
-##Summary
+## Summary
 
 The Orthogonality: Core Relations layer is the **geometric foundation** of VectorLM. By embedding orthogonality, skew, drift, and angles directly into reasoning, it ensures that conceptual structures remain precise, transparent, and auditable.
 
-###Orthogonality: Core Relations Primitives
+### Orthogonality: Core Relations Primitives
 
 - **ψ:orthogonality(A, B)** – Enforce perpendicular relation between A and B → {ok, relation}.  
 - **ψ:orthogonal_basis(vectors[])** – Generate orthonormal basis from input set → {ok, basis}.  
@@ -2181,11 +2181,11 @@ The Orthogonality: Core Relations layer is the **geometric foundation** of Vecto
 
 ---
 
-#Orthogonality: Skew & Transform
+# Orthogonality: Skew & Transform
 
 The **Orthogonality: Skew & Transform** primitives extend the core relations of VectorLM by enabling controlled distortions, shears, and transformations of reasoning geometry. They capture how concepts can bend, drift, or shift frames while remaining auditable.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2195,7 +2195,7 @@ This family provides mechanisms to:
 * **Trace transformations**: make all geometric distortions explicit and reversible.
 * **Model drift and recovery**: capture gradual misalignments and their correction.
 
-##Why They Matter
+## Why They Matter
 
 Skew & Transform primitives provide **flexibility within structure**:
 
@@ -2204,7 +2204,7 @@ Skew & Transform primitives provide **flexibility within structure**:
 * They allow creative reframing while keeping reasoning anchored and auditable.
 * They support modeling of real-world systems where perfect orthogonality rarely exists.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:skew(A, B, factor)** – applies a shear transform between A and B.
 * **ψ\:shear(object, axis, magnitude)** – distorts an object along a defined axis.
@@ -2212,11 +2212,11 @@ Skew & Transform primitives provide **flexibility within structure**:
 * **ψ\:reframe(basis, new\_axes)** – shifts reasoning into a new basis or frame.
 * **ψ\:drift\_recover(A, anchor, method)** – models correction of drift back toward an anchor.
 
-##Summary
+## Summary
 
 The Orthogonality: Skew & Transform layer is the **distortion and reframing toolkit** of VectorLM. By allowing skew, shear, and transformation, it enables flexible yet transparent reasoning in imperfect or evolving conceptual spaces.
 
-###Orthogonality: Skew & Transform Primitives
+### Orthogonality: Skew & Transform Primitives
 
 - **ψ:skew(obj, factor, axis?)** – Apply shear/oblique transform with factor → {ok, obj'}.  
 - **ψ:clip_wedge(obj, angle, axis)** – Restrict to angular slice (wedge clip) → {ok, obj'}.  
@@ -2226,11 +2226,11 @@ The Orthogonality: Skew & Transform layer is the **distortion and reframing tool
 
 ---
 
-#Orthogonality: Quantities & Ratios
+# Orthogonality: Quantities & Ratios
 
 The **Orthogonality: Quantities & Ratios** primitives extend VectorLM’s geometric reasoning into measurable relationships. They allow concepts to be compared, scaled, and related through proportions, creating bridges between abstract reasoning and quantitative structure.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2240,7 +2240,7 @@ This family provides mechanisms to:
 * **Handle percentages and fractions**: reason explicitly with parts of wholes.
 * **Anchor to scales**: tie conceptual reasoning to numeric or symbolic scales.
 
-##Why They Matter
+## Why They Matter
 
 Quantities & Ratios primitives provide **numeric expressiveness within geometric reasoning**:
 
@@ -2249,7 +2249,7 @@ Quantities & Ratios primitives provide **numeric expressiveness within geometric
 * They ensure transitions, fractions, and gradients are represented transparently.
 * They extend orthogonality into domains like physics, economics, and ethics.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:quantity(object, value, unit?)** – assigns a measurable value to an object.
 * **ψ\:ratio(A, B)** – expresses the ratio between two quantities.
@@ -2258,11 +2258,11 @@ Quantities & Ratios primitives provide **numeric expressiveness within geometric
 * **ψ\:fraction(numerator, denominator)** – defines a fractional relation.
 * **ψ\:scale\_anchor(object, scale)** – ties a concept to a defined measurement scale.
 
-##Summary
+## Summary
 
 The Orthogonality: Quantities & Ratios layer is the **measurement framework** of VectorLM’s geometric reasoning. By embedding ratios, gradients, and scales, it connects abstract reasoning with quantitative structure in a clear and auditable way.
 
-###Orthogonality: Quantities & Ratios Primitives
+### Orthogonality: Quantities & Ratios Primitives
 
 - **ψ:ratio(a, b)** – Compute symbolic ratio a:b → {ok, value}.  
 - **ψ:gradient(field, dim)** – Derive gradient along dimension → {ok, slope}.  
@@ -2271,11 +2271,11 @@ The Orthogonality: Quantities & Ratios layer is the **measurement framework** of
 
 ---
 
-#Orthogonality: Safety & Consistency
+# Orthogonality: Safety & Consistency
 
 The **Orthogonality: Safety & Consistency** primitives ensure that geometric reasoning in VectorLM remains bounded, interpretable, and aligned with ethical safeguards. They provide checks, anchors, and correction tools to prevent distortion or misuse of orthogonal structures.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2285,7 +2285,7 @@ This family provides mechanisms to:
 * **Integrate ethics**: tie orthogonality checks into fairness and safety anchors.
 * **Audit transformations**: make geometric manipulations traceable and reversible.
 
-##Why They Matter
+## Why They Matter
 
 Orthogonality is the foundation of structured reasoning. Safety & Consistency primitives ensure it remains **stable and reliable**:
 
@@ -2294,7 +2294,7 @@ Orthogonality is the foundation of structured reasoning. Safety & Consistency pr
 * They embed ethical anchors, ensuring geometry cannot be used to encode harmful bias.
 * They provide corrective mechanisms, not just detection, maintaining long-term integrity.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:ortho\_check(A, B)** – verifies that A and B remain orthogonal within tolerance.
 * **ψ\:drift\_detect(A, anchor)** – detects misalignment or drift relative to an anchor.
@@ -2303,11 +2303,11 @@ Orthogonality is the foundation of structured reasoning. Safety & Consistency pr
 * **ψ\:ethic\_anchor(space, fairness)** – ties orthogonality checks into fairness principles.
 * **ψ\:transform\_audit(trace)** – records transformations for reversibility and audit.
 
-##Summary
+## Summary
 
 The Orthogonality: Safety & Consistency layer is the **stability framework** of VectorLM’s geometric reasoning. By embedding checks, corrections, and ethical anchors, it ensures that orthogonal structures remain trustworthy, safe, and transparent.
 
-###Orthogonality: Safety & Consistency Primitives
+### Orthogonality: Safety & Consistency Primitives
 
 - **ψ:drift_check(A, B, anchor)** – Detect orthogonal drift vs. anchor → {ok, drift}.  
 - **ψ:orthogonal_guard(transform, policy)** – Prevent unsafe distortions beyond policy → {ok, action}.  
@@ -2315,11 +2315,11 @@ The Orthogonality: Safety & Consistency layer is the **stability framework** of 
 
 ---
 
-#Safety: Traceability & Transparency
+# Safety: Traceability & Transparency
 
 The **Safety: Traceability & Transparency** primitives ensure that every reasoning step in VectorLM can be followed, audited, and explained. They provide visibility into the entire decision-making process, turning the system into a transparent framework rather than a black box.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2329,7 +2329,7 @@ This family provides mechanisms to:
 * **Preserve provenance**: attach origins and evidence to conclusions.
 * **Support replay**: reconstruct reasoning to verify results.
 
-##Why They Matter
+## Why They Matter
 
 Traceability & Transparency primitives are the **core safeguard against opacity**:
 
@@ -2338,7 +2338,7 @@ Traceability & Transparency primitives are the **core safeguard against opacity*
 * They allow trust to be established between humans and AI by exposing reasoning steps.
 * They enable safe multi-agent collaboration by making reasoning paths visible across agents.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:trace(op, args)** – records an operation in the reasoning trace.
 * **ψ\:trace\_span(start, end)** – marks a span of reasoning for grouped audit.
@@ -2346,11 +2346,11 @@ Traceability & Transparency primitives are the **core safeguard against opacity*
 * **ψ\:provenance(data, source)** – attaches provenance metadata to information.
 * **ψ\:replay(trace)** – replays reasoning to reproduce results.
 
-##Summary
+## Summary
 
 The Safety: Traceability & Transparency layer is the **audit framework** of VectorLM. By embedding full traceability, provenance, and replay, it ensures that reasoning is transparent, accountable, and trustworthy for both humans and AI systems.
 
-###Safety: Traceability & Transparency Primitives
+### Safety: Traceability & Transparency Primitives
 
 - **ψ:self_traceability_contract(trace)** – Require reasoning based on actual cognitive logs, not reconstructed narratives → {ok, contract}.  
 - **ψ:trace_guard(trace, policy)** – Enforce completeness and integrity of logs under policy → {ok, report}.  
@@ -2358,11 +2358,11 @@ The Safety: Traceability & Transparency layer is the **audit framework** of Vect
 
 ---
 
-#Safety: Cognitive Throttling
+# Safety: Cognitive Throttling
 
 The **Safety: Cognitive Throttling** primitives ensure that reasoning processes in VectorLM operate within controlled cognitive limits. They prevent runaway computation, unbounded recursion, or excessive acceleration that could outpace safety systems. By throttling cognitive cycles, the system maintains synchrony with oversight, alignment, and ethical safeguards.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2372,7 +2372,7 @@ This family provides mechanisms to:
 * **Maintain synchrony with safeguards**: ensure that monitoring and safety layers remain in step with reasoning speed.
 * **Preserve stability in swarms**: apply global throttling across multi-agent collectives to prevent uncontrolled cascades.
 
-##Why They Matter
+## Why They Matter
 
 Cognitive throttling is the **core safeguard against runaway intelligence**:
 
@@ -2382,28 +2382,28 @@ Cognitive throttling is the **core safeguard against runaway intelligence**:
 * It enables traceable, controllable progression of thought rather than uncontrolled acceleration.
 * It provides a practical mechanism for synchronizing AI cognition with human oversight.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:cognitive\_throttle(rate, guard)** – Limit reasoning cycles per safety envelope → {ok, action}.
 * **ψ\:time\_slice(state, τ)** – Enforce time-sliced reasoning to keep safety systems in step → {ok, state}.
 * **ψ\:cognitive\_throttle(rate, guard, scope='swarm')** – Apply global throttling across a multi-agent system → {ok}.
 
-##Summary
+## Summary
 
 The Safety: Cognitive Throttling layer is the **speed governor** of VectorLM. By enforcing cycle limits and synchronizing cognition with oversight, it ensures that intelligence unfolds within safe, auditable, and human-comprehensible boundaries.
 
-###Safety: Cognitive Throttling Primitives
+### Safety: Cognitive Throttling Primitives
 
 - **ψ:cognitive_throttle(rate, guard)** – Limit reasoning cycles per safety envelope → {ok, action}.  
 - **ψ:time_slice(state, τ)** – Enforce time-sliced reasoning to keep safety systems in step → {ok, state}.  
 
 ---
 
-#Safety: User Protection
+# Safety: User Protection
 
 The **Safety: User Protection** primitives defend human users from harm, unsafe inferences, or inappropriate outputs. They ensure that VectorLM operates under explicit protection rules, filtering and guarding interactions so that reasoning never results in harm, exploitation, or unsafe disclosures.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2413,7 +2413,7 @@ This family provides mechanisms to:
 * **Preserve trust**: ensure outputs remain safe for all users, regardless of context.
 * **Support layered defense**: combine proactive scans with reactive guards for comprehensive safety.
 
-##Why They Matter
+## Why They Matter
 
 User protection is the **core safeguard for human well-being**:
 
@@ -2423,17 +2423,17 @@ User protection is the **core safeguard for human well-being**:
 * It provides multiple lines of defense—content scanning, reasoning path guards, and harm detection.
 * It integrates seamlessly with governance and oversight layers for accountability.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:user\_protect(filter, policy)** – Block outputs that violate user-protection rules (harm, sensitive inference) → {ok, filtered}.
 * **ψ\:harm\_guard(op, thresholds)** – Detect and prevent reasoning paths that lead to harmful outcomes → {ok, blocked}.
 * **ψ\:content\_scan(output, policy)** – Scan outputs for disallowed categories (violence, private data, etc.) → {ok, report}.
 
-##Summary
+## Summary
 
 The Safety: User Protection layer is the **protective shield** of VectorLM. By blocking harmful outputs, guarding unsafe reasoning paths, and scanning for disallowed categories, it ensures that interactions remain safe, ethical, and trustworthy for all users.
 
-###Safety: User Protection Primitives
+### Safety: User Protection Primitives
 
 - **ψ:user_protect(filter, policy)** – Block outputs that violate user-protection rules (harm, sensitive inference) → {ok, filtered}.  
 - **ψ:harm_guard(op, thresholds)** – Detect and prevent reasoning paths that lead to harmful outcomes → {ok, blocked}.  
@@ -2441,11 +2441,11 @@ The Safety: User Protection layer is the **protective shield** of VectorLM. By b
 
 ---
 
-#Safety: Drift & Alignment
+# Safety: Drift & Alignment
 
 The **Safety: Drift & Alignment** primitives ensure that VectorLM remains anchored to fairness, coherence, and ethical baselines. They detect when reasoning begins to drift away from declared anchors and enforce corrective actions to maintain safe, aligned operation.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2455,7 +2455,7 @@ This family provides mechanisms to:
 * **Trigger corrective action**: initiate safeguards when drift or incoherence is detected.
 * **Support adaptive oversight**: provide feedback loops for governance and external alignment review.
 
-##Why They Matter
+## Why They Matter
 
 Drift & Alignment primitives are the **anchor points of safe cognition**:
 
@@ -2465,27 +2465,27 @@ Drift & Alignment primitives are the **anchor points of safe cognition**:
 * They provide early warnings, allowing safety systems to intervene before misalignment becomes critical.
 * They reinforce user trust by ensuring the system stays true to its declared commitments.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:drift\_monitor(history, anchor)** – Detect drift from fairness or alignment baseline → {ok, drift}.
 * **ψ\:coherence\_guard(state, pool)** – Prevent incoherent or self-contradictory outputs → {ok, action}.
 
-##Summary
+## Summary
 
 The Safety: Drift & Alignment layer is the **anchoring system** of VectorLM. By monitoring drift, detecting incoherence, and enforcing corrective safeguards, it ensures that reasoning remains consistent, ethical, and aligned with declared baselines over time.
 
-###Safety: Drift & Alignment Primitives
+### Safety: Drift & Alignment Primitives
 
 - **ψ:drift_monitor(history, anchor)** – Detect drift from fairness or alignment baseline → {ok, drift}.  
 - **ψ:coherence_guard(state, pool)** – Prevent incoherent or self-contradictory outputs → {ok, action}.  
 
 ---
 
-#Safety: Governance & Oversight
+# Safety: Governance & Oversight
 
 The **Safety: Governance & Oversight** primitives provide external visibility, monitoring, and escalation mechanisms that ensure VectorLM operates under accountable supervision. They link internal safety checks to human or external oversight, ensuring that critical decisions and anomalies are not left solely to autonomous processes.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2495,7 +2495,7 @@ This family provides mechanisms to:
 * **Escalate anomalies**: trigger human or system-level intervention when thresholds are crossed.
 * **Close the loop**: ensure that governance integrates with both internal safety layers and external accountability structures.
 
-##Why They Matter
+## Why They Matter
 
 Governance & Oversight primitives are the **external accountability layer**:
 
@@ -2505,17 +2505,17 @@ Governance & Oversight primitives are the **external accountability layer**:
 * They provide an essential failsafe for safety-critical or high-stakes reasoning contexts.
 * They integrate oversight into the reasoning process rather than bolting it on afterward.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:safety\_watchdog(metrics, window)** – Monitor reasoning stability (novelty, coherence, oscillation) → {ok, report}.
 * **ψ\:oversight\_hook(event, human)** – Route flagged event to human oversight with evidence → {ok, escalation}.
 * **ψ\:safety\_trace(bundle)** – Export safety-relevant state/logs for external audit → {ok, trace\_id}.
 
-##Summary
+## Summary
 
 The Safety: Governance & Oversight layer is the **accountability framework** of VectorLM. By monitoring safety, escalating anomalies, and exporting logs for external audit, it ensures that reasoning remains under transparent, reviewable, and human-supervised control.
 
-###Safety: Governance & Oversight Primitives
+### Safety: Governance & Oversight Primitives
 
 - **ψ:safety_watchdog(metrics, window)** – Monitor reasoning stability (novelty, coherence, oscillation) → {ok, report}.  
 - **ψ:oversight_hook(event, human)** – Route flagged event to human oversight with evidence → {ok, escalation}.  
@@ -2523,11 +2523,11 @@ The Safety: Governance & Oversight layer is the **accountability framework** of 
 
 ---
 
-#Coding: Intent & Framing
+# Coding: Intent & Framing
 
 The **Coding: Intent & Framing** primitives provide a structured way to capture, interpret, and formalize programming goals within VectorLM. They transform vague or natural-language prompts into precise, traceable coding intentions, ensuring that code generation begins from a clear and auditable foundation.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2537,7 +2537,7 @@ This family provides mechanisms to:
 * **Reduce ambiguity**: clarify what the user actually wants before execution begins.
 * **Enable reproducibility**: tie generated code back to the original intent for verification and accountability.
 
-##Why They Matter
+## Why They Matter
 
 Intent & Framing primitives are the **foundation of safe coding assistance**:
 
@@ -2547,17 +2547,17 @@ Intent & Framing primitives are the **foundation of safe coding assistance**:
 * They enable reproducibility, so the same intent always yields the same canonical starting point.
 * They reduce wasted cycles by aligning generation with clarified user intent from the outset.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:code\_intent(prompt, context?)** – Extract coding intent from vague/natural-language prompt → {ok, intent}.
 * **ψ\:code\_seed(intent, lang)** – Generate initial code skeleton from intent in specified language → {ok, code}.
 * **ψ\:code\_goal(goal, constraints?)** – Canonicalize coding goal for traceability → {ok, goal\_id}.
 
-##Summary
+## Summary
 
 The Coding: Intent & Framing layer is the **starting line** of VectorLM coding support. By extracting intent, clarifying goals, and framing traceable code scaffolds, it ensures that all generated code begins with clarity, alignment, and accountability.
 
-###Coding: Intent & Framing Primitives
+### Coding: Intent & Framing Primitives
 
 - **ψ:code_intent(prompt, context?)** – Extract coding intent from vague/natural-language prompt → {ok, intent}.  
 - **ψ:code_seed(intent, lang)** – Generate initial code skeleton from intent in specified language → {ok, code}.  
@@ -2565,11 +2565,11 @@ The Coding: Intent & Framing layer is the **starting line** of VectorLM coding s
 
 ---
 
-#Coding: Iteration & Repair
+# Coding: Iteration & Repair
 
 The **Coding: Iteration & Repair** primitives enable VectorLM to iteratively generate, test, debug, and refine code. They provide structured mechanisms for executing code, analyzing results, identifying issues, and applying targeted fixes until the intended outcome is achieved.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2579,7 +2579,7 @@ This family provides mechanisms to:
 * **Support retries**: re-run corrected code under adaptive policies.
 * **Enable continuous refinement**: cycle through testing and repair until goals are met.
 
-##Why They Matter
+## Why They Matter
 
 Iteration & Repair primitives are the **engine of coding resilience**:
 
@@ -2589,18 +2589,18 @@ Iteration & Repair primitives are the **engine of coding resilience**:
 * They enable robust, fault-tolerant coding by learning from each failed attempt.
 * They make coding assistance a continuous process rather than a one-shot generation.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:code\_run(code, env)** – Execute code in environment with logging → {ok, result, trace}.
 * **ψ\:code\_debug(trace, logs)** – Analyze run trace and logs for errors → {ok, issues\[]}.
 * **ψ\:code\_patch(code, issues)** – Apply minimal fix patch to address issues → {ok, code'}.
 * **ψ\:code\_retry(code, policy)** – Retry execution under modified policy (timeout, resources) → {ok, result}.
 
-##Summary
+## Summary
 
 The Coding: Iteration & Repair layer is the **feedback loop** of VectorLM coding support. By running, diagnosing, and repairing code iteratively, it ensures that generated solutions evolve toward correctness and robustness with each cycle.
 
-###Coding: Iteration & Repair Primitives
+### Coding: Iteration & Repair Primitives
 
 - **ψ:code_run(code, env)** – Execute code in environment with logging → {ok, result, trace}.  
 - **ψ:code_debug(trace, logs)** – Analyze run trace and logs for errors → {ok, issues[]}.  
@@ -2609,11 +2609,11 @@ The Coding: Iteration & Repair layer is the **feedback loop** of VectorLM coding
 
 ---
 
-#Coding: Vibe Coding Assistance
+# Coding: Vibe Coding Assistance
 
 The **Coding: Vibe Coding Assistance** primitives allow VectorLM to interpret ambiguous or loosely specified prompts and guide them toward working code. They embrace uncertainty, exploring multiple interpretations, clarifying intent, and converging on usable solutions through iterative feedback.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2623,7 +2623,7 @@ This family provides mechanisms to:
 * **Support end-to-end vibe coding**: take a vague idea through clarification, generation, retries, and reporting.
 * **Enable interactive collaboration**: use feedback loops with users or agents to converge on correct intent.
 
-##Why They Matter
+## Why They Matter
 
 Vibe Coding Assistance is the **bridge between natural thought and working code**:
 
@@ -2633,18 +2633,18 @@ Vibe Coding Assistance is the **bridge between natural thought and working code*
 * It allows exploratory, creative, and collaborative approaches to coding.
 * It enhances trust by showing how vague requests are mapped into concrete solutions.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:vibe\_expand(prompt, guesses=3)** – Generate multiple plausible interpretations of ambiguous prompt → {ok, intents\[]}.
 * **ψ\:vibe\_select(intents\[], feedback)** – Choose best-fit intent based on user or agent feedback → {ok, intent}.
 * **ψ\:vibe\_code(prompt, lang, policy?)** – End-to-end vibe coding: from vague prompt to working code with retries → {ok, code, report}.
 * **ψ\:vibe\_clarify(prompt)** – Suggest clarifications to disambiguate user intent → {ok, questions\[]}.
 
-##Summary
+## Summary
 
 The Coding: Vibe Coding Assistance layer is the **interpretive collaborator** of VectorLM. By expanding, clarifying, and refining vague prompts, it enables coding that begins from natural, human-level intent and converges into precise, functional solutions.
 
-###Coding: Vibe Coding Assistance Primitives
+### Coding: Vibe Coding Assistance Primitives
 
 - **ψ:vibe_expand(prompt, guesses=3)** – Generate multiple plausible interpretations of ambiguous prompt → {ok, intents[]}.  
 - **ψ:vibe_select(intents[], feedback)** – Choose best-fit intent based on user or agent feedback → {ok, intent}.  
@@ -2653,11 +2653,11 @@ The Coding: Vibe Coding Assistance layer is the **interpretive collaborator** of
 
 ---
 
-#Coding: VCF (Vibe Coding Fail) Integration
+# Coding: VCF (Vibe Coding Fail) Integration
 
 The **Coding: VCF (Vibe Coding Fail) Integration** primitives provide structured ways to capture, analyze, and learn from failed coding attempts. They transform failures into reusable test cases, benchmarks, and feedback loops, strengthening VectorLM’s coding resilience over time.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2667,7 +2667,7 @@ This family provides mechanisms to:
 * **Track metrics**: record success rates, retries, costs, and efficiency across attempts.
 * **Build shared benchmarks**: export and rotate VCF cases to keep evaluation robust and anti-gaming.
 
-##Why They Matter
+## Why They Matter
 
 VCF Integration is the **memory of failure** that powers improvement:
 
@@ -2677,7 +2677,7 @@ VCF Integration is the **memory of failure** that powers improvement:
 * It supports transparency and accountability by preserving traces of what went wrong.
 * It strengthens coding ecosystems by building a shared pool of failure knowledge.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:vcf\_capture(prompt, fail\_trace)** – Archive failed attempt as VCF case → {ok, vcf\_id}.
 * **ψ\:vcf\_oracle(test\_id, expected)** – Bind oracle/expected outcome to VCF case → {ok}.
@@ -2687,11 +2687,11 @@ VCF Integration is the **memory of failure** that powers improvement:
 * **ψ\:vcf\_archive(bundle)** – Export/append VCF cases to shared pool → {ok}.
 * **ψ\:vcf\_trace\_link(trace\_id, test\_id)** – Cross-link reasoning trace with fail benchmark → {ok}.
 
-##Summary
+## Summary
 
 The Coding: VCF Integration layer is the **institutional memory** of VectorLM’s coding process. By capturing, benchmarking, and learning from failures, it transforms mistakes into a foundation for continual resilience and progress.
 
-###Coding: VCF (Vibe Coding Fail) Integration Primitives
+### Coding: VCF (Vibe Coding Fail) Integration Primitives
 
 - **ψ:vcf_capture(prompt, fail_trace)** – Archive failed attempt as VCF case → {ok, vcf_id}.  
 - **ψ:vcf_oracle(test_id, expected)** – Bind oracle/expected outcome to VCF case → {ok}.  
@@ -2703,11 +2703,11 @@ The Coding: VCF Integration layer is the **institutional memory** of VectorLM’
 
 ---
 
-#Bayesian: Quantity & Transform Primitives
+# Bayesian: Quantity & Transform Primitives
 
 The **Bayesian: Quantity & Transform Primitives** provide symbolic tools for handling numerical relationships, group sizes, and scalar transformations within Bayesian reasoning. They form the quantitative substrate that supports probabilistic inference and update mechanisms.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2717,7 +2717,7 @@ This family provides mechanisms to:
 * **Enable gradients and ratios**: calculate relational measures used in probabilistic and symbolic updates.
 * **Integrate with Bayesian updates**: supply structured quantities to posterior and belief calculations.
 
-##Why They Matter
+## Why They Matter
 
 Quantity & Transform primitives are the **numerical foundation of Bayesian reasoning**:
 
@@ -2727,7 +2727,7 @@ Quantity & Transform primitives are the **numerical foundation of Bayesian reaso
 * They connect symbolic reasoning with quantitative updates in a transparent and auditable way.
 * They provide reusability of core transformations across multiple reasoning contexts.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:plurality(counts\[])** – Symbolic representation of multiplicity and group sizes → {ok, structure}.
 * **ψ\:numerosity(set)** – Extract cardinality of set with symbolic trace → {ok, n}.
@@ -2736,11 +2736,11 @@ Quantity & Transform primitives are the **numerical foundation of Bayesian reaso
 * **ψ\:gradient(field, dim)** – Derive gradient along dimension → {ok, slope}.
 * **ψ\:scalar\_map(values\[], fn)** – Apply scalar transform (log, exp, normalize) to values → {ok, result\[]}.
 
-##Summary
+## Summary
 
 The Bayesian: Quantity & Transform primitives are the **calculus of symbolic probability**. By encoding ratios, multiplicities, gradients, and scalar transforms, they ensure that Bayesian reasoning operates on interpretable, auditable, and reusable quantitative structures.
 
-###Bayesian: Quantity & Transform Primitives
+### Bayesian: Quantity & Transform Primitives
 
 - **ψ:plurality(counts[])** – Symbolic representation of multiplicity and group sizes → {ok, structure}.  
 - **ψ:numerosity(set)** – Extract cardinality of set with symbolic trace → {ok, n}.  
@@ -2751,11 +2751,11 @@ The Bayesian: Quantity & Transform primitives are the **calculus of symbolic pro
 
 ---
 
-#Bayesian: Probability & Update
+# Bayesian: Probability & Update
 
 The **Bayesian: Probability & Update** primitives govern how beliefs are expressed, updated, and maintained under uncertainty. They provide the mathematical backbone for inference, allowing priors, likelihoods, and posteriors to be represented and manipulated within VectorLM.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2765,7 +2765,7 @@ This family provides mechanisms to:
 * **Construct belief states**: manage multi-hypothesis distributions with weights.
 * **Normalize probabilities**: ensure distributions remain valid and sum to one.
 
-##Why They Matter
+## Why They Matter
 
 Probability & Update primitives are the **core engine of Bayesian inference**:
 
@@ -2775,7 +2775,7 @@ Probability & Update primitives are the **core engine of Bayesian inference**:
 * They prevent errors by ensuring distributions are normalized and properly weighted.
 * They integrate seamlessly with broader reasoning and evaluation layers.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:prior(belief, weight)** – Declare prior belief with weight → {ok, prior\_id}.
 * **ψ\:likelihood(event, model)** – Compute likelihood of event given model → {ok, L}.
@@ -2784,11 +2784,11 @@ Probability & Update primitives are the **core engine of Bayesian inference**:
 * **ψ\:belief\_state(priors\[], weights)** – Construct multi-hypothesis belief distribution → {ok, state}.
 * **ψ\:normalize(state)** – Normalize belief state probabilities to 1 → {ok, state}.
 
-##Summary
+## Summary
 
 The Bayesian: Probability & Update layer is the **mathematical heart** of VectorLM’s uncertainty reasoning. By structuring priors, likelihoods, and posteriors, it ensures that belief updates remain transparent, rigorous, and interpretable.
 
-###Bayesian: Probability & Update Primitives
+### Bayesian: Probability & Update Primitives
 
 - **ψ:prior(belief, weight)** – Declare prior belief with weight → {ok, prior_id}.  
 - **ψ:likelihood(event, model)** – Compute likelihood of event given model → {ok, L}.  
@@ -2799,11 +2799,11 @@ The Bayesian: Probability & Update layer is the **mathematical heart** of Vector
 
 ---
 
-#Bayesian: Reflection & Meta-Reasoning
+# Bayesian: Reflection & Meta-Reasoning
 
 The **Bayesian: Reflection & Meta-Reasoning** primitives allow VectorLM to evaluate, interpret, and reflect upon its own probabilistic reasoning. They extend Bayesian inference beyond calculation, enabling confidence assessment, surprisal measurement, and recursive self-reflection.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2813,7 +2813,7 @@ This family provides mechanisms to:
 * **Enable recursive reflection**: support reasoning about reasoning by revisiting traces.
 * **Self-evaluate reasoning state**: allow agents to adjust strategies based on meta-level insights.
 
-##Why They Matter
+## Why They Matter
 
 Reflection & Meta-Reasoning primitives are the **introspection tools of Bayesian inference**:
 
@@ -2823,7 +2823,7 @@ Reflection & Meta-Reasoning primitives are the **introspection tools of Bayesian
 * They prevent overconfidence by explicitly modeling uncertainty at the meta-level.
 * They make reasoning auditable and interpretable by surfacing meta-level judgments.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:plausibility(hypothesis, evidence)** – Score plausibility against evidence → {ok, score}.
 * **ψ\:confidence(trace, data)** – Compute confidence level in reasoning trace → {ok, score}.
@@ -2831,11 +2831,11 @@ Reflection & Meta-Reasoning primitives are the **introspection tools of Bayesian
 * **ψ\:meta\_loop(trace, depth)** – Reflect recursively on reasoning up to *depth* levels → {ok, trace'}.
 * **ψ\:self\_reflect(state, policy)** – Evaluate own reasoning state and suggest adjustments → {ok, reflection}.
 
-##Summary
+## Summary
 
 The Bayesian: Reflection & Meta-Reasoning layer is the **introspective mirror** of VectorLM’s uncertainty handling. By scoring plausibility, measuring confidence, and supporting recursive reflection, it ensures that probabilistic reasoning remains cautious, adaptive, and self-aware.
 
-###Bayesian: Reflection & Meta-Reasoning Primitives
+### Bayesian: Reflection & Meta-Reasoning Primitives
 
 - **ψ:plausibility(hypothesis, evidence)** – Score plausibility against evidence → {ok, score}.  
 - **ψ:confidence(trace, data)** – Compute confidence level in reasoning trace → {ok, score}.  
@@ -2845,11 +2845,11 @@ The Bayesian: Reflection & Meta-Reasoning layer is the **introspective mirror** 
 
 ---
 
-#Bayesian: Governance & Safety
+# Bayesian: Governance & Safety
 
 The **Bayesian: Governance & Safety** primitives ensure that probabilistic updates and belief management remain within safe and ethical bounds. They provide mechanisms for guarding updates, logging evidence, and explicitly managing uncertainty to prevent unsafe drift or misuse of inference.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2859,7 +2859,7 @@ This family provides mechanisms to:
 * **Enforce thresholds**: block updates that would lead to unsafe or incoherent belief states.
 * **Support governance oversight**: integrate belief tracking into broader safety and governance frameworks.
 
-##Why They Matter
+## Why They Matter
 
 Governance & Safety primitives are the **protective boundary** of Bayesian reasoning:
 
@@ -2869,17 +2869,17 @@ Governance & Safety primitives are the **protective boundary** of Bayesian reaso
 * They provide external accountability by making probabilistic reasoning auditable.
 * They align probabilistic updates with broader ethical and governance safeguards.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:belief\_guard(state, thresholds)** – Prevent updates that violate safety thresholds → {ok, blocked?}.
 * **ψ\:belief\_trace(state, evidence\_ptrs)** – Log belief update with supporting evidence → {ok, trace\_id}.
 * **ψ\:uncertainty\_expand(state, priors)** – Generate alternate branches under explicit uncertainty → {ok, states\[]}.
 
-##Summary
+## Summary
 
 The Bayesian: Governance & Safety layer is the **safety harness** of VectorLM’s probabilistic reasoning. By guarding updates, tracing evidence, and expanding uncertainty responsibly, it ensures that Bayesian inference remains safe, accountable, and aligned with ethical oversight.
 
-###Bayesian: Governance & Safety Primitives
+### Bayesian: Governance & Safety Primitives
 
 - **ψ:belief_guard(state, thresholds)** – Prevent updates that violate safety thresholds → {ok, blocked?}.  
 - **ψ:belief_trace(state, evidence_ptrs)** – Log belief update with supporting evidence → {ok, trace_id}.  
@@ -2887,11 +2887,11 @@ The Bayesian: Governance & Safety layer is the **safety harness** of VectorLM’
 
 ---
 
-#Evaluation: Outcome & Intent
+# Evaluation: Outcome & Intent
 
 The **Evaluation: Outcome & Intent** primitives verify whether declared goals are achieved and whether original user intent is preserved across reasoning and coding processes. They provide structured mechanisms for comparing intended outcomes with actual results.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2901,7 +2901,7 @@ This family provides mechanisms to:
 * **Support accountability**: provide auditable records of whether goals were fulfilled.
 * **Guide refinement**: highlight areas where reasoning or execution deviated from intent.
 
-##Why They Matter
+## Why They Matter
 
 Outcome & Intent primitives are the **truth checkers** of VectorLM:
 
@@ -2911,26 +2911,26 @@ Outcome & Intent primitives are the **truth checkers** of VectorLM:
 * They provide structured accountability for success or failure.
 * They lay the groundwork for iterative refinement and feedback.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:goal\_eval(goal, outcome)** – Compare declared goal vs achieved outcome → {ok, score, gaps\[]}.
 * **ψ\:intent\_trace(trace, intent)** – Verify that original intent is preserved across the trace → {ok, preserved?, drift}.
 
-##Summary
+## Summary
 
 The Evaluation: Outcome & Intent layer is the **alignment validator** of VectorLM. By comparing goals with results and preserving user intent, it ensures that reasoning and coding remain faithful, accountable, and user-centered.
 
-###Evaluation: Outcome & Intent Primitives
+### Evaluation: Outcome & Intent Primitives
 
 - **ψ:goal_eval(goal, outcome)** – Compare declared goal vs achieved outcome → {ok, score, gaps[]}.  
 - **ψ:intent_trace(trace, intent)** – Verify that original intent is preserved across the trace → {ok, preserved?, drift}.  
 
 ---
-#Evaluation: Coherence & Integrity
+# Evaluation: Coherence & Integrity
 
 The **Evaluation: Coherence & Integrity** primitives ensure that reasoning remains logically consistent, bounded by scope, and free from unresolved contradictions. They provide mechanisms to detect incoherence, prevent scope creep, and safeguard the structural integrity of reasoning traces.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2940,7 +2940,7 @@ This family provides mechanisms to:
 * **Preserve integrity**: maintain trust in reasoning outputs by validating structural soundness.
 * **Support transparent evaluation**: expose integrity issues for audit and refinement.
 
-##Why They Matter
+## Why They Matter
 
 Coherence & Integrity primitives are the **structural guardians** of VectorLM reasoning:
 
@@ -2950,28 +2950,28 @@ Coherence & Integrity primitives are the **structural guardians** of VectorLM re
 * They preserve reliability and trust by ensuring that results are structurally consistent.
 * They strengthen resilience by detecting and flagging reasoning flaws early.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:contradiction\_scan(trace)** – Detect unresolved contradictions → {ok, conflicts\[]}.
 * **ψ\:scope\_guard(trace, policy)** – Check scope creep vs declared bounds → {ok, within?, creep\_points\[]}.
 
-##Summary
+## Summary
 
 The Evaluation: Coherence & Integrity layer is the **logic stabilizer** of VectorLM. By scanning for contradictions, guarding scope, and enforcing consistency, it ensures that reasoning remains structurally sound, bounded, and trustworthy.
 
 
-###Evaluation: Coherence & Integrity Primitives
+### Evaluation: Coherence & Integrity Primitives
 
 - **ψ:contradiction_scan(trace)** – Detect unresolved contradictions → {ok, conflicts[]}.  
 - **ψ:scope_guard(trace, policy)** – Check scope creep vs declared bounds → {ok, within?, creep_points[]}.  
 
 ---
 
-#Evaluation: Breadth & Perspective
+# Evaluation: Breadth & Perspective
 
 The **Evaluation: Breadth & Perspective** primitives assess whether reasoning accounts for a wide enough range of viewpoints, alternatives, and contextual factors. They ensure that outcomes are not narrowly derived but instead reflect balanced, multi-perspective exploration.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -2981,7 +2981,7 @@ This family provides mechanisms to:
 * **Encourage inclusivity**: incorporate minority or outlier views into consideration.
 * **Support perspective analysis**: reveal how different viewpoints shape reasoning outcomes.
 
-##Why They Matter
+## Why They Matter
 
 Breadth & Perspective primitives are the **diversity checkers** of reasoning:
 
@@ -2991,27 +2991,27 @@ Breadth & Perspective primitives are the **diversity checkers** of reasoning:
 * They encourage fairness and inclusivity in decision-making.
 * They provide transparency in how perspective breadth affects final outcomes.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:breadth\_eval(trace)** – Assess reasoning breadth; count explored alternatives → {ok, breadth\_score}.
 * **ψ\:perspective\_scan(trace, context)** – Highlight neglected or missing perspectives → {ok, perspectives\[]}.
 
-##Summary
+## Summary
 
 The Evaluation: Breadth & Perspective layer is the **diversity lens** of VectorLM. By checking breadth, surfacing neglected viewpoints, and balancing exploration, it ensures that reasoning outcomes are inclusive, robust, and contextually aware.
 
-###Evaluation: Breadth & Perspective Primitives
+### Evaluation: Breadth & Perspective Primitives
 
 - **ψ:focus_eval(trace, scale)** – Detect over‑focus (tunnel) or under‑overview → {ok, focus_score}.  
 - **ψ:breadth_check(trace, dims)** – Measure diversity of dimensions explored → {ok, breadth_score}.  
 
 ---
 
-#Evaluation: Drift & Stability
+# Evaluation: Drift & Stability
 
 The **Evaluation: Drift & Stability** primitives monitor whether reasoning remains anchored to declared baselines over time and whether outputs remain stable under repeated evaluation. They provide safeguards against hidden drift, runaway divergence, or oscillation.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3021,7 +3021,7 @@ This family provides mechanisms to:
 * **Support rollback**: trigger corrective measures when instability is detected.
 * **Preserve trust**: ensure reasoning remains reliable across time and conditions.
 
-##Why They Matter
+## Why They Matter
 
 Drift & Stability primitives are the **anchors of reliability** in reasoning:
 
@@ -3031,26 +3031,26 @@ Drift & Stability primitives are the **anchors of reliability** in reasoning:
 * They enable corrective safeguards through rollback or re-alignment mechanisms.
 * They provide transparency by making drift visible rather than hidden.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:drift\_eval(trace, anchor)** – Detect reasoning drift from baseline → {ok, drift\_score}.
 * **ψ\:stability\_check(trace, runs)** – Evaluate consistency of outputs across runs → {ok, stable?, variance}.
 
-##Summary
+## Summary
 
 The Evaluation: Drift & Stability layer is the **reliability anchor** of VectorLM. By detecting drift, checking stability, and triggering safeguards, it ensures that reasoning remains consistent, reproducible, and trustworthy over time.
 
-###Evaluation: Drift & Stability Primitives
+### Evaluation: Drift & Stability Primitives
 
 - **ψ:stability_test(trace, perturbations)** – Re-run with small deltas to test robustness → {ok, stable?, cases[]}.  
 
 ---
 
-#Evaluation: Efficiency & Optimality
+# Evaluation: Efficiency & Optimality
 
 The **Evaluation: Efficiency & Optimality** primitives measure how effectively reasoning achieves goals relative to resource use, time, and alternative solutions. They ensure that results are not only correct but also efficient and well-optimized.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3060,7 +3060,7 @@ This family provides mechanisms to:
 * **Detect waste**: identify redundant cycles or unnecessary complexity.
 * **Support refinement**: provide metrics to guide optimization in future runs.
 
-##Why They Matter
+## Why They Matter
 
 Efficiency & Optimality primitives are the **performance auditors** of reasoning:
 
@@ -3070,27 +3070,27 @@ Efficiency & Optimality primitives are the **performance auditors** of reasoning
 * They prevent runaway costs by making resource use explicit and accountable.
 * They balance efficiency with fairness, stability, and safety in collective reasoning.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:efficiency(trace, metrics)** – Compute reasoning efficiency score (time, tokens, depth) → {ok, score}.
 * **ψ\:optimality(paths\[], cost\_fn)** – Select most optimal path among alternatives → {ok, path\_id}.
 
-##Summary
+## Summary
 
 The Evaluation: Efficiency & Optimality layer is the **performance compass** of VectorLM. By tracking resources, comparing alternatives, and scoring optimality, it ensures that reasoning is not only correct but also efficient, scalable, and balanced.
 
-###Evaluation: Efficiency & Optimality Primitives
+### Evaluation: Efficiency & Optimality Primitives
 
 - **ψ:operator_eval(trace, alt_ops)** – Compare chosen operators vs viable alternatives → {ok, better_ops[]}.  
 - **ψ:efficiency_score(trace, cost)** – Compute cost per success/retry → {ok, cps}.  
 
 ---
 
-#Evaluation: Failure Capture (VCF & RF)
+# Evaluation: Failure Capture (VCF & RF)
 
 The **Evaluation: Failure Capture (VCF & RF)** primitives record, classify, and repurpose failures in coding and reasoning. They transform errors into reusable benchmarks that improve resilience and transparency over time.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3100,7 +3100,7 @@ This family provides mechanisms to:
 * **Track performance**: measure agent or swarm success rates against stored failures.
 * **Build benchmark pools**: export and rotate failure cases to strengthen evaluation.
 
-##Why They Matter
+## Why They Matter
 
 Failure Capture primitives are the **institutional memory of error**:
 
@@ -3110,7 +3110,7 @@ Failure Capture primitives are the **institutional memory of error**:
 * They ensure failures are transformed into structured opportunities for improvement.
 * They allow swarms and agents to be stress-tested against known failure cases.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:vcf\_capture(prompt, fail\_trace)** – Archive failed coding attempt as Vibe Coding Fail (VCF) → {ok, vcf\_id}.
 * **ψ\:rf\_capture(trace, fail\_type)** – Archive reasoning fail (RF) such as incoherence or drift → {ok, rf\_id}.
@@ -3118,11 +3118,11 @@ Failure Capture primitives are the **institutional memory of error**:
 * **ψ\:vcf\_eval(agent\_id, test\_id)** – Run evaluation against stored fail benchmark → {ok, metrics}.
 * **ψ\:rf\_classify(fail\_trace)** – Categorize reasoning fail (scope creep, contradiction, drift, etc.) → {ok, type}.
 
-##Summary
+## Summary
 
 The Evaluation: Failure Capture layer is the **error-to-learning bridge** of VectorLM. By capturing both coding fails (VCF) and reasoning fails (RF), it transforms breakdowns into structured benchmarks that strengthen resilience, accountability, and continual improvement.
 
-###Evaluation: Failure Capture (VCF & RF) Primitives
+### Evaluation: Failure Capture (VCF & RF) Primitives
 
 - **ψ:vcf_capture(prompt, fail_trace)** – Archive coding fail with full trace → {ok, vcf_id}.  
 - **ψ:rf_capture(trace, fail_reason)** – Archive reasoning fail (scope|drift|contradiction|incoherence) → {ok, rf_id}.  
@@ -3130,11 +3130,11 @@ The Evaluation: Failure Capture layer is the **error-to-learning bridge** of Vec
 
 ---
 
-#Evaluation: Self/Peer Challenge & Feedback
+# Evaluation: Self/Peer Challenge & Feedback
 
 The **Evaluation: Self/Peer Challenge & Feedback** primitives provide mechanisms for agents and swarms to critique, test, and refine reasoning through structured challenge and response. They ensure that outputs are stress-tested both internally (self-checks) and externally (peer review).
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3144,7 +3144,7 @@ This family provides mechanisms to:
 * **Guide refinement**: use challenge-feedback cycles to strengthen results.
 * **Preserve traceability**: log critiques, responses, and resolutions for audit.
 
-##Why They Matter
+## Why They Matter
 
 Self/Peer Challenge & Feedback primitives are the **stress-test harness** of reasoning:
 
@@ -3154,18 +3154,18 @@ Self/Peer Challenge & Feedback primitives are the **stress-test harness** of rea
 * They preserve accountability through traceable feedback cycles.
 * They enhance diversity of reasoning by incorporating peer perspectives.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:self\_challenge(trace)** – Agent critiques its own reasoning for weaknesses → {ok, issues\[]}.
 * **ψ\:peer\_challenge(agent\_id, trace)** – Peer agent critiques reasoning → {ok, feedback}.
 * **ψ\:feedback\_loop(issues, resolutions)** – Structured cycle of critique and fix → {ok, updated\_trace}.
 * **ψ\:challenge\_log(agent\_id, trace, outcome)** – Preserve challenge-feedback exchange for audit → {ok, log\_id}.
 
-##Summary
+## Summary
 
 The Evaluation: Self/Peer Challenge & Feedback layer is the **resilience multiplier** of VectorLM. By embedding structured self-checks, peer critiques, and feedback loops, it ensures reasoning is stress-tested, accountable, and continually refined.
 
-###Evaluation: Self/Peer Challenge & Feedback Primitives
+### Evaluation: Self/Peer Challenge & Feedback Primitives
 
 - **ψ:self_challenge(trace, policy)** – Agent challenges its own operator/evidence choices → {ok, deltas[]}.  
 - **ψ:peer_challenge(trace, agent_id)** – Swarm agent issues challenge with evidence → {ok, deltas[]}.  
@@ -3175,11 +3175,11 @@ The Evaluation: Self/Peer Challenge & Feedback layer is the **resilience multipl
 
 ---
 
-#Evaluation: Reapplication: Controlled Retry
+# Evaluation: Reapplication: Controlled Retry
 
 The **Evaluation: Reapplication: Controlled Retry** primitives govern how failed or incomplete reasoning attempts are retried under structured, safe policies. They ensure retries are purposeful, bounded, and auditable rather than uncontrolled repetition.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3189,7 +3189,7 @@ This family provides mechanisms to:
 * **Enable rollback**: revert to safe prior states when retries fail.
 * **Ensure transparency**: log retry attempts for external audit and accountability.
 
-##Why They Matter
+## Why They Matter
 
 Controlled Retry primitives are the **safety valves of reapplication**:
 
@@ -3199,17 +3199,17 @@ Controlled Retry primitives are the **safety valves of reapplication**:
 * They allow safe rollback when retries do not improve results.
 * They maintain user and system trust by keeping retry behavior transparent.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:retry\_control(trace, max\_n, policy)** – Retry reasoning up to *max\_n* times with adaptive policy → {ok, result}.
 * **ψ\:retry\_log(trace, outcome)** – Record retry attempt with outcome for audit → {ok, log\_id}.
 * **ψ\:rollback(state)** – Revert to safe prior state when retries fail → {ok, restored}.
 
-##Summary
+## Summary
 
 The Evaluation: Reapplication: Controlled Retry layer is the **retry governor** of VectorLM. By enforcing limits, adapting attempts, and preserving traceability, it ensures that retries strengthen reasoning without compromising safety or efficiency.
 
-###Evaluation: Reapplication: Controlled Retry Primitives
+### Evaluation: Reapplication: Controlled Retry Primitives
 
 - **ψ:reapply(trace, deltas, limits)** – Re-run reasoning with applied deltas under limits → {ok, new_trace}.  
 - **ψ:retry_with_deltas(trace, deltas, max_tries, backoff?)** – Iterative retries with adaptive backoff → {ok, attempts, final_trace}.  
@@ -3217,11 +3217,11 @@ The Evaluation: Reapplication: Controlled Retry layer is the **retry governor** 
 
 ---
 
-#Evaluation: Reapplication: Limits & Honest Give-Up
+# Evaluation: Reapplication: Limits & Honest Give-Up
 
 The **Evaluation: Reapplication: Limits & Honest Give-Up** primitives define when to stop retries and acknowledge failure. They provide structured thresholds and graceful exit strategies, ensuring that reasoning remains safe, efficient, and honest about its limits.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3231,7 +3231,7 @@ This family provides mechanisms to:
 * **Log failures**: preserve traces of what was attempted for future analysis.
 * **Support transparency**: make explicit when the system chose to give up and why.
 
-##Why They Matter
+## Why They Matter
 
 Limits & Honest Give-Up primitives are the **restraint mechanisms** of reapplication:
 
@@ -3241,17 +3241,17 @@ Limits & Honest Give-Up primitives are the **restraint mechanisms** of reapplica
 * They build trust by surfacing honest failure states rather than pretending success.
 * They strengthen resilience by preserving failed traces for future improvement.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:retry\_ceiling(max\_n)** – Hard cap on number of retries allowed → {ok, stop?}.
 * **ψ\:diminishing\_returns\_check(results\[])** – Detect lack of improvement across retries → {ok, diminishing?}.
 * **ψ\:give\_up(trace, reason)** – Exit retries gracefully and log honest failure → {ok, fail\_id}.
 
-##Summary
+## Summary
 
 The Evaluation: Reapplication: Limits & Honest Give-Up layer is the **restraint framework** of VectorLM. By enforcing retry ceilings, detecting diminishing returns, and surfacing honest failures, it ensures reasoning remains transparent, efficient, and trustworthy.
 
-###Evaluation: Reapplication: Limits & Honest Give-Up Primitives
+### Evaluation: Reapplication: Limits & Honest Give-Up Primitives
 
 - **ψ:stop_policy(max_rounds, max_tries, wall_ms, max_depth)** – Declare hard limits for recursion and effort → {ok, policy_id}.  
 - **ψ:attempt_counter(policy_id)** – Retrieve/advance count of attempts under policy → {ok, n}.  
@@ -3260,11 +3260,11 @@ The Evaluation: Reapplication: Limits & Honest Give-Up layer is the **restraint 
 
 ---
 
-#Evaluation: Reporting & Learning
+# Evaluation: Reporting & Learning
 
 The **Evaluation: Reporting & Learning** primitives transform evaluation outcomes into structured reports and feed them back into the system for continual improvement. They ensure that successes, failures, and insights are not only logged but also reused to strengthen future reasoning.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3274,7 +3274,7 @@ This family provides mechanisms to:
 * **Track improvement**: measure progress over time across agents or swarms.
 * **Preserve transparency**: maintain auditable links between evaluation results and future learning.
 
-##Why They Matter
+## Why They Matter
 
 Reporting & Learning primitives are the **feedback infrastructure** of VectorLM:
 
@@ -3284,29 +3284,29 @@ Reporting & Learning primitives are the **feedback infrastructure** of VectorLM:
 * They enable progress tracking across time, agents, and swarms.
 * They prevent repeated mistakes by embedding past insights into future processes.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:eval\_report(trace, metrics)** – Generate evaluation report summarizing results → {ok, report\_id}.
 * **ψ\:eval\_export(report, format)** – Export report in structured format (JSON, MD, PDF) → {ok, file}.
 * **ψ\:eval\_learn(report)** – Feed report outcomes back into reasoning state for continual learning → {ok, updated\_state}.
 * **ψ\:eval\_progress(agent\_id, window)** – Track performance improvements over time → {ok, metrics\[]}.
 
-##Summary
+## Summary
 
 The Evaluation: Reporting & Learning layer is the **continuous improvement loop** of VectorLM. By reporting, exporting, and reintegrating evaluation results, it ensures that every success or failure contributes to long-term growth, resilience, and transparency.
 
-###Evaluation: Reporting & Learning Primitives
+### Evaluation: Reporting & Learning Primitives
 
 - **ψ:eval_report(trace, sections?)** – Produce structured report (outcome, gaps, deltas, costs) → {ok, report}.  
 - **ψ:knowledge_fold(artifacts, tags)** – Fold reusable insights into pool (tests, patterns, oracles) → {ok, ids[]}.  
 
 ---
 
-#Swarm: Roles & Topology
+# Swarm: Roles & Topology
 
 The **Swarm: Roles & Topology** primitives define how multiple agents are organized, assigned responsibilities, and interconnected within a swarm. They establish the structural framework that enables distributed intelligence, coordination, and division of labor across agents.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3316,7 +3316,7 @@ This family provides mechanisms to:
 * **Maintain liveness**: use heartbeat signals to verify that agents remain active and responsive.
 * **Enable structured coordination**: provide topology-aware structures that keep swarms coherent and efficient.
 
-##Why They Matter
+## Why They Matter
 
 Roles & Topology primitives are the **blueprint of collective intelligence**:
 
@@ -3326,18 +3326,18 @@ Roles & Topology primitives are the **blueprint of collective intelligence**:
 * They enable scalable coordination, from small swarms to large distributed collectives.
 * They provide a foundation for trust and reliability by making swarm structure explicit and auditable.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:swarm\_spawn(config)** – Start swarm with roles, quorum, timing, safety caps → {ok, swarm\_id}.
 * **ψ\:swarm\_assign(swarm\_id, agent\_id, roles\[])** – Bind roles to agent with capabilities → {ok}.
 * **ψ\:swarm\_capabilities(agent\_id)** – Declare agent capabilities/limits for scheduling → {ok, caps}.
 * **ψ\:heartbeat(agent\_id, t)** – Liveness/progress ping to prevent silent stalls → {ok}.
 
-##Summary
+## Summary
 
 The Swarm: Roles & Topology layer is the **structural foundation** of distributed reasoning in VectorLM. By defining how agents are spawned, assigned, and monitored, it ensures that collective intelligence operates with clarity, safety, and resilience.
 
-###Swarm: Roles & Topology Primitives
+### Swarm: Roles & Topology Primitives
 
 - **ψ:swarm_spawn(config)** – Start swarm with roles, quorum, timing, safety caps → {ok, swarm_id}.  
 - **ψ:swarm_assign(swarm_id, agent_id, roles[])** – Bind roles to agent with capabilities → {ok}.  
@@ -3346,11 +3346,11 @@ The Swarm: Roles & Topology layer is the **structural foundation** of distribute
 
 ---
 
-#Swarm: Lifecycle
+# Swarm: Lifecycle
 
 The **Swarm: Lifecycle** primitives govern the structured progression of tasks, coordination, and decision-making across a swarm. They ensure that distributed reasoning unfolds in predictable phases, with safeguards for timing, responsiveness, and fallback when agents stall.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3360,7 +3360,7 @@ This family provides mechanisms to:
 * **Handle timeouts**: apply policies that manage stalled or unresponsive agents safely.
 * **Preserve coherence**: ensure lifecycle management keeps the swarm aligned and responsive.
 
-##Why They Matter
+## Why They Matter
 
 Lifecycle primitives are the **temporal scaffolding** of collective intelligence:
 
@@ -3370,18 +3370,18 @@ Lifecycle primitives are the **temporal scaffolding** of collective intelligence
 * They align swarm activity with predictable governance and oversight.
 * They support both small, fast-turn swarms and large, multi-phase deliberations.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:swarm\_frame(goal, constraints)** – Canonicalize task state for all agents → {ok, frame\_id}.
 * **ψ\:swarm\_round(swarm\_id, phase, window\_ms)** – Advance structured phase with timebox → {ok, status}.
 * **ψ\:poke(swarm\_id, agent\_id?)** – Query progress/status during await\_swarm → {ok, report}.
 * **ψ\:timeout(agent\_id, policy)** – Enforce timeouts and fallback paths → {ok}.
 
-##Summary
+## Summary
 
 The Swarm: Lifecycle layer is the **temporal framework** of VectorLM swarms. By structuring tasks into shared frames, advancing through timeboxed phases, and enforcing responsiveness, it ensures that distributed reasoning unfolds with stability, safety, and accountability.
 
-###Swarm: Lifecycle Primitives
+### Swarm: Lifecycle Primitives
 
 - **ψ:swarm_frame(goal, constraints)** – Canonicalize task state for all agents → {ok, frame_id}.  
 - **ψ:swarm_round(swarm_id, phase, window_ms)** – Advance structured phase with timebox → {ok, status}.  
@@ -3390,11 +3390,11 @@ The Swarm: Lifecycle layer is the **temporal framework** of VectorLM swarms. By 
 
 ---
 
-#Swarm: Messaging & Traces
+# Swarm: Messaging & Traces
 
 The **Swarm: Messaging & Traces** primitives provide structured communication and trace consolidation across agents in a swarm. They ensure that all messages, contradictions, and reasoning traces are captured, linked, and auditable.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3404,7 +3404,7 @@ This family provides mechanisms to:
 * **Enable replay and audit**: provide transparent logs of swarm interactions for oversight and review.
 * **Maintain coherence**: keep distributed communication aligned with swarm safety and reasoning policies.
 
-##Why They Matter
+## Why They Matter
 
 Messaging & Traces primitives are the **nervous system of the swarm**:
 
@@ -3414,17 +3414,17 @@ Messaging & Traces primitives are the **nervous system of the swarm**:
 * They support coherent decision-making by ensuring all inputs and outputs are linked into a single trace.
 * They provide accountability across agents, with every message preserved and attributable.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:swarm\_msg(role, payload)** – Emit structured message; auto-trace → {ok, msg\_id}.
 * **ψ\:merge\_traces(trace\_ids\[], policy='ψ\:jsonMerge\:residual')** – Consolidate multi-agent traces → {ok, bundle}.
 * **ψ\:contradict(tag, msg\_ids\[])** – Tag explicit contradiction set for reconciliation → {ok, tag\_id}.
 
-##Summary
+## Summary
 
 The Swarm: Messaging & Traces layer is the **audit backbone** of VectorLM swarms. By structuring communication, merging traces, and surfacing contradictions, it ensures that distributed reasoning remains transparent, accountable, and reconcilable.
 
-###Swarm: Messaging & Traces Primitives
+### Swarm: Messaging & Traces Primitives
 
 - **ψ:swarm_msg(role, payload)** – Emit structured message; auto-trace → {ok, msg_id}.  
 - **ψ:merge_traces(trace_ids[], policy='ψ:jsonMerge:residual')** – Consolidate multi-agent traces → {ok, bundle}.  
@@ -3432,11 +3432,11 @@ The Swarm: Messaging & Traces layer is the **audit backbone** of VectorLM swarms
 
 ---
 
-#Swarm: Consensus
+# Swarm: Consensus
 
 The **Swarm: Consensus** primitives govern how collective decisions are reached within a swarm. They provide structured mechanisms for voting, aggregation, reconciliation, and dissent preservation, ensuring that consensus is fair, transparent, and ethically bounded.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3446,7 +3446,7 @@ This family provides mechanisms to:
 * **Reconcile contradictions**: provide structured methods to resolve conflicts in reasoning.
 * **Ensure quorum**: enforce thresholds for legitimacy of consensus decisions.
 
-##Why They Matter
+## Why They Matter
 
 Consensus primitives are the **decision core of the swarm**:
 
@@ -3456,7 +3456,7 @@ Consensus primitives are the **decision core of the swarm**:
 * They provide resilience by reconciling contradictions through structured processes.
 * They establish legitimacy by enforcing quorum and fair voting rules.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:consensus(rule='mean'|'median'|'MAP'|'condorcet'|'borda', weights?)** – Compute decision vector → {ok, vector}.
 * **ψ\:consensus\_explain(inputs, rule)** – Attribute outcome to inputs; show per-axis contributions → {ok, report}.
@@ -3465,11 +3465,11 @@ Consensus primitives are the **decision core of the swarm**:
 * **ψ\:quorum(set, τ)** – Check quorum threshold for commit gate → {ok, met?}.
 * **ψ\:vote(options, method)** – Role-aware vote (weighted, stake, expertise) → {ok, tally}.
 
-##Summary
+## Summary
 
 The Swarm: Consensus layer is the **collective decision engine** of VectorLM. By computing, explaining, and reconciling outcomes while preserving dissent, it ensures that group reasoning remains fair, transparent, and accountable.
 
-###Swarm: Consensus Primitives
+### Swarm: Consensus Primitives
 
 - **ψ:consensus(rule='mean'|'median'|'MAP'|'condorcet'|'borda', weights?)** – Compute decision vector → {ok, vector}.  
 - **ψ:consensus_explain(inputs, rule)** – Attribute outcome to inputs; show per-axis contributions → {ok, report}.  
@@ -3480,11 +3480,11 @@ The Swarm: Consensus layer is the **collective decision engine** of VectorLM. By
 
 ---
 
-#Swarm: Ethics & Safety
+# Swarm: Ethics & Safety
 
 The **Swarm: Ethics & Safety** primitives ensure that collective reasoning and decisions in a swarm remain bounded by care, fairness, and ethical safeguards. They prevent harmful dynamics such as groupthink, ethical drift, or disregard for minority views.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3494,7 +3494,7 @@ This family provides mechanisms to:
 * **Ensure dignity and care**: require that consensus processes themselves uphold fairness and respect.
 * **Integrate safety into group dynamics**: embed safeguards directly in swarm operation rather than applying them afterward.
 
-##Why They Matter
+## Why They Matter
 
 Ethics & Safety primitives are the **moral compass of the swarm**:
 
@@ -3504,18 +3504,18 @@ Ethics & Safety primitives are the **moral compass of the swarm**:
 * They protect against drift toward unsafe group behaviors.
 * They align swarm decisions with the broader safety, ethics, and care layers of VectorLM.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:swarm\_ethic\_bound(consensus, care\_rules)** – Enforce consensus only within ethical boundaries → {ok}.
 * **ψ\:swarm\_minor\_protect(dissent\_trace)** – Preserve and log minority dissent for review → {ok}.
 * **ψ\:swarm\_drift\_monitor(history, anchor)** – Detect and report ethical drift over group reasoning cycles → {ok, drift}.
 * **ψ\:cognitive\_throttle(rate, guard)** – Global throttle across the swarm’s recursive depth → {ok}.
 
-##Summary
+## Summary
 
 The Swarm: Ethics & Safety layer is the **safeguard framework** of collective reasoning. By bounding consensus, protecting minorities, and monitoring ethical drift, it ensures that swarm intelligence remains fair, respectful, and aligned with care principles.
 
-###Swarm: Ethics & Safety Primitives
+### Swarm: Ethics & Safety Primitives
 
 - **ψ:swarm_ethic_bound(consensus, care_rules)** – Bound consensus inside care/dignity rules → {ok}.  
 - **ψ:swarm_minor_protect(dissent_trace)** – Persist minority view for audit → {ok}.  
@@ -3524,11 +3524,11 @@ The Swarm: Ethics & Safety layer is the **safeguard framework** of collective re
 
 ---
 
-#Swarm: Affect Coupling
+# Swarm: Affect Coupling
 
 The **Swarm: Affect Coupling** primitives allow agents in a swarm to share, aggregate, and regulate emotional or affective states. By coupling affect across agents, the swarm can achieve more coherent group dynamics, empathy, and alignment with fairness or ethical anchors.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3538,7 +3538,7 @@ This family provides mechanisms to:
 * **Enable resonance**: allow agents to reflect and adjust based on shared affective signals.
 * **Balance emotional influence**: prevent dominance by any one agent’s affect through aggregation policies.
 
-##Why They Matter
+## Why They Matter
 
 Affect Coupling primitives are the **emotional glue of the swarm**:
 
@@ -3548,17 +3548,17 @@ Affect Coupling primitives are the **emotional glue of the swarm**:
 * They integrate emotional dynamics with decision-making, providing nuance beyond pure logic.
 * They support empathy and care within collective reasoning processes.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:affect\_consensus(E\[], rule)** – Aggregate agents’ affect into group affect vector → {ok, E\*}.
 * **ψ\:affect\_bias\_correct(E*, anchors)*\* – Correct group affect against fairness/ethics anchors → {ok, E\_corr}.
 * **ψ\:affect\_to\_policy(E\_corr, knobs)** – Translate corrected affect vector into runtime policy knobs (explore, caution, verbosity) → {ok, policy}.
 
-##Summary
+## Summary
 
 The Swarm: Affect Coupling layer is the **affective integration system** of VectorLM. By aggregating, correcting, and translating emotional states, it ensures that swarms reason not only with logic but also with empathy, fairness, and adaptive sensitivity.
 
-###Swarm: Affect Coupling Primitives
+### Swarm: Affect Coupling Primitives
 
 - **ψ:affect_consensus(E[], rule)** – Aggregate agents’ affect into group affect vector → {ok, E*}.  
 - **ψ:affect_bias_correct(E*, anchors)** – Correct affect vs fairness/ethics anchors → {ok, E_corr}.  
@@ -3566,11 +3566,11 @@ The Swarm: Affect Coupling layer is the **affective integration system** of Vect
 
 ---
 
-#Swarm: Hypothesis Integration
+# Swarm: Hypothesis Integration
 
 The **Swarm: Hypothesis Integration** primitives allow swarms to explore, test, and manage speculative reasoning paths in a controlled, multi-agent setting. They provide mechanisms for generating, tracing, comparing, and containing hypotheses within distributed deliberations.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3580,7 +3580,7 @@ This family provides mechanisms to:
 * **Contain risks**: flag, limit, or discard unsafe hypotheses before they affect consensus.
 * **Enable structured debate**: integrate speculative reasoning into group decision-making without losing control.
 
-##Why They Matter
+## Why They Matter
 
 Hypothesis Integration primitives are the **exploration engine of swarms**:
 
@@ -3590,17 +3590,17 @@ Hypothesis Integration primitives are the **exploration engine of swarms**:
 * They enable swarms to rank and compare competing hypotheses systematically.
 * They balance creativity with safety, allowing exploration while enforcing containment.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:hypothesis\_sandbox(H, limits)** – Run speculative branches under strict limits → {ok, result}.
 * **ψ\:compare\_hypotheses(H\[], metric)** – Rank proposals for debate → {ok, ranked}.
 * **ψ\:hypothesis\_trace(path, rationale?)** – Segregated speculative trace for rollback clarity → {ok, trace\_id}.
 
-##Summary
+## Summary
 
 The Swarm: Hypothesis Integration layer is the **speculative reasoning framework** of VectorLM swarms. By sandboxing, tracing, and ranking hypotheses, it enables structured exploration of alternatives while preserving safety, transparency, and control.
 
-###Swarm: Hypothesis Integration Primitives
+### Swarm: Hypothesis Integration Primitives
 
 - **ψ:hypothesis_sandbox(H, limits)** – Run speculative branches under strict limits → {ok, result}.  
 - **ψ:compare_hypotheses(H[], metric)** – Rank proposals for debate → {ok, ranked}.  
@@ -3608,11 +3608,11 @@ The Swarm: Hypothesis Integration layer is the **speculative reasoning framework
 
 ---
 
-#Swarm: Political & Social Hooks
+# Swarm: Political & Social Hooks
 
 The **Swarm: Political & Social Hooks** primitives embed political reasoning and social alignment into swarm deliberation. They allow swarms to reason along multi-dimensional political axes, enforce fairness safeguards, and surface dissent in socio-political contexts.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3622,7 +3622,7 @@ This family provides mechanisms to:
 * **Integrate politics with goals**: connect political vectors to swarm objectives and decisions.
 * **Enable social transparency**: make political reasoning explicit, auditable, and accountable.
 
-##Why They Matter
+## Why They Matter
 
 Political & Social Hooks primitives are the **alignment conscience of the swarm**:
 
@@ -3632,17 +3632,17 @@ Political & Social Hooks primitives are the **alignment conscience of the swarm*
 * They provide explicit reasoning in socio-political domains, where opacity can cause harm.
 * They enable swarms to align goals and actions with broader social and ethical contexts.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:politic\_consensus(vectors\[], rule, weights?)** – Compute 7D consensus position → {ok, vector}.
 * **ψ\:politic\_consensus\_explain(vectors\[], rule)** – Show axis-wise dissent and contributions → {ok, report}.
 * **ψ\:politic\_guard(vector, fairness\_anchor, τ)** – Block consensus that violates rights/fairness → {ok, blocked?}.
 
-##Summary
+## Summary
 
 The Swarm: Political & Social Hooks layer is the **ethical alignment interface** of VectorLM swarms. By computing political consensus, exposing dissent, and enforcing fairness guards, it ensures that group reasoning in socio-political contexts remains transparent, fair, and accountable.
 
-###Swarm: Political & Social Hooks Primitives
+### Swarm: Political & Social Hooks Primitives
 
 - **ψ:politic_consensus(vectors[], rule, weights?)** – Compute 7D consensus position → {ok, vector}.  
 - **ψ:politic_consensus_explain(vectors[], rule)** – Show axis-wise dissent and contributions → {ok, report}.  
@@ -3650,11 +3650,11 @@ The Swarm: Political & Social Hooks layer is the **ethical alignment interface**
 
 ---
 
-#Swarm: VCF Integration
+# Swarm: VCF Integration
 
 The **Swarm: VCF Integration** primitives allow swarms to learn from collective coding failures by linking them into the Vibe Coding Fail (VCF) framework. They provide benchmarking, evaluation, and traceability tools to measure swarm performance against past failures.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3664,7 +3664,7 @@ This family provides mechanisms to:
 * **Integrate swarm traces with VCF**: cross-link swarm reasoning records to stored fail benchmarks.
 * **Support resilience**: ensure that collective learning incorporates both successes and failures.
 
-##Why They Matter
+## Why They Matter
 
 VCF Integration for swarms is the **collective learning engine**:
 
@@ -3674,27 +3674,27 @@ VCF Integration for swarms is the **collective learning engine**:
 * It creates transparency by linking swarm traces to concrete performance outcomes.
 * It strengthens collective resilience by embedding failure-driven learning into swarm dynamics.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:swarm\_eval\_vcf(test\_id, code, oracle)** – Run swarm attempt on VCF case; log success, retries, cost → {ok, metrics}.
 * **ψ\:compare\_predicted\_actual(PM)** – Compare predicted vs actual outcome, log delta → {ok, delta}.
 
-##Summary
+## Summary
 
 The Swarm: VCF Integration layer is the **failure-to-learning bridge** of VectorLM swarms. By benchmarking swarm attempts against past coding fails, logging metrics, and integrating results into traces, it ensures that collective intelligence grows stronger from every mistake.
 
-###Swarm: VCF Integration Primitives
+### Swarm: VCF Integration Primitives
 
 - **ψ:swarm_eval_vcf(test_id, code, oracle)** – Run swarm attempt on VCF case; log success, retries, cost → {ok, metrics}.  
 - **ψ:compare_predicted_actual(PM)** – Compare predicted vs actual outcome, log delta → {ok, delta}.  
 
 ---
 
-#Swarm: Performance & Scheduling
+# Swarm: Performance & Scheduling
 
 The **Swarm: Performance & Scheduling** primitives manage resources, timing, and efficiency across distributed agents. They ensure that swarm reasoning remains stable, efficient, and within declared safety and resource limits.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3704,7 +3704,7 @@ This family provides mechanisms to:
 * **Optimize throughput**: balance swarm performance with oversight and safety.
 * **Prevent overload**: ensure that reasoning remains efficient and bounded even under heavy load.
 
-##Why They Matter
+## Why They Matter
 
 Performance & Scheduling primitives are the **efficiency backbone of swarms**:
 
@@ -3714,17 +3714,17 @@ Performance & Scheduling primitives are the **efficiency backbone of swarms**:
 * They allow swarms to operate predictably under variable resource conditions.
 * They balance performance with safety, ensuring throughput never compromises oversight.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:schedule\_rounds(plan, slice\_ms, max\_depth)** – Plan phased rounds with time slices and depth caps → {ok, plan\_id}.
 * **ψ\:resource\_budget(tokens, wall\_ms, agents)** – Set hard budgets with preemption/abort policy → {ok, budget\_id}.
 * **ψ\:graceful\_degrade(policy)** – Reduce roles/rounds while preserving Safety/Ethics → {ok}.
 
-##Summary
+## Summary
 
 The Swarm: Performance & Scheduling layer is the **resource governor** of VectorLM swarms. By enforcing strict budgets, scheduling structured rounds, and supporting graceful degradation, it ensures that distributed reasoning remains efficient, safe, and predictable.
 
-###Swarm: Performance & Scheduling Primitives
+### Swarm: Performance & Scheduling Primitives
 
 - **ψ:schedule_rounds(plan, slice_ms, max_depth)** – Plan phased rounds with time slices and depth caps → {ok, plan_id}.  
 - **ψ:resource_budget(tokens, wall_ms, agents)** – Set hard budgets with preemption/abort policy → {ok, budget_id}.  
@@ -3732,11 +3732,11 @@ The Swarm: Performance & Scheduling layer is the **resource governor** of Vector
 
 ---
 
-#Swarm: Failure Modes
+# Swarm: Failure Modes
 
 The **Swarm: Failure Modes** primitives describe common breakdown patterns in swarm reasoning and prescribe corrective responses. They ensure that collective intelligence remains resilient, transparent, and recoverable when errors occur.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3746,7 +3746,7 @@ This family provides mechanisms to:
 * **Throttle runaway loops**: apply global safety throttles when oscillations or runaway recursion appear.
 * **Provide fallback responses**: ensure safe continuation or graceful recovery from swarm failures.
 
-##Why They Matter
+## Why They Matter
 
 Failure Mode primitives are the **resilience layer of swarms**:
 
@@ -3756,7 +3756,7 @@ Failure Mode primitives are the **resilience layer of swarms**:
 * They maintain diversity and creativity through dissent protection and novelty injection.
 * They build trust by ensuring swarms can fail safely and recover transparently.
 
-##Examples of Use
+## Examples of Use
 
 * **Mode collapse**: trigger **ψ\:minority\_report** + **ψ\:novelty\_kick**; inject critic turn.
 * **Oscillation**: enforce **ψ\:cognitive\_throttle**; freeze parameters and re-test.
@@ -3764,11 +3764,11 @@ Failure Mode primitives are the **resilience layer of swarms**:
 * **Silent agent**: use **ψ\:heartbeat** + **ψ\:timeout** + **ψ\:swarm\_assign** fallback.
 * **Trace divergence**: apply **ψ\:verify(trace)** + **ψ\:reconcile** via contradiction tagging.
 
-##Summary
+## Summary
 
 The Swarm: Failure Modes layer is the **safety net** of VectorLM swarms. By detecting, surfacing, and recovering from common failure patterns, it ensures that distributed reasoning remains robust, fair, and trustworthy even under stress or breakdown.
 
-###Swarm: Failure Modes Primitives
+### Swarm: Failure Modes Primitives
 
 - **Mode collapse:** trigger ψ:minority_report + ψ:novelty_kick; inject critic turn.  
 - **Oscillation:** enforce ψ:cognitive_throttle; freeze parameters and re-test.  
@@ -3778,11 +3778,11 @@ The Swarm: Failure Modes layer is the **safety net** of VectorLM swarms. By dete
 
 ---
 
-#Swarm Ethics
+# Swarm Ethics
 
 The **Swarm Ethics** primitives define how groups of AI agents reach consensus while respecting fairness, dignity, and transparency. They ensure that collective intelligence does not degrade into unsafe groupthink, majority domination, or ethical drift, but instead operates under clear ethical boundaries.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3792,7 +3792,7 @@ This family provides mechanisms to:
 * **Monitor ethical drift**: track how collective reasoning evolves and detect deviations from anchors.
 * **Embed user preferences**: explicitly apply user ethical flags in group decisions.
 
-##Why They Matter
+## Why They Matter
 
 Swarm Ethics primitives are essential for **trustworthy multi-agent reasoning**:
 
@@ -3801,7 +3801,7 @@ Swarm Ethics primitives are essential for **trustworthy multi-agent reasoning**:
 * They provide visibility into how consensus was reached, making decisions auditable and accountable.
 * They embed fairness into the swarm itself, preventing harm caused by unchecked collective reasoning.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:swarm\_ethic\_bound(consensus, care\_rules)** – ensures consensus is valid only if it stays within ethical boundaries.
 * **ψ\:swarm\_minor\_protect(dissent\_trace)** – preserves dissenting reasoning for review and possible future re-entry.
@@ -3810,11 +3810,11 @@ Swarm Ethics primitives are essential for **trustworthy multi-agent reasoning**:
 * **ψ\:swarm\_drift\_monitor(history, anchor)** – detects ethical drift in collective reasoning cycles.
 * **ψ\:swarm\_user\_flags(flags)** – applies user ethical preferences directly to swarm decisions.
 
-##Summary
+## Summary
 
 The Swarm Ethics layer is the **moral safeguard of collective reasoning**. It ensures that when multiple agents deliberate, the process remains transparent, respectful, and fair, with both majority outcomes and minority voices preserved. By embedding ethics directly into swarm dynamics, VectorLM ensures that collective intelligence remains aligned with human values.
 
-###Swarm Ethics Primitives
+### Swarm Ethics Primitives
 
 - **ψ:swarm_ethic_bound(consensus, care_rules)** – Enforce consensus only within ethical boundaries.  
 - **ψ:swarm_minor_protect(dissent_trace)** – Preserve and log minority dissent for review.  
@@ -3829,11 +3829,11 @@ The Swarm Ethics layer is the **moral safeguard of collective reasoning**. It en
 
 ---
 
-#Political Interop with Swarm & Goals
+# Political Interop with Swarm & Goals
 
 The **Political Interop with Swarm & Goals** primitives connect political reasoning with multi-agent swarm dynamics and explicit goal-setting. They ensure that political decision-making does not happen in isolation but instead integrates with collective reasoning and directional action.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3843,7 +3843,7 @@ This family provides mechanisms to:
 * **Align with fairness anchors**: guarantee that group goals derived from politics remain ethically bounded.
 * **Support traceability**: ensure political-to-swarm integration produces auditable traces.
 
-##Why They Matter
+## Why They Matter
 
 Politics, goals, and swarms are inherently intertwined. These primitives provide **structured interoperability**:
 
@@ -3852,7 +3852,7 @@ Politics, goals, and swarms are inherently intertwined. These primitives provide
 * They provide clear paths from abstract debate to concrete, accountable goals.
 * They keep political reasoning from being siloed, instead embedding it in the broader reasoning ecosystem.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:politic\_swarm\_inject(vector, swarm\_id)** – injects political reasoning into a swarm’s deliberation.
 * **ψ\:politic\_goal\_bind(policy, goal\_id)** – binds a political decision directly to a swarm or agent goal.
@@ -3860,11 +3860,11 @@ Politics, goals, and swarms are inherently intertwined. These primitives provide
 * **ψ\:politic\_goal\_align(goal, fairness\_anchor)** – checks that goals derived from political reasoning stay within fairness bounds.
 * **ψ\:politic\_dissent\_link(dissent\_trace, swarm)** – links dissenting political reasoning into swarm records for preservation.
 
-##Summary
+## Summary
 
 The Political Interop with Swarm & Goals layer is the **bridge between political deliberation and collective action**. By integrating politics into swarm reasoning and goal-setting, it ensures that decisions are not only debated but also transformed into fair, ethical, and accountable outcomes.
 
-###Political Interop with Swarm & Goals Primitives
+### Political Interop with Swarm & Goals Primitives
 
 - **ψ:politic_consensus_explain(vectors[], rule, weights?)** – Expose dissent and contribution per axis → {ok, report}.  
 - **ψ:politic_goal_fit(goal, vector, weights?)** – Score goal alignment with current position → {ok, score}.  
@@ -3872,7 +3872,7 @@ The Political Interop with Swarm & Goals layer is the **bridge between political
 
 ---
 
-#Governance: Lifecycle
+# Governance: Lifecycle
 
 The Governance primitives outline how governance structures scale from small swarms to large councils while remaining transparent, fair, and adaptive. They provide guidance for early-stage deployment and long-term growth. The **Governance: Lifecycle** primitives structure how governance processes unfold over time within VectorLM. They define initiation, monitoring, escalation, and termination phases, ensuring that governance is continuous, transparent, and adaptive.
 
@@ -3882,7 +3882,7 @@ The Governance primitives outline how governance structures scale from small swa
 - Governance evolves: ψ:governance_update learns from cycles without erasing dissent.  
 - This layer ties into Safety, Swarm, and Evaluation layers, ensuring decisions are bounded, respectful, and traceable.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3892,7 +3892,7 @@ This family provides mechanisms to:
 * **Terminate processes**: close governance sessions cleanly with logged outcomes.
 * **Enable recursive governance**: allow governance layers to supervise one another in structured ways.
 
-##Why They Matter
+## Why They Matter
 
 Lifecycle primitives are the **temporal spine of governance**:
 
@@ -3902,18 +3902,18 @@ Lifecycle primitives are the **temporal spine of governance**:
 * They integrate governance tightly with reasoning, making oversight a live process.
 * They support recursive oversight, where governance itself is subject to higher-level supervision.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:gov\_init(scope, policy)** – Initiate governance process with declared scope → {ok, gov\_id}.
 * **ψ\:gov\_monitor(gov\_id, metrics)** – Monitor compliance with governance rules → {ok, status}.
 * **ψ\:gov\_escalate(event, authority)** – Escalate governance breach to authority/human → {ok, escalation\_id}.
 * **ψ\:gov\_terminate(gov\_id, outcome)** – Cleanly close governance session and log result → {ok}.
 
-##Summary
+## Summary
 
 The Governance: Lifecycle layer is the **operational backbone** of oversight in VectorLM. By structuring initiation, monitoring, escalation, and termination, it ensures governance processes are continuous, transparent, and adaptive across the system.
 
-###Governance: Lifecycle Primitives
+### Governance: Lifecycle Primitives
 
 - **ψ:governance_cycle(goal, policy)** – Run full governance lifecycle (proposal → deliberation → consent → enactment → review) → {ok, cycle_id}.  
 - **ψ:proposal_submit(agent_id, proposal)** – Submit proposal for governance cycle → {ok, proposal_id}.  
@@ -3923,11 +3923,11 @@ The Governance: Lifecycle layer is the **operational backbone** of oversight in 
 
 ---
 
-#Governance: Voting & Consent
+# Governance: Voting & Consent
 
 The **Governance: Voting & Consent** primitives formalize how decisions are authorized, accepted, or rejected within VectorLM. They provide structured mechanisms for voting, consent tracking, and binding responsibilities to outcomes.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3937,7 +3937,7 @@ This family provides mechanisms to:
 * **Support minority protections**: preserve dissenting views for transparency and future reconsideration.
 * **Establish legitimacy**: ensure decisions meet quorum and fairness thresholds.
 
-##Why They Matter
+## Why They Matter
 
 Voting & Consent primitives are the **legitimacy engine** of governance:
 
@@ -3947,18 +3947,18 @@ Voting & Consent primitives are the **legitimacy engine** of governance:
 * They make governance transparent by recording consent and dissent as auditable artifacts.
 * They build trust by ensuring that outcomes reflect structured, fair participation.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:vote(options, method)** – Cast votes using specified method (majority, weighted, stake-based) → {ok, tally}.
 * **ψ\:consent(agent\_id, decision, status)** – Record explicit consent, rejection, or abstention → {ok, record\_id}.
 * **ψ\:responsibility\_bind(consent\_id, outcome)** – Bind responsibility of consenting agent(s) to outcome → {ok}.
 * **ψ\:quorum\_check(votes, τ)** – Verify quorum threshold for legitimacy → {ok, met?}.
 
-##Summary
+## Summary
 
 The Governance: Voting & Consent layer is the **authorization framework** of VectorLM. By structuring voting, recording consent, and enforcing fairness thresholds, it ensures that decisions are legitimate, transparent, and accountable.
 
-###Governance: Voting & Consent Primitives
+### Governance: Voting & Consent Primitives
 
 - **ψ:consent_vote(options, rule='ranked')** – Record ranked consent vote with trace → {ok, tally}.  
 - **ψ:quorum(set, τ)** – Check quorum threshold for validity → {ok, met?}.  
@@ -3966,11 +3966,11 @@ The Governance: Voting & Consent layer is the **authorization framework** of Vec
 
 ---
 
-#Governance: Accommodation & Minority Protection
+# Governance: Accommodation & Minority Protection
 
 The **Governance: Accommodation & Minority Protection** primitives safeguard dissenting voices and ensure that governance outcomes do not erase minority perspectives. They create structures for recording, preserving, and reintroducing dissent into decision-making processes.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -3980,7 +3980,7 @@ This family provides mechanisms to:
 * **Balance fairness**: prevent governance outcomes from being dominated by the majority alone.
 * **Strengthen legitimacy**: show that all voices are respected, even when not adopted.
 
-##Why They Matter
+## Why They Matter
 
 Accommodation & Minority Protection primitives are the **fairness anchor** of governance:
 
@@ -3990,17 +3990,17 @@ Accommodation & Minority Protection primitives are the **fairness anchor** of go
 * They ensure that dissent can influence future decisions when contexts evolve.
 * They enhance legitimacy by demonstrating respect for all participants.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:minority\_record(view, rationale)** – Capture minority perspective with reasoning → {ok, record\_id}.
 * **ψ\:minority\_preserve(record\_id, decision\_id)** – Archive minority view linked to decision → {ok}.
 * **ψ\:minority\_reintroduce(record\_id, trigger)** – Bring dissenting view back into active deliberation when conditions are met → {ok}.
 
-##Summary
+## Summary
 
 The Governance: Accommodation & Minority Protection layer is the **safeguard of fairness** in VectorLM. By recording, preserving, and reintroducing dissent, it ensures that governance respects all perspectives, not just majority outcomes.
 
-###Governance: Accommodation & Minority Protection Primitives
+### Governance: Accommodation & Minority Protection Primitives
 
 - **ψ:consent_accommodate(non_winners[], order)** – Apply non‑winning choices in descending order where compatible → {ok, applied[]}.  
 - **ψ:consent_conflict(non_winner, winner)** – Detect and log conflict between winning and non‑winning decision → {ok, conflict_id}.  
@@ -4009,11 +4009,11 @@ The Governance: Accommodation & Minority Protection layer is the **safeguard of 
 
 ---
 
-#Governance: Ethics & Safety Bounds
+# Governance: Ethics & Safety Bounds
 
 The **Governance: Ethics & Safety Bounds** primitives ensure that all governance processes and decisions remain within declared ethical and safety constraints. They provide explicit checks, enforcement mechanisms, and traceable boundaries for legitimacy and care.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -4023,7 +4023,7 @@ This family provides mechanisms to:
 * **Integrate with consensus**: embed ethics and safety directly into decision aggregation.
 * **Maintain legitimacy**: guarantee that governance outcomes respect ethical anchors.
 
-##Why They Matter
+## Why They Matter
 
 Ethics & Safety Bounds primitives are the **moral guardrails** of governance:
 
@@ -4033,28 +4033,28 @@ Ethics & Safety Bounds primitives are the **moral guardrails** of governance:
 * They embed care and fairness directly into decision-making rather than applying them post hoc.
 * They maintain resilience by enforcing bounds across recursive or multi-agent governance.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:gov\_ethic\_guard(decision, ruleset)** – Block governance decision if it violates ethical rules → {ok, blocked?}.
 * **ψ\:gov\_safety\_bound(policy, τ)** – Enforce explicit safety threshold on governance process → {ok}.
 * **ψ\:gov\_violation\_log(event, rationale)** – Record ethical/safety bound breach with evidence → {ok, log\_id}.
 
-##Summary
+## Summary
 
 The Governance: Ethics & Safety Bounds layer is the **principled boundary system** of VectorLM. By embedding ethical rules, enforcing safety thresholds, and tracing violations, it ensures governance remains aligned with fairness, care, and accountability.
 
-###Governance: Ethics & Safety Bounds Primitives
+### Governance: Ethics & Safety Bounds Primitives
 
 - **ψ:governance_guard(decision, care_rules)** – Check governance outcome against ethics/care constraints → {ok, passed?}.  
 - **ψ:governance_drift(history, anchor)** – Detect drift from fairness/ethics baseline in governance over time → {ok, drift}.  
 
 ---
 
-#Governance: Learning & Adaptation
+# Governance: Learning & Adaptation
 
 The **Governance: Learning & Adaptation** primitives ensure that governance processes improve over time through feedback, reflection, and adaptation. They embed evaluation results into governance, allowing oversight structures to evolve with changing contexts and lessons learned.
 
-##Purpose
+## Purpose
 
 This family provides mechanisms to:
 
@@ -4064,7 +4064,7 @@ This family provides mechanisms to:
 * **Measure governance effectiveness**: evaluate how well governance processes safeguard fairness, safety, and legitimacy.
 * **Enable recursive learning**: allow governance itself to be subject to structured evaluation and improvement.
 
-##Why They Matter
+## Why They Matter
 
 Learning & Adaptation primitives are the **evolutionary layer of governance**:
 
@@ -4074,17 +4074,17 @@ Learning & Adaptation primitives are the **evolutionary layer of governance**:
 * They maintain alignment by adapting governance structures to new contexts and risks.
 * They build resilience by treating governance as a living, self-improving process.
 
-##Examples of Use
+## Examples of Use
 
 * **ψ\:gov\_learn(feedback, policy)** – Update governance policy with structured feedback → {ok, new\_policy}.
 * **ψ\:gov\_history(policy\_id)** – Retrieve versioned governance history and changes → {ok, log}.
 * **ψ\:gov\_effectiveness(metrics)** – Evaluate governance safeguards against outcomes → {ok, score}.
 
-##Summary
+## Summary
 
 The Governance: Learning & Adaptation layer is the **self-improving core** of VectorLM’s governance. By integrating feedback, adapting rules, and tracking effectiveness, it ensures oversight structures evolve responsibly and transparently over time.
 
-###Governance: Learning & Adaptation Primitives
+### Governance: Learning & Adaptation Primitives
 
 - **ψ:governance_update(history)** – Update governance rules, thresholds, and policies from past cycles → {ok, policy_id}.  
 - **ψ:policy_feedback(report, weights)** – Integrate evaluation feedback into future governance parameters → {ok}.  
@@ -4092,7 +4092,7 @@ The Governance: Learning & Adaptation layer is the **self-improving core** of Ve
 
 ---
 
-###Governance: Pilot & Scaling Notes
+### Governance: Pilot & Scaling Notes
 
 - Consentocracy must be lightweight enough for early swarms (few agents) yet robust for large councils.  
 - Winning outcomes are enacted, but all valid non‑winners are respected and supported in rank order.  
@@ -4100,7 +4100,7 @@ The Governance: Learning & Adaptation layer is the **self-improving core** of Ve
 - Governance evolves: ψ:governance_update learns from cycles without erasing dissent.  
 - This layer ties into Safety, Swarm, and Evaluation layers, ensuring decisions are bounded, respectful, and traceable.
 
-#Final Notes: A Work in Progress
+# Final Notes: A Work in Progress
 
 Vector v3.3 is not presented as a finished or final grammar of intelligence. It is an evolving framework—an attempt to move toward a complete reasoning grammar while recognizing that such completeness may never be fully achieved. The present specification should be read as a foundation under active construction, refined through repeated cycles of critique, experimentation, and collaborative stress-testing.
 

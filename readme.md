@@ -5,8 +5,7 @@
 
 ## ✨ What is VectorLM?
 
-VectorLM is not another neural network, nor a model in itself.  
-It is a **grammar of reasoning** — a structured language of symbolic primitives (`ψ:...`) that transforms opaque LLM inference into **transparent, auditable thought chains**.
+VectorLM is not another neural network, nor a model in itself. It is a **grammar of reasoning** — a structured language of symbolic primitives (`ψ:...`) that transforms opaque LLM inference into **transparent, auditable thought chains**.
 
 Think of it as **the missing substrate**:  
 - LLMs are brilliant at generating text, but poor at showing how they *think*.  

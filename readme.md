@@ -97,7 +97,6 @@ These are *possible futures*. VectorLM itself remains **the root language**.
 ## 📂 Repository Structure
 
 This repository contains the **VectorLM v3.3 grammar** and its supporting guides.  
-Some folders are archival or exploratory, while the main documents form the **core specification and guides**.
 
 ---
 

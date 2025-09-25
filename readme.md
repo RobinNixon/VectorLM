@@ -129,16 +129,6 @@ Some folders are archival or exploratory, while the main documents form the **co
 
 ---
 
-### 📦 Supporting & Miscellaneous Folders
-
-- [Archived or Discarded](/Archived%20or%20Discarded/)– Older drafts or deprecated material.  
-- [Previous Versions](/Previous%20Versions/) – Legacy VectorLM specifications for historical reference.  
-- [Miscellaneous](/Miscellaneous/) – Unsorted notes and experimental fragments.  
-- [Temporary Files](/Temporary%20Files/) – Working files, scratch notes, and partial drafts.  
-- [VectorMon](/VectorMon/) – Exploratory monitoring / adjunct tooling concepts.  
-
----
-
 # ⚖️ Licensing
 
 Copyright (c) 2025 Robin Nixon and contributors

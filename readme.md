@@ -63,21 +63,6 @@ VectorLM is deliberately **open-ended**:
 - Families can expand into new domains (politics, emotions, humor, creativity).  
 - Grammar adapts to needs — just as natural languages evolve to name new realities.  
 
-It is not a static spec, but a **living symbolic language**.
-
----
-
-## 🔮 Future Paths (Beyond Grammar)
-
-While VectorLM is the grammar, several **potential implementations** are already emerging:  
-
-- **VectorRM (Runtime Machine)** – a proposed execution layer turning primitives into deterministic functions.  
-- **Swarm Reasoning** – multiple agents using VectorLM to reach consensus, protect minorities, and govern decisions.  
-- **Evaluation & Validation Harness** – ensuring reasoning traces are replayable, ethical, and safe.  
-- **Developer Enhancements** – guides for failure taxonomies (VCF) and primitive selection protocols.  
-
-These are *possible futures*. VectorLM itself remains **the root language**.
-
 ---
 
 ## 🧩 Example Primitives
